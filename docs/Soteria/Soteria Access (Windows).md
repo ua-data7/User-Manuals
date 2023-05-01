@@ -5,7 +5,7 @@
 
 <div id="user-content-toc">
   <ul>
-    <summary><h1 style="display: inline-block;">Soteria Access User Manual (Mac)</h1></summary>
+    <summary><h1 style="display: inline-block;">Soteria Access User Manual (Windows)</h1></summary>
   </ul>
 </div>
 
