@@ -37,14 +37,14 @@ Soteria is a secure and collaborative platform designed for health sciences rese
 
 ![](images/CiscoDown3.png){width="550" fig-align="center"}
 
-2.  Open Cisco AnyConnect VPN on your desktop.
-3.  The first connection must be to: vpn.arizona.edu. Type into the pop-up and click **connect**.
+3.  Open Cisco AnyConnect VPN on your desktop.
+4.  The first connection must be to: vpn.arizona.edu. Type into the pop-up and click **connect**.
 
 ![](images/Cisco2-01.png){width="350" fig-align="center"}
 
 5.  Sign in as before, using the default group. Enter your NetID, Password and NetID +Method (ex: "push").
 
-![](images/CiscoDown3-01.png){width="350" fig-align="center"}
+![](images/Cisco3.png){width="350" fig-align="center"}
 
 6.  Click **Disconnect**
 
