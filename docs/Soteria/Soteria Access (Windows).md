@@ -27,7 +27,7 @@ Soteria is a secure and collaborative platform designed for health sciences rese
 </p>
 
 
-3.  Fill out the form with your user and project information. Once submitted you will receive an automated email indicating completion of the request.
+3.  Fill out the form with your user and project information. Once the form has been submitted, you will receive an automated email indicating completion of the request.
 4.  Once approved, you will receive a secondary automated email, UA Soteria Access Request Approved indicating required trainings. Log into Edge Learning (<https://edgelearning.arizona.edu/>) to sign up and complete all of the required trainings.
 
 ## Download and Set up Cisco VPN
