@@ -1,15 +1,6 @@
----
-title: "UA HPC Soteria"
-format:
-  html:
-    theme: cosmo
-    code-copy: true
-    toc: true
----
+![](images/cover.png){width="340"}
 
-<p style="text-align: right;">![](images/cover-01.png){width="189" height="32"}</p>
-
-![](images/Antakya_Arkeoloji_Muzesi_1250308_nevit-02.jpg){fig-align="center" width="400" height="400"}
+![](images/Antakya_Arkeoloji_Muzesi_1250308_nevit.jpg){width="400"}
 
 ## The Secure Research Enclave and HPC Cluster
 

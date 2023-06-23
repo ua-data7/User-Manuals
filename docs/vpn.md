@@ -1,24 +1,13 @@
-![](images/cover.png){width="340" fig-align="left"}
+![](images/cover.png){width="340"}
 
 ---
-title: "Soteria Access User Manual (Mac)"
-format:
-  html:
-    theme: cosmo
-    code-copy: true
-    toc: true
----
-
-## Background
-
-Soteria is a secure and collaborative platform designed for health sciences research. It enables researchers to analyze personally identifiable and protected health information while adhering to compliance guidelines. By providing cutting-edge software and web-based applications, Soteria ensures data security throughout the research lifecycle, allowing multiple research groups to work together effectively while meeting regulatory requirements.
 
 ## Request Access to Soteria
 
 1.  Establish a primary PI or sponsoring faculty member and have them indicate that you are a team member on Soteria.
 2.  Open <https://soteria.arizona.edu/> and click **Request Access**.
 
-![](images/SoteriaAccess1.png){width="380" fig-align="center"}
+![](images/SoteriaAccess1.png){width="380"}
 
 3.  Fill out the form with your user and project information. Once submitted you will receive an automated email indicating completion of the request.
 4.  Once approved, you will receive a secondary automated email, UA Soteria Access Request Approved indicating required trainings. Log into Edge Learning (<https://edgelearning.arizona.edu/>) to sign up and complete all of the required trainings.
@@ -35,7 +24,7 @@ Soteria is a secure and collaborative platform designed for health sciences rese
 
 ![](images/CiscoDown2.png){width="550" fig-align="center"}
 
-![](images/CiscoDown3.2.png){width="550" fig-align="center"}
+![](images/CiscoDown3.png){width="550" fig-align="center"}
 
 3.  Open Cisco AnyConnect VPN on your desktop.
 4.  The first connection must be to: vpn.arizona.edu. Type into the pop-up and click **connect**.
