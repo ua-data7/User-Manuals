@@ -13,7 +13,7 @@
 
 ## Background
 
-Soteria is a secure and collaborative platform designed for health sciences research. It enables researchers to analyze personally identifiable and protected health information while adhering to compliance guidelines. By providing cutting-edge software and web-based applications, Soteria ensures data security throughout the research lifecycle, allowing multiple research groups to work together effectively while meeting regulatory requirements.
+Soteria is a secure and collaborative platform designed for researchers to analyze personally identifiable and protected health information while adhering to compliance guidelines. By providing cutting-edge software and web-based applications, Soteria ensures data security throughout the research lifecycle, allowing multiple research groups to work together effectively while meeting regulatory requirements.
 
 
 ## Request Access to Soteria
