@@ -10,3 +10,8 @@ Soteria is a secure and collaborative platform designed for health sciences rese
 
 - [Virtual Private Network (VPN)](vpn.md)
 - [High Performance Computing (HPC)](hpc.md)
+- [Globus File Transfer](Soteria/Globus.md)
+- [Soteria Access (Mac)](Soteria/SoteriaAccess-Mac/md)
+- [Soteria Access (Windows)](Soteria/SoteriaAccess-Windows.md)
+- [UA HPC Soteria](Soteria/UAHPC_Soteria.md)
+   
