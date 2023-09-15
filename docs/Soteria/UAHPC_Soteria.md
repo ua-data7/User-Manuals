@@ -23,9 +23,9 @@ We hope this manual assists you in making the most of Soteria's capabilities whi
 
 ## Preparation: Accessing Soteria and Cluster Resources
 
-1.  **Approval and Training:** Once your Soteria request form has been reviewed and approved, you will receive an email with the subject "UA Soteria Access Request Approved." This email will contain the next steps to take, including [detailed instructions to get Soteria access and establish a VPN connection]{.underline}.
+1.  **Approval and Training:** Once your Soteria request form has been reviewed and approved, you will receive an email with the subject "UA Soteria Access Request Approved." This email will contain the next steps to take, including [detailed instructions to get Soteria access and establish a VPN connection].
 
-    *Please refer to the provided link for the comprehensive instructions: <https://github.com/ua-data7/User-Manuals/tree/main/docs/Soteria>*
+    *Please refer to the provided link for the comprehensive instructions: [`https://ua-data7.github.io/User-Manuals/`](https://ua-data7.github.io/User-Manuals/)*
 
     \-- Complete Required Training in Edge Learning The CRRSP team will register you for the following mandatory trainings, which can also be accessed at [https://uaccess.arizona.edu](https://uaccess.arizona.edu/):
 
