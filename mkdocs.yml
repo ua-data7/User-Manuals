@@ -20,6 +20,10 @@ nav:
   - Logging in & Access:
     - Virtual Private Network (VPN): 'vpn.md'
     - High Performance Computing Center: 'hpc.md'
+    - Globus Data Transfer: 'Globus.md'
+    - Soteria Access (Mac): 'SoteriaAccess-Mac.md'
+    - Soteria Access (Windows): 'SoteriaAccess-Windows.md'
+    - UA HPC Soteria: 'UAHPC_Soteria.md'
 
 # JavaScript for Intercom Widget
 extra_javascript:
