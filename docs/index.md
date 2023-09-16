@@ -14,4 +14,5 @@ Soteria is a secure and collaborative platform designed for health sciences rese
 - [Soteria Access (Mac)](Soteria/SoteriaAccess-Mac/md)
 - [Soteria Access (Windows)](Soteria/SoteriaAccess-Windows.md)
 - [UA HPC Soteria](Soteria/UAHPC_Soteria.md)
+- [Posit Connect Health Startup Tutorial](https://ua-data7.github.io/rsconnect-tutorial/)
    
