@@ -7,5 +7,7 @@
 </div>
 
 <p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/HPC/COVER.jpg?raw=true" width="420">
+<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/Titlepic.png?raw=true" width="420">
 </p>
+
+## Overview
