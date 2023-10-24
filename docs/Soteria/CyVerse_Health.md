@@ -68,7 +68,7 @@ Before diving into the specific features and capabilities of CyVerse Health, use
 3.  Fill out the form with your user and project information. Once the form has been submitted, you will receive an automated email indicating completion of the request.
 4.  Once approved, you will receive a secondary automated email, UA Soteria Access Request Approved indicating required trainings. Log into Edge Learning (<https://edgelearning.arizona.edu/>) to sign up and complete all of the required trainings.
 
-## Download and Set up Cisco VPN
+### Download and Set up Cisco VPN
 
 1.  Download the VPN software by following the link (<https://vpn.arizona.edu/+CSCOE+/logon.html#form_title_text>) . You will be prompted to log in. Use the default connections. Enter your NetID, Password and NetID +Method (ex: "push").
 
@@ -107,7 +107,7 @@ Before diving into the specific features and capabilities of CyVerse Health, use
 
 You are now ready to connect to your Soteria VPN.
 
-## Connect to Soteria VPN
+### Connect to Soteria VPN
 
 1.  If it does not auto-populate, connect to the Soteria VPN using: vpn.arizona.edu/soteria. Again, enter your NetID, Password and NetID +Method (ex: "push") to sign in.
 
@@ -119,7 +119,45 @@ You are now ready to connect to your Soteria VPN.
 
 </details>
 
+## Setting Up and Accessing Your CyVerse Health Account
 
+### Step 1: Creating Your CyVerse Account
+
+1. Navigate to the [CyVerse User Portal](https://user.cyverse.org/).
+2. Click the "Sign Up" button to initiate the registration process.
+<p align="center">
+<img align="center" src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/Signup1.png" width="350">
+</p>
+3. You will be prompted to enter personal and contact information, as well as your intended use for CyVerse's services. For expedited approval, use an institutional email address (e.g., addresses ending in .edu, .org, or .gov).
+<p align="center">
+<img align="center" src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/profileindo.png" width="350">
+</p>
+4. Complete the registration form and submit it.Ensure that JavaScript is enabled in your browser and any pop-up blockers are disabled to avoid interruptions in the process.
+
+5. Check your email inbox for a confirmation message from CyVerse. Click the link in the email to confirm your account.
+
+6. Add your ORCID to your CyVerse User Profile. If you don’t have an ORCID, visit https://orcid.org to create one
+
+<p align="center">
+<img align="center" src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/orcid.png" width="350">
+</p>
+**Important:** The account confirmation email should arrive shortly after you submit your registration. If it doesn't appear in your inbox, ensure you check your spam folder.
+
+### Step 2: Registering for Specific CyVerse Health Services
+
+1. Log in to your account on the CyVerse User Portal.
+2. Navigate to the dashboard and locate the "My Services" section.
+3. Click the 'Request Access' button adjacent to the specific service(s) you need, such as VICE.
+4. Fill in any required information, including non-technical details about your intended use of the services. Providing links to external resources (e.g., a workshop or lab website) or mentioning a funding agency can be beneficial.
+5. Submit your request. You will receive an email notification when access to the service is granted, which may take up to 24 hours.
+
+**Note:** VICE access requires additional verification due to its vulnerability to cryptocurrency miners. Ensure you use an institutional email address and provide detailed information about your intended use.
+
+### Step 3: Beginning Your Work on CyVerse Health
+
+Once your account is set up, and you have access to the necessary services, you can start your projects on CyVerse. Utilize the Learning Center for helpful guides and tutorials on using different tools and services effectively. These resources are designed to assist you in understanding specific tasks or in-depth functionalities of CyVerse platforms.
+
+**Remember:** Keep your account details secure, and ensure you log out from shared or public computers to maintain the security of your data.
 
 
 
