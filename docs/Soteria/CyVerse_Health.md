@@ -218,6 +218,8 @@ Once logged in, take a moment to view the main dashboard. This central hub provi
    **c. Community Data:** Explore data shared publicly by other CyVerse users. This repository can contain valuable resources for your research.
 
    **d. Trash:** View recently deleted items. You may have the option to restore files from here if necessary.
+   
+# MANAGING THE DATA
 
 ## CyVerse Data Store
 
@@ -254,11 +256,11 @@ Different projects require different data transfer methods. Whether using the Di
   <ins>Developer-Friendly:</ins> Command-line based, necessitates installation.
   <ins>Data Limit:</ins> Handles files larger than 10GB efficiently.
 
-**Choosing a Method:** Consider file size, technical comfort, and specific project needs. <ins>*For larger files,*</ins> prefer Cyberduck, iCommands, or SFTP. <ins>*For simplicity*</ins>, use the DE or Cyberduck. <ins>*For automation or programming environments*</ins>, opt for iCommands or GoCommands.
+<ins>**Choosing a Method:** </ins> Consider file size, technical comfort, and specific project needs. <ins>*For larger files,*</ins> prefer Cyberduck, iCommands, or SFTP. <ins>*For simplicity*</ins>, use the DE or Cyberduck. <ins>*For automation or programming environments*</ins>, opt for iCommands or GoCommands.
 
-## Managing Data in the Discovery Environment
+## 1. Managing the Data -Discovery Environment
 
-The Discovery Environment (DE) offers a comprehensive solution for data management tasks within CyVerse, from initial upload to final publication.
+The Discovery Environment (DE) interface is a user-friendly, web-based portal designed for seamless management of your data within the CyVerse Data Store. This chapter provides a detailed guide on utilizing DE for various data management tasks.
 
 * **Data Lifecycle Management:** Perform a variety of tasks like uploading, metadata addition, analysis, sharing, and publication.
 
@@ -266,3 +268,76 @@ The Discovery Environment (DE) offers a comprehensive solution for data manageme
 
 
 **Remember:** The Data Store isn't a separate entity but a foundational service across CyVerse, granting you universal access to your data.
+
+### a. Uploading Files/Folders
+
+**Navigating to Data View:** 
+
+* Once logged in to the DE, the 'Data' view offers a comprehensive directory-style layout of your Data Store contents.
+* Select an existing folder for your uploads or create a new one by clicking the 'Folder' button. By default, uploads go to /iplant/home/<your_username>.
+
+**Uploading Files:**
+
+* Click 'Upload' and choose 'Browse Local' to select files from your computer.
+* For files via URL, select 'Import by URL,' paste the link, and click 'Import'.
+* An automated notification confirms your upload is in the queue. To check progress, click 'Upload' > 'View Upload Queue.'
+
+**Special Notes:** Direct browser uploads are limited to files <2GB. For larger transfers, consider Cyberduck or iCommands.
+
+**Drag-and-Drop Feature:** Alternatively, drag files from your computer directly into the DE browser window. This action also initiates the upload process.
+
+**Background Uploading:** You're free to navigate away or log out during URL imports; a notification will inform you upon completion.
+
+<ins>Example Scenario: Uploading a README.md File </ins>
+
+* Create and save a README.md on your local computer, detailing contents like the 'ept2copc.json' file information.
+* In DE, navigate to 'tutorial_folder,' click 'Upload,' then 'Browse Local.' Find and select your README.md file.
+* Refresh your page if the uploaded file doesn’t appear immediately.
+
+
+### b. Downloading Data
+
+**Locating Files:**
+
+* Log into DE and click the 'Data' icon. Your username indicates your personal space, while 'Community Data' houses shared files.
+* Navigate to the desired directory (e.g., /usda/usfs/r3/coconino/training_data/mahan/).
+
+**Downloading:**
+
+* Select your file(s) by clicking the adjacent checkbox.
+* Click 'More Actions' > 'Download' to save to your local machine.
+
+  Important: Direct downloads via DE are suitable for files <2GB. For larger data, use Cyberduck, GoCommands, or iCommands.
+
+**Access Points for Data Retrieval:**
+
+Various paths access the same Data Store:
+iCommands or GoCommands: /iplant/home/shared/usda/usfs/r3/coconino/training_data/mahan/
+Discovery Environment: https://de.cyverse.org
+WebDav Interface: https://data.cyverse.org
+
+### c. Organizing Data: Creating Directories
+
+* In your 'home,' click the 'folder+' icon to create 'tutorial_folder.'
+* Inside it, establish sub-folders like 'raw_data/' and 'results/' for future use.
+
+### d. Deleting Files/Folders
+
+**Selection for Deletion:**
+
+* From 'Data' view, mark files/folders by clicking their checkboxes.
+* For bulk actions, use the master checkbox.
+
+**Performing Deletion:**
+
+* Click 'More Options' (ellipsis) and select 'Delete.'
+* A notification confirms the deletion.
+
+**Trash Management:** Deleted items move to 'Trash.' They remain recoverable until you empty the 'Trash' folder, which then reflects on your storage quota.
+
+### e. Advanced Data Management
+
+* To use the Advanced Search, run a query in the Search menu, then select "Advanced Search Options".
+
+* The Discovery Environment also supports advanced data management tasks such as organizing your datasets, search, adding metadata to data, requesting a Digital Object Identifier (DOI), and importing or submitting data to/from NCBI SRA.
+
