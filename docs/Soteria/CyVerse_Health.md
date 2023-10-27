@@ -132,6 +132,7 @@ You are now ready to connect to your Soteria VPN.
 <p align="center">
 <img align="center" src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/profileindo.png" width="350">
 </p>
+
 4. Complete the registration form and submit it.Ensure that JavaScript is enabled in your browser and any pop-up blockers are disabled to avoid interruptions in the process.
 
 5. Check your email inbox for a confirmation message from CyVerse. Click the link in the email to confirm your account.
@@ -141,6 +142,7 @@ You are now ready to connect to your Soteria VPN.
 <p align="center">
 <img align="center" src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/orcid.png" width="350">
 </p>
+
 **Important:** The account confirmation email should arrive shortly after you submit your registration. If it doesn't appear in your inbox, ensure you check your spam folder.
 
 ### Step 2: Registering for Specific CyVerse Health Services
@@ -159,22 +161,60 @@ Once your account is set up, and you have access to the necessary services, you 
 
 **Remember:** Keep your account details secure, and ensure you log out from shared or public computers to maintain the security of your data.
 
+## Getting Started with the Discovery Environment Interface
 
+### Registration and Login:
 
+1. Open your web browser and navigate to the CyVerse Discovery Environment website.
 
+2. If you're a first-time user, locate and click on the 'Sign Up' button. Fill in the required details, including your email address, desired username, and password, following any provided guidelines to ensure account security. Once registered, verify your account as instructed in the confirmation email you receive.
 
+3. For returning users, click the 'Login' button on the homepage. Enter your username and password in the respective fields and click 'Submit' to access your account.
 
+### Exploring the Main Interface:
 
+Once logged in, take a moment to view the main dashboard. This central hub provides a snapshot of the tools and features at your disposal within the Discovery Environment.
 
+1. Locate the search bar typically positioned at the top of the page. Here, you have the ability to perform integrated searches across different data points:
 
+   a. Click on the dropdown menu adjacent to the search bar to filter your search criteria by 'Data,' 'Apps,' or 'Analyses'.
 
+   b. Enter your query into the search field and press 'Enter' to execute the search. Review the returned results, accessible by navigating through the tabs corresponding to the categories mentioned above.
+   
+2. Familiarize yourself with the quick access icons, often found near the search bar:
 
+   a. Look for a 'bag' or cart icon, symbolizing a space where you can aggregate items for download or sharing. It functions similarly to an online shopping cart, allowing you to organize data or apps you wish to further interact with.
 
+   b. The 'notifications' bell icon is your go-to for updates on the platform. Clicking this will show you a history of your activities, including analysis statuses, data sharing updates, and general account activity.
 
+3. Navigating the Sidebar Menu:
 
+   a. Shift your attention to the left-hand sidebar, known as the 'DE Menu'. This is your primary navigation tool for the platform's various sections. If the sidebar is collapsed, you can expand it for more detailed descriptions by clicking the expand button (three line icon).
 
+4. Explore the following key areas by clicking on each respective icon or text:
 
+   **a. Home/Dashboard:** Your main control panel that may display summary widgets, quick links to recent activities, or educational content such as tutorials and webinars.
+   
+   **b. Data:** This interface connects you to the Data Store. Here, you can manage your files, including uploading, downloading, organizing, and sharing data. You'll have access to your personal storage space and shared directories.
+   
+   **c. Apps:** Discover various applications, including VICE (Visual Interactive Computing Environment) apps for interactive computing sessions. You can browse, search, and launch these applications based on your research needs.
+   
+   **d. Analyses:** View and manage your computational tasks. This section logs your history of analysis jobs, allowing you to monitor current processes, review completed ones, and access resulting data.
+   
+   **e. Cloud Shell:** Access a Linux shell environment directly within the DE. This feature enables advanced users to perform command-line operations without leaving the platform.
+   
+   **f. Teams:** Create and manage collaboration groups. Teams allow you to group together with other users for easier sharing of data, analyses, and other collaborative efforts.
+   
+   **g. Collections:** Explore public collections of data and apps curated by other users or the CyVerse team. This resource can be invaluable for finding information relevant to your studies.
+   
+   **h. Help:** Access various support materials, including FAQs, guides, and contact information for direct assistance from the CyVerse support team.
 
+4. Data Management Overview: Return to the 'Data' section from the DE Menu to explore further. Within this space, you'll interact with several specific areas:
 
+   **a. Your Personal Folder:** Navigate to your home directory. Use this private space to store your data files and analyses. You can create sub-folders for better organization.
 
+   **b. Shared With Me:** Click on this folder to view items that other users have shared with you. This collaboration feature is crucial for team projects and shared research initiatives.
 
+   **c. Community Data:** Explore data shared publicly by other CyVerse users. This repository can contain valuable resources for your research.
+
+   **d. Trash:** View recently deleted items. You may have the option to restore files from here if necessary.
