@@ -218,3 +218,51 @@ Once logged in, take a moment to view the main dashboard. This central hub provi
    **c. Community Data:** Explore data shared publicly by other CyVerse users. This repository can contain valuable resources for your research.
 
    **d. Trash:** View recently deleted items. You may have the option to restore files from here if necessary.
+
+## CyVerse Data Store
+
+The CyVerse Data Store is an integrated data management solution, ensuring data remains FAIR - Findable, Accessible, Interoperable, Reusable. Access your files across all CyVerse platforms, utilizing features that maintain data integrity and value.
+
+For detailed information and explorative blogs regarding Cyverse Health Data Stores written by researchers, visit https://cyverse.atlassian.net/wiki/spaces/DS/pages and https://cyverse.org/data-store
+
+## Navigating Data Transfer Options
+
+Different projects require different data transfer methods. Whether using the Discovery Environment's web interface, Cyberduck desktop app, or command-line tools like iCommands, CyVerse provides multiple ways to move your data securely and efficiently.
+
+* **Discovery Environment (DE):**
+
+  <ins>Web-based:</ins> Simple, no-installation approach.
+  <ins>Data Limit:</ins> Up to 2GB per file for uploads, unlimited for import.
+  
+* **Cyberduck:**
+
+  <ins>Desktop Application:</ins> Requires installation.
+  <ins>Data Limit:</ins> Ideal for files larger than 10GB.
+
+* **iCommands:**
+
+  <ins>Command-line Interface:</ins> For tech-savvy users; installation required.
+  <ins>Data Limit:</ins> Optimal for files exceeding 10GB, offering precise control.
+
+* **SFTP Clients:**
+
+  <ins>Versatile Access:</ins> Desktop and command-line accessibility.
+  <ins>Data Limit:</ins> Preferred for transfers over 10GB.
+
+* **GoCommands:**
+
+  <ins>Developer-Friendly:</ins> Command-line based, necessitates installation.
+  <ins>Data Limit:</ins> Handles files larger than 10GB efficiently.
+
+**Choosing a Method:** Consider file size, technical comfort, and specific project needs. <ins>*For larger files,*</ins> prefer Cyberduck, iCommands, or SFTP. <ins>*For simplicity*</ins>, use the DE or Cyberduck. <ins>*For automation or programming environments*</ins>, opt for iCommands or GoCommands.
+
+## Managing Data in the Discovery Environment
+
+The Discovery Environment (DE) offers a comprehensive solution for data management tasks within CyVerse, from initial upload to final publication.
+
+* **Data Lifecycle Management:** Perform a variety of tasks like uploading, metadata addition, analysis, sharing, and publication.
+
+* **Seamless Integration:** The Data Store is ubiquitous across CyVerse, allowing effortless file access and management from any platform.
+
+
+**Remember:** The Data Store isn't a separate entity but a foundational service across CyVerse, granting you universal access to your data.
