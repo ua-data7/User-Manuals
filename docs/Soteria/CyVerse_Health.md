@@ -163,6 +163,8 @@ Once your account is set up, and you have access to the necessary services, you 
 
 ## Getting Started with the Discovery Environment Interface
 
+<details>
+
 ### Registration and Login:
 
 1. Open your web browser and navigate to the CyVerse Discovery Environment website.
@@ -218,6 +220,9 @@ Once logged in, take a moment to view the main dashboard. This central hub provi
    **c. Community Data:** Explore data shared publicly by other CyVerse users. This repository can contain valuable resources for your research.
 
    **d. Trash:** View recently deleted items. You may have the option to restore files from here if necessary.
+
+
+<summary>expand</summary></details>
    
 # MANAGING THE DATA
 
@@ -258,7 +263,9 @@ Different projects require different data transfer methods. Whether using the Di
 
 <ins>**Choosing a Method:** </ins> Consider file size, technical comfort, and specific project needs. <ins>*For larger files,*</ins> prefer Cyberduck, iCommands, or SFTP. <ins>*For simplicity*</ins>, use the DE or Cyberduck. <ins>*For automation or programming environments*</ins>, opt for iCommands or GoCommands.
 
-## 1. Managing the Data -Discovery Environment
+## 1. Managing the Data - In Discovery Environment
+
+<details>
 
 The Discovery Environment (DE) interface is a user-friendly, web-based portal designed for seamless management of your data within the CyVerse Data Store. This chapter provides a detailed guide on utilizing DE for various data management tasks.
 
@@ -341,3 +348,4 @@ WebDav Interface: https://data.cyverse.org
 
 * The Discovery Environment also supports advanced data management tasks such as organizing your datasets, search, adding metadata to data, requesting a Digital Object Identifier (DOI), and importing or submitting data to/from NCBI SRA.
 
+<summary>expand</summary></details>
