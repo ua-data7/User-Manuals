@@ -349,3 +349,65 @@ WebDav Interface: https://data.cyverse.org
 * The Discovery Environment also supports advanced data management tasks such as organizing your datasets, search, adding metadata to data, requesting a Digital Object Identifier (DOI), and importing or submitting data to/from NCBI SRA.
 
 <summary>expand</summary></details>
+
+## 2. Transferring Data with Cyberduck
+
+<details>
+
+Cyberduck is a versatile third-party tool that facilitates easy transfer of data between your local computer and the CyVerse Data Store. It's especially useful for transferring large or multiple files and offers functionalities like file renaming and browsing through shared or public Data Store locations.
+
+### a. Setting Up Cyberduck
+
+**Downloading and Installing Cyberduck:** 
+* Go to the Cyberduck website and download the application compatible with your operating system.
+* Install Cyberduck following the provided instructions.
+
+**Configuring Cyberduck for CyVerse:**
+* Download the CyVerse connection profile for Cyberduck.
+* Double-click the downloaded profile to automatically open Cyberduck with the pre-configured settings.
+* In the Cyberduck configuration window, enter your CyVerse username in the 'iPlant username' field.
+* Under 'Advanced Options', set 'Transfer Files' to 'Open Multiple Connections'. Your settings will be saved once you close this window.
+
+**Connecting to the Data Store:**
+* In Cyberduck, double-click the Data Store bookmark.
+* When prompted, enter your CyVerse credentials to establish the connection.
+* You should now see your home directory in the Cyberduck window.
+**Tip:** Use 'Go to folder' from the 'Go' menu to navigate to any Data Store location that is public or shared with you.
+
+
+### b. Transferring Data Using Cyberduck
+
+**Uploading to the Data Store:**
+* Double-click the Data Store bookmark to connect.
+* Drag files/folders from your local machine into the Cyberduck window. You can also create a new folder via the 'File' menu.
+* The 'Transfers' window will display the progress. Wait until the upload is complete.
+**Warning:** Avoid using spaces or special characters in file/folder names. Use underscores (_) instead of spaces.
+
+**Downloading from the Data Store:**
+* Connect to the Data Store using the bookmark.
+* Drag files/folders from the Cyberduck window to a local directory.
+* The 'Transfers' window will show the progress. Monitor until the download finishes.
+**Caution:** Manage the number of connections to avoid overloading the system. Set a maximum of five connections in the 'Transfers' window.
+**Tip:** Explore additional functionalities under Cyberduck's 'File' menu, such as moving files without drag-and-drop and synchronizing folders.
+
+### Upload Example with Cyberduck:
+
+**Preparing Files for Upload:**
+* Create a README.md or any file on your local machine to be uploaded.
+* Make sure the file name does not contain spaces or special characters.
+
+**Uploading Files:**
+* Locate the 'tutorial_folder/raw_data' in your home directory within Cyberduck.
+* Drag and drop DE_sample_plants.fas (or any intended file) into the 'raw_data' folder.
+* Check the upload status in the 'Transfers' window until it completes.
+
+**Verifying the Upload in the Discovery Environment:**
+* Log in to the Discovery Environment and navigate to the 'raw_data' folder within 'tutorial_folder'.
+* Confirm that the DE_sample_plants.fas file appears, indicating a successful upload.
+
+### Conclusion:
+With Cyberduck configured and connected to the CyVerse Data Store, you can now upload and download files with ease. Always ensure you follow naming conventions and monitor your transfer connections for optimal performance.
+
+For any further details, refer to the [Cyverse Cyberduck manual](https://learning.cyverse.org/ds/cyberduck/) for additional guidance and troubleshooting tips.
+
+<summary>expand</summary></details>
