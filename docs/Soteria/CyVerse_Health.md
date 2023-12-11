@@ -411,3 +411,298 @@ With Cyberduck configured and connected to the CyVerse Data Store, you can now u
 For any further details, refer to the [Cyverse Cyberduck manual](https://learning.cyverse.org/ds/cyberduck/) for additional guidance and troubleshooting tips.
 
 <summary>expand</summary></details>
+
+## 3. CyVerse Data Store: iCommands User Manual
+
+<details>
+
+### Introduction to iCommands:
+
+iCommands is a comprehensive suite of command-line tools provided by the iRODS project, designed for flexible interaction with the CyVerse Data Store. This guide will cover the basics of installing and using iCommands for efficient data transfer.
+
+### iCommands Installation:
+
+**1. For Linux Systems:**
+
+**CentOS:**
+1. Install epel-release and configure iRODS repositories:
+* sudo yum install epel-release
+* sudo rpm --import https://packages.irods.org/irods-signing-key.asc
+* wget -qO - https://packages.irods.org/renci-irods.yum.repo | sudo tee /etc/yum.repos.d/renci-irods.yum.repo
+
+2. Lock iRODS packages to version 4.2.8:
+* sudo yum versionlock add irods-*-4.2.8
+
+3. Install iCommands:
+* sudo yum install irods-icommands
+
+**Ubuntu 18.04 & 20.04:**
+
+1. Configure repository and pin iCommands version:
+* wget -qO - https://packages.irods.org/irods-signing-key.asc | sudo apt-key add -
+* echo "deb [arch=amd64] https://packages.irods.org/apt/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/renci-irods.list
+* Set pin priority for version 4.2.8 in /etc/apt/preferences.d/irods
+
+2. Install iCommands:
+* sudo apt-get update
+* sudo apt install irods-icommands
+
+**Arm64/Aarch64 (e.g., Raspberry Pi):**
+
+1. Use the community-compiled i-commands:
+* wget https://github.com/jmscslgroup/libpanda/raw/master/scripts/irods-icommands-debs.tgz
+* tar zxvf irods-icommands-debs.tgz
+* cd irods-icommands-debs/
+* ./install.sh
+
+**2. For Mac OS X:**
+
+* **Installation Steps:**
+1. Download CyVerse-specific Mac OS iCommands from the provided link- https://cyverse.atlassian.net/wiki/download/attachments/241869823/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472820029000&cacheVersion=1&api=v2
+2. Open the installer via Finder and bypass security warnings in 'System Preferences' > 'Security & Privacy'.
+3. Follow the installation prompts; administrator password required.
+Post-installation, add iCommands to PATH in .zshrc or .bashrc file if needed.
+
+### iCommands Configuration
+
+**First-time Setup:**
+* Open a terminal and type iinit to start the configuration process.
+* Enter the following details when prompted:
+  * Host name: data.cyverse.org
+  * Port #: 1247
+  * Username: <CyVerse UserID>
+  * Zone: iplant
+  * Password: <CyVerse Password>
+
+**Verifying Installation:**
+* Use ils to list contents of your Data Store home directory.
+* Example: ils /iplant/home/<your_home_directory>
+
+**Anonymous Access:**
+* Username: anonymous
+* Password: leave blank
+
+### Uploading and Downloading Data
+
+**1. Uploading Data:**
+* General Steps:
+1. Use iput for uploading files and folders.
+2. Syntax: iput [options] /local_directory /iplant/home/<username>/destination_folder
+3. Common options: -r (recursive), -P (progress), -f (force), -T (renew connection)
+
+**2. Downloading Data:**
+* General Steps:
+1. Use iget for downloading files and folders.
+2. Syntax: iget [options] /iplant/home/<username>/target_file /local_destination
+3. Similar options as iput.
+**Note:** Avoid using spaces or special characters in file and folder names.
+
+### Additional iCommands and Tips
+
+* **NetCDF iCommands:** For Linux, there are additional commands for NetCDF operations.
+
+* **Frequently Used Commands:**
+ihelp: Information about iCommands
+ipwd: Print current iRODS directory
+imkdir: Create a directory in iRODS
+icd: Change iRODS directory
+irsync: Sync local and iRODS directories
+
+**Conclusion:** iCommands offers a robust and flexible way to interact with the CyVerse Data Store, especially for users comfortable with command-line tools. Ensure to follow version compatibility guidelines and handle file naming conventions carefully for seamless data management. For more detailed usage, refer to the iRODS documentation (https://packages.irods.org/) and CyVerse resources (https://docs.irods.org/master/icommands/user/#iget).
+
+<summary>expand</summary></details>
+
+## 4. Transferring Data with GoCommands and Command Line
+
+<details>
+
+### Introduction to GoCommands
+
+GoCommands is a versatile command-line tool developed by CyVerse, designed for flexibility and ease of use. It stands out for its portability, eliminating the need for installation, and is compatible with a variety of modern operating systems including macOS, Linux, and Windows.
+
+**Key Points About GoCommands**
+  Command Line Operation: GoCommands is operated through a terminal or command line interface.
+  
+  Windows Compatibility: For Windows users, it's accessible via PowerShell or Command Prompt.
+  
+  Authentication: A valid CyVerse account or another iRODS Zone account is required for authentication.
+
+**For detailed instructions and more information on using GoCommands, please refer to the [GoCommands User Guide](https://learning.cyverse.org/ds/gocommands/).**
+
+<summary>expand</summary></details>
+
+
+## 5. HTTP Access with WebDAV
+
+<details>
+
+### Overview of WebDAV
+
+WebDAV, an extension of the HTTP protocol, facilitates remote file management and editing. CyVerse's integration of WebDAV with the Data Store enables users to access their home and public folders directly from their local computers. This integration allows for simple file transfers using web browsers and WebDAV-enabled applications like common file managers.
+
+### Limitations of WebDAV
+
+**File Size Considerations:**
+
+* While there is no strict file size limit, WebDAV is optimal for files not exceeding 1 GiB. Larger files, up to 10 GiB, might still work but with varied performance.
+* For handling large files or datasets, iCommands or Cyberduck are recommended for better performance.
+
+### Accessing CyVerse Data via WebDAV Services
+
+**1. Anonymous, Read-Only Access:**
+URL: https://data.cyverse.org/dav-anon/
+This service provides access to all data visible to the anonymous user, except for directories like /iplant/home and individual user home directories.
+
+**2. Authenticated Access:**
+URL: https://data.cyverse.org/dav/
+After authenticating with CyVerse credentials, users can access any file or folder according to their permission levels.
+
+**3. Access via Web Browser:**
+Navigate to https://data.cyverse.org/ to access WebDAV through a browser interface.
+This portal provides direct links and guidance for both anonymous and authenticated access modes.
+
+**4. Using WebDAV in File Managers:**
+WebDAV can be integrated into file managers of common operating systems, enabling drag-and-drop functionality and seamless file copying between the Data Store and local folders.
+
+**5. Command Line Tools:**
+WebDAV services can also be accessed using command line tools for users who prefer terminal-based interactions.
+For more detailed instructions, tips, and troubleshooting for using WebDAV with the CyVerse Data Store, please refer to the comprehensive [WebDAV Access Guide](https://learning.cyverse.org/ds/webdav/).
+
+<summary>expand</summary></details>
+
+## 6. Transferring Data with SFTP via a Command Line Tool and Desktop Apps
+
+<details>
+
+### Overview of SFTP
+
+Secure File Transfer Protocol (SFTP) is a widely adopted protocol for securely transferring data. CyVerse has integrated SFTP into the Data Store through SFTPGo, enhancing data accessibility across diverse computing environments. Users can interact with their home and public folders in the CyVerse Data Store using any SFTP-enabled application, including command-line tools and popular desktop applications like Cyberduck and FileZilla.
+
+### Key Features of SFTP in CyVerse
+
+**Secure Transfers:** SFTP provides a secure channel for transferring files, ensuring data integrity and confidentiality.
+
+**Wide Compatibility:** SFTP can be accessed through various operating systems' built-in command-line tools, as well as third-party applications.
+
+**Ease of Use:** The familiar interface of SFTP clients like Cyberduck and FileZilla offers a user-friendly experience for managing file transfers.
+
+For comprehensive instructions on setting up and utilizing SFTP for data transfer with the CyVerse Data Store, including specific guidelines for popular SFTP clients, please refer to the detailed [SFTP Transfer Guide] (https://learning.cyverse.org/ds/sftp/).
+
+<summary>expand</summary></details>
+
+## Adding Metadata to Data in the CyVerse Discovery Environment
+
+### Introduction
+
+Metadata plays a crucial role in quality research, aligning with the FAIR Principles. CyVerse provides robust features in the Discovery Environment (DE) to facilitate the association of metadata with raw data. This guide will cover the process of adding metadata to files and folders, individually or in bulk, using the DE.
+
+### 1. Adding Metadata to a Single File/Folder
+
+**Accessing Metadata:**
+  * Log into the DE and click on the Data Icon.
+  * Select (checkbox) the file/folder you want to annotate.
+  * Under the More Actions menu, choose 'Metadata'.
+
+**Editing Metadata:**
+  * View existing metadata displayed in Attribute, Value, Unit (AVU) format.
+  * To add new metadata, click "+ Add Metadata".
+  * Use the "pencil" icon to edit or the "trash can" icon to delete an entry.
+  * Save your changes by clicking 'Save'.
+
+**Note:** Write or own permission is required to edit metadata.
+
+### 2. Adding Metadata to Multiple Files/Folders
+
+**Using CyVerse Templates:**
+
+  * Log in and select the file/folder in the Data window.
+  * Click on Metadata, then choose View in Template.
+  * Either select a template to apply and edit within the DE, or download a .csv template for external editing.
+
+**Editing a Downloaded Template:**
+
+  * Templates include 'blank.csv' for data entry and 'guide.csv' for instructions.
+  * Fill in 'blank.csv' with file names and metadata. If using full file paths, ensure the correct directory structure is followed.
+  * Save the edited template in CSV format.
+
+**Applying Bulk Metadata:**
+
+  * Upload the completed metadata CSV file to the appropriate folder in the Data window.
+  * Select the folder containing the target files, click More Actions, and choose 'Apply Bulk Metadata'.
+  * Select your uploaded metadata file to apply.
+
+**Tips:**
+  * Use absolute file paths for convenience.
+  * Check the metadata application status via the notification bell in the DE.
+
+
+**Additional Resources:** For more templates and resources on metadata standards, visit FAIRsharing.org.
+
+### Conclusion:
+Efficiently managing metadata in the Discovery Environment enhances the quality and accessibility of your research data. Remember to use appropriate templates and follow the guidelines for editing and applying metadata. This process not only ensures compliance with FAIR principles but also facilitates easier data sharing and publishing. For more detailed instructions or specific scenarios, refer to the Discovery Environment's [comprehensive user guide](https://learning.cyverse.org/ds/metadata/#adding-metadata-to-multiple-filesfolders-in-the-discovery-environment).
+
+
+Detailed Guide to Sharing Data in the CyVerse Discovery Environment
+
+1. Sharing a File with a Public Link
+
+Objective: Quickly share individual files using a Discovery Environment Public Link.
+
+Note: Best for small files. Avoid using for sensitive/private data.
+
+Steps:
+
+Login to Discovery Environment:
+
+Access the Discovery Environment.
+Select File for Sharing:
+
+In the Data window, check the box next to the file(s) you want to share.
+Creating a Public Link:
+
+Click 'More actions'.
+Select 'Public Link(s)'.
+Copy the URL from the pop-up window. This link can be shared for direct file download.
+Deactivating a Public Link:
+
+To deactivate, reselect the shared file(s).
+Go to 'Details' > 'Permissions'.
+Edit permissions for "cyverse-anonymous@cyverse.org" to remove the public link.
+2. Sharing Data with Another CyVerse User or Group
+
+Objective: Share data with specific CyVerse users or groups with controlled permissions.
+
+Steps:
+
+Selecting Data for Sharing:
+
+In the Data window, check the box(es) next to the file(s) or folder(s) you wish to share.
+Granting Access:
+
+Click on 'Share'.
+Enter the CyVerse username, email, or group name of the recipient(s).
+Under 'Permissions', select 'read', 'write', or 'own'.
+Confirm by clicking 'Done'.
+Tip: Use 'Add to Bag' for sharing multiple items at once.
+
+3. Sharing with the Public Community
+
+Objective: Make your data accessible to the public CyVerse community or the open internet.
+
+Steps:
+
+Granting Public Access:
+
+In the Data window, select the file(s) or folder(s).
+Under 'Share', type 'public' or 'anonymous'.
+Assign 'read' permission only for safety.
+Accessing Shared Public Data:
+
+Go to CyVerse Data Store WebDav.
+Use /dav for authenticated access (requires CyVerse login).
+Use /dav-anon/ for anonymous public access (no login needed).
+Important: Never grant 'write' or 'own' permissions to 'anonymous' or 'public' users.
+
+Conclusion
+
+Sharing data in the CyVerse Discovery Environment is straightforward and allows for diverse collaboration and public contribution. Whether sharing with specific users, groups, or publicly, it's crucial to manage permissions appropriately to ensure data security and integrity. For more advanced sharing techniques or support, consult the comprehensive CyVerse User Guides.
