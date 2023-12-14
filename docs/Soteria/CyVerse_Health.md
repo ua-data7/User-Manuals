@@ -592,6 +592,8 @@ For comprehensive instructions on setting up and utilizing SFTP for data transfe
 
 ## Adding Metadata to Data in the CyVerse Discovery Environment
 
+<details>
+
 ### Introduction
 
 Metadata plays a crucial role in quality research, aligning with the FAIR Principles. CyVerse provides robust features in the Discovery Environment (DE) to facilitate the association of metadata with raw data. This guide will cover the process of adding metadata to files and folders, individually or in bulk, using the DE.
@@ -641,3 +643,456 @@ Metadata plays a crucial role in quality research, aligning with the FAIR Princi
 ### Conclusion:
 Efficiently managing metadata in the Discovery Environment enhances the quality and accessibility of your research data. Remember to use appropriate templates and follow the guidelines for editing and applying metadata. This process not only ensures compliance with FAIR principles but also facilitates easier data sharing and publishing. For more detailed instructions or specific scenarios, refer to the Discovery Environment's [comprehensive user guide](https://learning.cyverse.org/ds/metadata/#adding-metadata-to-multiple-filesfolders-in-the-discovery-environment).
 
+<summary>expand</summary></details>
+
+## Detailed Guide to Sharing Data in the CyVerse Discovery Environment
+
+### 1. Sharing a File with a Public Link
+
+  Objective: Quickly share individual files using a Discovery Environment Public Link.
+
+  Note: Best for small files. Avoid using for sensitive/private data.
+
+**Steps:**
+
+a. Login to Discovery Environment:
+
+  * Access the Discovery Environment.
+  
+b. Select File for Sharing:
+
+  * In the Data window, check the box next to the file(s) you want to share.
+
+c. Creating a Public Link:
+
+  * Click 'More actions'.
+
+  * Select 'Public Link(s)'.
+
+  * Copy the URL from the pop-up window. This link can be shared for direct file download.
+
+d. Deactivating a Public Link:
+
+* To deactivate, reselect the shared file(s).
+
+* Go to 'Details' > 'Permissions'.
+
+* Edit permissions for "cyverse-anonymous@cyverse.org" to remove the public link.
+
+### 2. Sharing Data with Another CyVerse User or Group
+
+  Objective: Share data with specific CyVerse users or groups with controlled permissions.
+
+**Steps:**
+
+a. Selecting Data for Sharing:
+
+  * In the Data window, check the box(es) next to the file(s) or folder(s) you wish to share.
+
+b. Granting Access:
+
+  * Click on 'Share'.
+
+  * Enter the CyVerse username, email, or group name of the recipient(s).
+
+  * Under 'Permissions', select 'read', 'write', or 'own'.
+
+  * Confirm by clicking 'Done'.
+
+  Tip: Use 'Add to Bag' for sharing multiple items at once.
+
+c. Sharing with the Public Community
+
+  Objective: Make your data accessible to the public CyVerse community or the open internet.
+
+**Steps:**
+
+a. Granting Public Access:
+
+  * In the Data window, select the file(s) or folder(s).
+
+  * Under 'Share', type 'public' or 'anonymous'.
+
+  * Assign 'read' permission only for safety.
+
+b. Accessing Shared Public Data:
+
+  * Go to CyVerse Data Store WebDav.
+
+  * Use /dav for authenticated access (requires CyVerse login).
+
+  * Use /dav-anon/ for anonymous public access (no login needed).
+
+  Important: Never grant 'write' or 'own' permissions to 'anonymous' or 'public' users.
+
+### Conclusion:
+
+Sharing data in the CyVerse Discovery Environment is straightforward and allows for diverse collaboration and public contribution. Whether sharing with specific users, groups, or publicly, it's crucial to manage permissions appropriately to ensure data security and integrity. For more advanced sharing techniques or support, consult the comprehensive CyVerse User Guides.
+
+# Analyses in the Discovery Environment (DE)
+
+### Introduction
+
+The Discovery Environment (DE) serves as an all-encompassing data science workbench, catering to various research computing needs. It is suitable for both interactive, small-scale research applications and large-scale projects utilizing High Throughput and High Performance Computing.
+
+### Understanding Types of Analyses in DE
+
+**Small Analysis:**
+
+  Cores: 1 to 16
+  
+  RAM: 2 GB to 64 GB
+  
+  Use Cases: This category is well-suited for small-scale applications and services, teaching purposes, and analyses that require extended runtime.
+  
+**Moderate Analysis:**
+
+  Cores: 32 to 256
+  
+  RAM: 128 GB to 1 TB
+  
+  Use Cases: Designed for larger applications and services that demand more computational power than what is typically available on a standard laptop.
+
+**High Performance Computing (HPC):**
+
+  Cores: Ranges from 1 to several thousand
+  
+  RAM: 2 GB to several TBs
+  
+  Use Cases: Ideal for tasks that are computationally intensive, such as simulations and complex data analyses.
+
+**High Throughput Computing (HTC):**
+
+  Cores: Hundreds to hundreds of thousands
+  
+  RAM: Variable, depending on the task
+  
+  Use Cases: Primarily focused on executing a large number of tasks efficiently, emphasizing throughput over the speed of individual tasks.
+
+**Computing Clusters:**
+
+  Cores and RAM: Vary depending on the specific cluster
+  
+  Use Cases: These clusters provide services like Jupyter/Rstudio notebook environments to multiple users, facilitating collaborative research and data analysis.
+
+### Benefits of Using DE
+
+* Access to a wide array of data: personal, shared, and community released/published.
+
+* Ability to download/stream internet-accessible data into analyses.
+
+* Scalable resources for different needs, from small to moderate tasks and beyond.
+
+* User convenience with automated notifications for task completion.
+
+### Step-by-Step Guide to Conducting Analyses in DE
+
+1. Accessing DE:
+
+  * Visit the DE portal and log in with your CyVerse credentials.
+
+2. Selecting Analysis Type:
+
+  * Choose the appropriate analysis type based on your project requirements. Refer to the types of analyses mentioned above for guidance.
+
+3. Data Management:
+
+  * Use the Data Icon to access and manage your datasets.
+  * Import data from external sources or use data already available in your account.
+
+4. Launching Analyses:
+
+  * Select the desired application or tool based on your analysis type.
+  * Configure the necessary parameters and settings for your specific analysis.
+
+5. Monitoring and Managing Tasks:
+
+  * Track the progress of your analyses within the DE interface.
+  * Utilize the automated email notifications for updates on task completions.
+
+6. Accessing Results:
+
+  * Once completed, access and download your results directly from the DE.
+  * Utilize DE's tools for further data exploration or analysis if needed.
+
+### Conclusion
+
+The CyVerse Discovery Environment provides a versatile and user-friendly platform for a wide range of research computing needs. Whether you are conducting small-scale analyses or engaging in extensive computational research, DE’s tools and resources are designed to facilitate and enhance your research process. For more detailed information or specific use-case guidance, refer to the CyVerse DE documentation and support resources.
+
+
+## Logging in to the Discovery Environment (DE) of CyVerse
+
+**1. Accessing the Discovery Environment:**
+
+  * Open the Discovery Environment (DE) by visiting its website. You'll be greeted by the Home Dashboard.
+
+**2. Exploring the Home Dashboard:**
+
+  * The Home Dashboard displays links to News, recent YouTube Videos, and Featured Apps.
+
+**3. Navigating the DE:**
+
+  * The left side navigation menu, which can be expanded by clicking on the three bars at the top left, provides icons for different parts of the DE.
+
+**4. Signing In:**
+
+  * Sign in from the upper right corner by clicking the profile icon or the Login link.
+  * If you're accessing the Data Store or launching an App without being logged in, a sign-in pop-up will appear.
+
+**5. Authentication Process:**
+
+  * Upon clicking to sign in, you'll be redirected to the Authentication Service.
+  * Enter your CyVerse username and password.
+  * For new users or those who forgot their password, create an account or reset your password at CyVerse User Portal.
+
+**6. Returning to DE:**
+
+  * After logging in, you'll be directed back to the Home Dashboard.
+  * If you were on the Apps or Data pages during login, you will return to that specific page.
+
+**7. Taking the DE Tour:**
+
+  * For a quick overview of the DE's features, click on the help icon in the left sidebar and select "Product Tour".
+
+
+## Using Apps in the CyVerse Discovery Environment (DE)
+
+### Introduction
+The Discovery Environment (DE) offers a vast selection of applications (apps) for data analysis. These apps range from simple utilities to complex analysis tools, catering to diverse research needs.
+
+### Launching Apps in DE
+Automated Notifications: After starting an app, you can log out or navigate elsewhere; you'll receive an email notification when the task completes.
+
+### Browsing Apps
+
+**Accessing Apps:** 
+  * Click the Apps icon in the DE's left sidebar. If prompted, log in to view the apps.
+  * Once logged in, you'll see a screen displaying various apps.
+
+### Sorting and Filtering Apps
+
+**Sorting Apps:**
+* Sort apps in ascending or descending order by app name, integrator, or average rating by clicking the column headings.
+
+**Navigating Apps:**
+
+* Move between pages and adjust the number of apps per page using the < or > controls at the page's bottom.
+
+**Featured and Public Apps:**
+
+* By default, "Featured Apps" (interactive) are displayed.
+* All "Public Apps" are available for your use.
+
+### Selecting App Subsets
+
+**Choosing App Subsets:**
+
+  * Select different app subsets from the primary filter in the upper left corner of the Apps view.
+  * The selected subset is highlighted in gray.
+
+**Types of App Subsets:**
+
+  *Apps under development, Favorite apps, My public apps, Shared with me, High-Performance Computing apps, and Browse All Apps.
+
+### Applying Filters
+
+**Filter Types:**
+
+* Choose from app filters like HPC, DE, VICE, and OSG in the Filter control (upper right corner).
+
+### Viewing App Details
+
+**Accessing Details:**
+
+  * Select an app by clicking its checkbox. Click 'Details' for more information, including descriptions and usage statistics.
+
+**Interacting with Details:**
+
+  * Add to favorites with the Heart icon.
+  
+  * Share the app using the Link icon.
+  
+  * Rate the app using the Stars icon.
+  
+  * View tools used by the app under "Tools used by this App".
+
+### About VICE Apps
+
+  * Interactive Apps: VICE apps include GUIs or IDEs like Jupyter, RStudio, and remote desktops.
+  
+  * Access Requirements: Request and gain approval for VICE app access via the CyVerse User Portal.
+
+### Advanced Features
+
+  * Integration and Containers: DE supports integrating various apps, creating and running containers.
+  
+  * API Usage: Use Application Programming Interfaces for backend access to CyVerse services.
+  
+  * Additional Resources: Consult the Developer Manuals, Extending VICE Apps, and Powered By documentation for detailed guidance.
+
+
+## Managing Analyses in the CyVerse Discovery Environment (DE)
+
+### Overview
+An analysis in DE is the outcome of an executed app, containing details like a unique ID, launch date, input files, and more. DE keeps a record of all your analyses for easy tracking and management.
+
+### Browsing and Checking Analysis Status
+
+**Accessing Analyses:**
+
+  * Open the Analyses view by clicking the analyses icon on the left sidebar.
+  * The most recent analyses appear at the top of the list.
+
+**Sorting Analyses:**
+
+  * Sort analyses by Name, Start date, End date, or Status by clicking on the respective column headers.
+
+**Understanding Analysis Status:**
+
+  Submitted: Queued for execution.
+  Running: Currently processing. For VICE apps, access your interactive app via the notification icon or the link-out icon.
+  Completed: Finished with logs and results stored in the data store.
+  Canceled: Analysis stopped by the user.
+  Failed: Encountered an error during execution.
+  
+**Filtering Analyses:**
+
+  * Filter by user (‘My analyses’ or ‘Shared with me’) and app type (HPC, DE, VICE, OSG) using dropdown menus.
+
+**Accessing Outputs:**
+
+  * Click the output folder icon next to an analysis to view its results.
+
+### Relaunching an Analysis
+
+**Procedure:**
+
+  * Select an analysis from history.
+  
+  * Click the relaunch icon.
+  
+  * Modify any parameters as needed and launch the app again.
+
+### Viewing Analysis Details
+
+  * Click 'Details' or the information icon to view parameters and other specific details of an analysis.
+
+### Sharing an Analysis
+
+  * Use the 'Share' or 'Add To Bag' buttons to share an analysis and its results with another CyVerse user.
+
+### Additional Analysis Actions
+
+  * More Actions: Includes options to view output folder, relaunch, rename, update comments, view interactive analyses, extend time limit, terminate, delete, and add to a bag for sharing.
+
+### Using CPUs Efficiently: Best Practices
+
+1. Requesting Fewer CPUs:
+
+  * Modify the "Maximum CPU Cores" in "Advanced Settings" during analysis submission.
+
+  * Default is 4 CPUs. Choose 1 for single-threaded apps or more based on the app's requirements.
+
+2. Terminate Completed Analyses:
+
+  * Promptly terminate an analysis once completed to conserve CPU hours.
+
+  **Note:** Inactive but running analyses consume CPU hours quickly.
+
+  
+## Interactive Analysis in the CyVerse Discovery Environment (DE) Using VICE
+
+### Overview
+VICE (Visual Interactive Computing Environment) is a key component of CyVerse's DE, providing access to various interactive applications including Terminal Access, Integrated Development Environments (IDEs), Virtual Desktop Environments, and Web Server Applications.
+
+### Categories of Interactive Applications in VICE
+
+1. Terminal Access: Direct command line access for advanced users.
+
+2. Integrated Development Environments (IDEs): Environments like Jupyter, RStudio, Visual Studio Code.
+
+3. Virtual Desktop Environments:
+
+  Kasm Based: Browser-based desktops.
+  
+  Xpra Based: Lightweight desktops.
+  
+  Geospatial (QGIS/GRASS-GIS): Specialized for geospatial data.
+
+4. Web Server Applications: Includes StreamlitApps, ShinyApps, WebGL, HTML5, etc.
+
+### Getting VICE Access
+
+  Requirement: Must have an email address from an educational or government organization.
+  
+  Request Process: Go to the User Portal and Services, find DE VICE, and click REQUEST ACCESS. Provide non-technical details of your intended use.
+
+### Launching Applications in VICE
+
+1. Instant Launching:
+
+  * Pre-configured apps with a single click launch.
+  
+  * Default settings: 4-cores, 16 GB RAM.
+
+2. Steps to Launch an App:
+
+  * Log in to the Discovery Environment.
+  
+  * Navigate to Apps and select a Featured App.
+  
+  * Adjust settings in "Analysis Info" and "Advanced Settings".
+  
+  * Launch the application.
+
+3. Monitoring:
+
+  * Check the Analyses view for status updates.
+
+4. Accessing Data in VICE:
+
+  * Use methods like curl or direct access to Data Store paths (work/home/cyverse_username/ and work/home/shared/).
+
+5. Working with Files:
+
+  * For many small files, consider keeping data compressed in the Data Store and using cp to copy to ~/work.
+
+6. Using Git and GitHub:
+
+  * Use GitHub CLI for repository management.
+  
+  * Recommended to clone repositories into ~/work.
+
+### Instant and Quick Launches
+
+  * Instant Launches: Single-click launches available from the Home tab.
+
+  * Quick Launches: Direct URLs for sharing pre-configured apps.
+
+
+### Conclusion
+
+Interactive Analysis in DE using VICE provides a versatile and user-friendly platform for a wide range of computing needs, from development to data analysis. With various applications and easy access methods, VICE enhances the research capabilities within the CyVerse ecosystem.
+
+
+## Sharing and Using Bags in the CyVerse Discovery Environment
+
+The CyVerse Discovery Environment (DE) offers robust features for sharing data, apps, and analyses. Central to this is the "bag" feature, a versatile tool for compiling and sharing multiple resources with other CyVerse users. Whether you're collaborating on a project or distributing your findings, the DE makes it easy and efficient. For detailed instructions on how to effectively use this feature, click [here] (https://learning.cyverse.org/de/bags/#using-a-bag-to-share-or-download-in-the-discovery-environment) to access a comprehensive guide.
+
+# Quick Reference and Additional Resources
+
+As you delve into the diverse functionalities and capabilities of the CyVerse Discovery Environment, you might find these additional resources and sections beneficial for further exploration and learning:
+
+Quick Starts: Ideal for getting up to speed with essential features and tools. [Explore Quick Starts](https://learning.cyverse.org/vice/quick-rstudio/)
+
+Cloud Services: Learn about integrating and utilizing cloud-based services in your projects. [Discover Cloud Services](https://learning.cyverse.org/cloud/)
+
+For the Classroom: Tailored resources for educators and students to incorporate into classroom settings. [Access Classroom Resources](https://learning.cyverse.org/vice/teaching/)
+
+Develop: A section dedicated to developers interested in extending and enhancing CyVerse tools. [Explore Development Tools](https://learning.cyverse.org/de/create_apps/)
+
+Science Tutorials: Comprehensive tutorials covering a wide range of scientific applications and scenarios. [Browse Science Tutorials](https://learning.cyverse.org/tutorials/)
+
+CyVerse Workshops: Information and materials from past and upcoming CyVerse workshops. [Join CyVerse Workshops](https://learning.cyverse.org/workshops/)
+
+Reference: A repository of detailed documentation and reference materials. [Access Reference Materials](https://learning.cyverse.org/workshops/)
