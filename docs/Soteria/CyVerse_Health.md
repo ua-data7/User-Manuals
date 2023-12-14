@@ -892,7 +892,7 @@ Automated Notifications: After starting an app, you can log out or navigate else
 
 **Types of App Subsets:**
 
-  *Apps under development, Favorite apps, My public apps, Shared with me, High-Performance Computing apps, and Browse All Apps.
+  * Apps under development, Favorite apps, My public apps, Shared with me, High-Performance Computing apps, and Browse All Apps.
 
 ### Applying Filters
 
@@ -1013,11 +1013,11 @@ VICE (Visual Interactive Computing Environment) is a key component of CyVerse's 
 
 3. Virtual Desktop Environments:
 
-  Kasm Based: Browser-based desktops.
-  
-  Xpra Based: Lightweight desktops.
-  
-  Geospatial (QGIS/GRASS-GIS): Specialized for geospatial data.
+    Kasm Based: Browser-based desktops.
+    
+    Xpra Based: Lightweight desktops.
+    
+    Geospatial (QGIS/GRASS-GIS): Specialized for geospatial data.
 
 4. Web Server Applications: Includes StreamlitApps, ShinyApps, WebGL, HTML5, etc.
 
