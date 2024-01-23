@@ -18,14 +18,6 @@
 
 # OVERVIEW
 
-## Soteria: A Comprehensive Overview
-
-Soteria stands as a pivotal innovation in secure data analysis, providing a robust platform specifically designed for research involving Personally Identifiable Information (PII) and Protected Health Information (PHI). Recognizing the critical importance of privacy and security, Soteria offers a specialized enclave that champions compliance, control, and confidentiality throughout the research process.
-
-Key features of Soteria include its stringent access protocols, ensuring that only authorized researchers can engage with the sensitive data within. This is overseen by the Soteria Access & Governance Committee, a dedicated body ensuring adherence to legal and ethical standards. The platform's unique blend of resources and tools, including the cutting-edge Soteria HPC, External Data Transfer, and Posit Connect Health, are customized to meet the demands of secure, efficient, and collaborative research.
-
-By encapsulating all these features, Soteria emerges as more than just a platform; it's a safeguard for sensitive information, a facilitator of interdisciplinary research, and a beacon of trust in the realm of data security.
-
 ## CyVerse Health: Spotlight on Functionality
 
 Within the secure perimeters of Soteria lies CyVerse Health, a specialized web workbench designed for data science teams navigating the complex landscapes of PII and PHI. This component amplifies Soteria’s functionalities, providing a space where collaboration, customization, and control converge.
