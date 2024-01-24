@@ -1,22 +1,30 @@
-<img align="right" src="https://user-images.githubusercontent.com/131712709/235216212-9be492ec-eba0-41c0-b643-863eee12199b.png" width="350">
+<div id="banner">
+    <div class="inline-block">
+        <img src ="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/Titlepic.png?raw=true" width ="360">
+    </div>
 
-<div id="user-content-toc">
-  <ul>
-    <summary><h1 style="display: inline-block;">CYVERSE HEALTH- USER MANUAL</h1></summary>
-  </ul>
+    <div class="inline-block">
+        <img src ="https://raw.githubusercontent.com/ua-data7/User-Manuals/mkdocs-material/docs/images/cover.png"  width ="360">
+    </div>
 </div>
-&nbsp; 
 
-<p align="center">
+
+
+<p align="left">
+<img src="https://raw.githubusercontent.com/ua-data7/User-Manuals/mkdocs-material/docs/images/cover.png" width="360">
+</p>
+
+<p align="right">
 <img src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/Titlepic.png?raw=true" width="360">
- </p>
+</p>
+
+
  
 <p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/cover%202.jpg" width="1080">
+<img src="https://raw.githubusercontent.com/ua-data7/User-Manuals/main/images/Cyverse_Health/cover%202.jpg" width="1080">
 </p>
-&nbsp;  
 
-# OVERVIEW
+# CyVerse Health User Manual Overview
 
 ## CyVerse Health: Spotlight on Functionality
 

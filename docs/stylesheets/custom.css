@@ -79,3 +79,7 @@ body {
 {
     margin-right: 50px;
 }
+
+.inline-block {
+    display: inline-block;
+ }

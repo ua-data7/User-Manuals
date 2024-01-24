@@ -10,7 +10,7 @@ repo_url: https://github.com/ua-data7/user-manuals
 edit_uri: edit/mkdocs-material/docs
 
 # Copyright
-copyright: 'Copyright &copy; 2023 University of Arizona Data Science Institute, Arizona Board of Regents'
+copyright: 'Copyright &copy; 2024 University of Arizona Data Science Institute, Arizona Board of Regents'
 
 
 # Navigation Pane
@@ -24,7 +24,7 @@ nav:
     - Soteria Access (Mac): Soteria/SoteriaAccess-Mac.md
     - Soteria Access (Windows): Soteria/SoteriaAccess-Windows.md
     - UA HPC Soteria: Soteria/UAHPC_Soteria.md
-  - CyVerse Health: Soteria/CyVerse_Health.md
+  - CyVerse Health User Manual: Soteria/CyVerse_Health.md
 #   - Posit Connect Health Tutorial : https://ua-data7.github.io/rsconnect-tutorial/
 
 # JavaScript for Intercom Widget
@@ -129,4 +129,4 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/custom.css
