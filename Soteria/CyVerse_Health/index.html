@@ -1,0 +1,1744 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Soteria User Documentation">
+      
+      
+        <meta name="author" content="Soteria CyVerse Health">
+      
+      
+        <link rel="canonical" href="https://ua-data7.github.io/user-manuals/Soteria/CyVerse_Health/">
+      
+      <link rel="icon" href="../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>CyVerse Health User Manual - Soteria User Manuals</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Open Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+  <script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-6WMK2Y07YW"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-6WMK2Y07YW",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-6WMK2Y07YW",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cyverse-health-user-manual-overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Soteria User Manuals" class="md-header__button md-logo" aria-label="Soteria User Manuals" data-md-component="logo">
+      
+  <img src="../../images/uarizona.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Soteria User Manuals
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CyVerse Health User Manual
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: white)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ua-data7/user-manuals" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Soteria Documentation Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../vpn/" class="md-tabs__link">
+        Logging in & Access
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      CyVerse Health User Manual
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Soteria User Manuals" class="md-nav__button md-logo" aria-label="Soteria User Manuals" data-md-component="logo">
+      
+  <img src="../../images/uarizona.png" alt="logo">
+
+    </a>
+    Soteria User Manuals
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ua-data7/user-manuals" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Soteria Documentation Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Logging in & Access
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Logging in & Access" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Logging in & Access
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vpn/" class="md-nav__link">
+        Virtual Private Network (VPN)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hpc/" class="md-nav__link">
+        High Performance Computing Center
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Globus/" class="md-nav__link">
+        Globus Data Transfer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SoteriaAccess-Mac/" class="md-nav__link">
+        Soteria Access (Mac)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SoteriaAccess-Windows/" class="md-nav__link">
+        Soteria Access (Windows)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UAHPC_Soteria/" class="md-nav__link">
+        UA HPC Soteria
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          CyVerse Health User Manual
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        CyVerse Health User Manual
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cyverse-health-spotlight-on-functionality" class="md-nav__link">
+    CyVerse Health: Spotlight on Functionality
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#synergy-how-cyverse-health-complements-soteria" class="md-nav__link">
+    Synergy: How CyVerse Health Complements Soteria
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/ua-data7/user-manuals/edit/mkdocs-material/docs/Soteria/CyVerse_Health.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<div id="banner">
+    <div class="inline-block">
+        <img src ="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/Titlepic.png?raw=true" width ="360">
+    </div>
+
+    <div class="inline-block">
+        <img src ="https://raw.githubusercontent.com/ua-data7/User-Manuals/mkdocs-material/docs/images/cover.png"  width ="360">
+    </div>
+</div>
+
+<p align="left">
+<img src="https://raw.githubusercontent.com/ua-data7/User-Manuals/mkdocs-material/docs/images/cover.png" width="360">
+</p>
+
+<p align="right">
+<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/Titlepic.png?raw=true" width="360">
+</p>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ua-data7/User-Manuals/main/images/Cyverse_Health/cover%202.jpg" width="1080">
+</p>
+
+<h1 id="cyverse-health-user-manual-overview">CyVerse Health User Manual Overview<a class="headerlink" href="#cyverse-health-user-manual-overview" title="Permanent link">&para;</a></h1>
+<h2 id="cyverse-health-spotlight-on-functionality">CyVerse Health: Spotlight on Functionality<a class="headerlink" href="#cyverse-health-spotlight-on-functionality" title="Permanent link">&para;</a></h2>
+<p>Within the secure perimeters of Soteria lies CyVerse Health, a specialized web workbench designed for data science teams navigating the complex landscapes of PII and PHI. This component amplifies Soteria’s functionalities, providing a space where collaboration, customization, and control converge.</p>
+<p>Key features of CyVerse Health include:</p>
+<p><strong>Collaborative Workbench:</strong> CyVerse Health offers a dynamic space where research teams can manage data and share customized workflows securely. This feature is instrumental in fostering collaboration and ensuring consistency across projects.</p>
+<p><strong>Reproducible Research:</strong> With its emphasis on containerization technology, CyVerse Health enables users to create reproducible workflows, a cornerstone in promoting transparency and verifiability in scientific discoveries.</p>
+<p><strong>Secure Data Access:</strong> It maintains a controlled environment where access to specific data sets is regulated, ensuring that only authorized individuals can view or manipulate sensitive information.</p>
+<p>CyVerse Health therefore supports researchers by providing a secure, collaborative platform equipped with tools designed for in-depth data exploration and analysis, all within the secure ecosystem provided by Soteria.</p>
+<h2 id="synergy-how-cyverse-health-complements-soteria">Synergy: How CyVerse Health Complements Soteria<a class="headerlink" href="#synergy-how-cyverse-health-complements-soteria" title="Permanent link">&para;</a></h2>
+<p>CyVerse Health is an integral part of the Soteria platform, designed to extend the capabilities provided by Soteria into more specialized areas of data management and analysis. It leverages Soteria’s foundational security infrastructure, providing a space where researchers can perform more nuanced tasks with an assurance of data protection.</p>
+<p>This integration ensures that while researchers benefit from advanced tools and collaborative features specific to CyVerse Health, they remain within the overarching secure environment established by Soteria. This interconnectedness makes the combined platform a robust, comprehensive solution for conducting sensitive health-related research projects securely.</p>
+<h1 id="getting-started-with-cyverse-health">Getting Started with CyVerse Health<a class="headerlink" href="#getting-started-with-cyverse-health" title="Permanent link">&para;</a></h1>
+<p>Before diving into the specific features and capabilities of CyVerse Health, users must first gain access to the overarching Soteria platform. Below, we outline the necessary steps to establish this foundational access.</p>
+<h2 id="request-access-to-soteria">Request Access to Soteria<a class="headerlink" href="#request-access-to-soteria" title="Permanent link">&para;</a></h2>
+<details>
+<summary>Instructions to get access</summary>
+
+1.  Establish a primary PI or sponsoring faculty member and have them indicate that you are a team member on Soteria.
+2.  Open <https://soteria.arizona.edu/> and click **Request Access**.
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/131712709/235225922-d1a9630b-2dac-4abf-afc0-64c80a1cd435.png" width="380">
+</p>
+
+
+3.  Fill out the form with your user and project information. Once the form has been submitted, you will receive an automated email indicating completion of the request.
+4.  Once approved, you will receive a secondary automated email, UA Soteria Access Request Approved indicating required trainings. Log into Edge Learning (<https://edgelearning.arizona.edu/>) to sign up and complete all of the required trainings.
+
+### Download and Set up Cisco VPN
+
+1.  Download the VPN software by following the link (<https://vpn.arizona.edu/+CSCOE+/logon.html#form_title_text>) . You will be prompted to log in. Use the default connections. Enter your NetID, Password and NetID +Method (ex: "push").
+
+<p align="center">
+<img align="center" src="https://user-images.githubusercontent.com/131712709/235227282-ac99a356-c4ec-4fe4-819d-50adffddec75.png" width="330">
+</p>
+
+2.  Follow the prompts to download and install Cisco AnyConnect VPN.
+
+<p align="center">
+<img align="center" src="https://user-images.githubusercontent.com/131712709/235227654-0ef0b5b4-a804-420b-a224-9d1201fe2da8.png" width="168">
+</p>
+
+<p align="center">
+<img align="center" src="https://user-images.githubusercontent.com/131712709/235511927-5b353b56-1c23-43aa-bec3-e65d7ffb2028.png" width="600">
+</p>
+
+3.  Open Cisco AnyConnect VPN on your desktop.
+4.  The first connection must be to: vpn.arizona.edu. Type into the pop-up and click **connect**.
+
+<p align="center">
+<img align="center" src="https://user-images.githubusercontent.com/131712709/235229386-dc171283-9707-4e97-ba2d-e9fdc3750877.png" width="350">
+</p>
+
+5.  Sign in as before, using the default group. Enter your NetID, Password and NetID +Method (ex: "push").
+
+<p align="center">
+<img align="center" src="https://user-images.githubusercontent.com/131712709/235229698-895b0740-954d-40f3-bcb8-d2a717439126.png" width="350">
+</p>
+
+6.  Click **Disconnect**
+
+<p align="center">
+<img align="center" src="https://user-images.githubusercontent.com/131712709/235229897-48add640-9da0-4ebd-864a-b0f44f9bd959.png" width="350">
+</p>
+
+You are now ready to connect to your Soteria VPN.
+
+### Connect to Soteria VPN
+
+1.  If it does not auto-populate, connect to the Soteria VPN using: vpn.arizona.edu/soteria. Again, enter your NetID, Password and NetID +Method (ex: "push") to sign in.
+
+<p align="center">
+<img align="center" src="https://user-images.githubusercontent.com/131712709/235230138-0aa04bd3-7b8f-4a3f-bf1d-076766e8db94.png" width="350">
+</p>
+
+2.  Accept the pop-up notification. The Cisco Icon in the system tray (bottom right) of your desktop, will now display a lock, indicating a successful connection.
+
+</details>
+
+<h2 id="setting-up-and-accessing-your-cyverse-health-account">Setting Up and Accessing Your CyVerse Health Account<a class="headerlink" href="#setting-up-and-accessing-your-cyverse-health-account" title="Permanent link">&para;</a></h2>
+<h3 id="step-1-creating-your-cyverse-account">Step 1: Creating Your CyVerse Account<a class="headerlink" href="#step-1-creating-your-cyverse-account" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Navigate to the <a href="https://user.cyverse.org/">CyVerse User Portal</a>.</li>
+<li>Click the "Sign Up" button to initiate the registration process.</li>
+</ol>
+<p align="center">
+<img align="center" src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/Signup1.png" width="650">
+</p>
+<ol>
+<li>You will be prompted to enter personal and contact information, as well as your intended use for CyVerse's services. For expedited approval, use an institutional email address (e.g., addresses ending in .edu, .org, or .gov).</li>
+</ol>
+<p align="center">
+<img align="center" src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/profileindo.png" width="650">
+</p>
+
+<ol>
+<li>
+<p>Complete the registration form and submit it.Ensure that JavaScript is enabled in your browser and any pop-up blockers are disabled to avoid interruptions in the process.</p>
+</li>
+<li>
+<p>Check your email inbox for a confirmation message from CyVerse. Click the link in the email to confirm your account.</p>
+</li>
+<li>
+<p>Add your ORCID to your CyVerse User Profile. If you don’t have an ORCID, visit <a href="https://orcid.org">https://orcid.org</a> to create one</p>
+</li>
+</ol>
+<p align="center">
+<img align="center" src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/orcid.png" width="650">
+</p>
+
+<p><strong>Important:</strong> The account confirmation email should arrive shortly after you submit your registration. If it doesn't appear in your inbox, ensure you check your spam folder.</p>
+<h3 id="step-2-registering-for-specific-cyverse-health-services">Step 2: Registering for Specific CyVerse Health Services<a class="headerlink" href="#step-2-registering-for-specific-cyverse-health-services" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Log in to your account on the CyVerse User Portal.</li>
+<li>Navigate to the dashboard and locate the "My Services" section.</li>
+<li>Click the 'Request Access' button adjacent to the specific service(s) you need, such as VICE.</li>
+<li>Fill in any required information, including non-technical details about your intended use of the services. Providing links to external resources (e.g., a workshop or lab website) or mentioning a funding agency can be beneficial.</li>
+<li>Submit your request. You will receive an email notification when access to the service is granted, which may take up to 24 hours.</li>
+</ol>
+<p><strong>Note:</strong> VICE access requires additional verification due to its vulnerability to cryptocurrency miners. Ensure you use an institutional email address and provide detailed information about your intended use.</p>
+<h3 id="step-3-beginning-your-work-on-cyverse-health">Step 3: Beginning Your Work on CyVerse Health<a class="headerlink" href="#step-3-beginning-your-work-on-cyverse-health" title="Permanent link">&para;</a></h3>
+<p>Once your account is set up, and you have access to the necessary services, you can start your projects on CyVerse. Utilize the Learning Center for helpful guides and tutorials on using different tools and services effectively. These resources are designed to assist you in understanding specific tasks or in-depth functionalities of CyVerse platforms.</p>
+<p><strong>Remember:</strong> Keep your account details secure, and ensure you log out from shared or public computers to maintain the security of your data.</p>
+<h2 id="getting-started-with-the-discovery-environment-interface">Getting Started with the Discovery Environment Interface<a class="headerlink" href="#getting-started-with-the-discovery-environment-interface" title="Permanent link">&para;</a></h2>
+<details>
+
+### Registration and Login:
+
+1. Open your web browser and navigate to the CyVerse Discovery Environment website.
+
+2. If you're a first-time user, locate and click on the 'Sign Up' button. Fill in the required details, including your email address, desired username, and password, following any provided guidelines to ensure account security. Once registered, verify your account as instructed in the confirmation email you receive.
+
+3. For returning users, click the 'Login' button on the homepage. Enter your username and password in the respective fields and click 'Submit' to access your account.
+
+### Exploring the Main Interface:
+
+Once logged in, take a moment to view the main dashboard. This central hub provides a snapshot of the tools and features at your disposal within the Discovery Environment.
+
+1. Locate the search bar typically positioned at the top of the page. Here, you have the ability to perform integrated searches across different data points:
+
+   a. Click on the dropdown menu adjacent to the search bar to filter your search criteria by 'Data,' 'Apps,' or 'Analyses'.
+
+   b. Enter your query into the search field and press 'Enter' to execute the search. Review the returned results, accessible by navigating through the tabs corresponding to the categories mentioned above.
+
+2. Familiarize yourself with the quick access icons, often found near the search bar:
+
+   a. Look for a 'bag' or cart icon, symbolizing a space where you can aggregate items for download or sharing. It functions similarly to an online shopping cart, allowing you to organize data or apps you wish to further interact with.
+
+   b. The 'notifications' bell icon is your go-to for updates on the platform. Clicking this will show you a history of your activities, including analysis statuses, data sharing updates, and general account activity.
+
+3. Navigating the Sidebar Menu:
+
+   a. Shift your attention to the left-hand sidebar, known as the 'DE Menu'. This is your primary navigation tool for the platform's various sections. If the sidebar is collapsed, you can expand it for more detailed descriptions by clicking the expand button (three line icon).
+
+4. Explore the following key areas by clicking on each respective icon or text:
+
+   **a. Home/Dashboard:** Your main control panel that may display summary widgets, quick links to recent activities, or educational content such as tutorials and webinars.
+
+   **b. Data:** This interface connects you to the Data Store. Here, you can manage your files, including uploading, downloading, organizing, and sharing data. You'll have access to your personal storage space and shared directories.
+
+   **c. Apps:** Discover various applications, including VICE (Visual Interactive Computing Environment) apps for interactive computing sessions. You can browse, search, and launch these applications based on your research needs.
+
+   **d. Analyses:** View and manage your computational tasks. This section logs your history of analysis jobs, allowing you to monitor current processes, review completed ones, and access resulting data.
+
+   **e. Cloud Shell:** Access a Linux shell environment directly within the DE. This feature enables advanced users to perform command-line operations without leaving the platform.
+
+   **f. Teams:** Create and manage collaboration groups. Teams allow you to group together with other users for easier sharing of data, analyses, and other collaborative efforts.
+
+   **g. Collections:** Explore public collections of data and apps curated by other users or the CyVerse team. This resource can be invaluable for finding information relevant to your studies.
+
+   **h. Help:** Access various support materials, including FAQs, guides, and contact information for direct assistance from the CyVerse support team.
+
+4. Data Management Overview: Return to the 'Data' section from the DE Menu to explore further. Within this space, you'll interact with several specific areas:
+
+   **a. Your Personal Folder:** Navigate to your home directory. Use this private space to store your data files and analyses. You can create sub-folders for better organization.
+
+   **b. Shared With Me:** Click on this folder to view items that other users have shared with you. This collaboration feature is crucial for team projects and shared research initiatives.
+
+   **c. Community Data:** Explore data shared publicly by other CyVerse users. This repository can contain valuable resources for your research.
+
+   **d. Trash:** View recently deleted items. You may have the option to restore files from here if necessary.
+
+
+<summary>expand</summary></details>
+
+<h1 id="managing-the-data">MANAGING THE DATA<a class="headerlink" href="#managing-the-data" title="Permanent link">&para;</a></h1>
+<h2 id="cyverse-data-store">CyVerse Data Store<a class="headerlink" href="#cyverse-data-store" title="Permanent link">&para;</a></h2>
+<p>The CyVerse Data Store is an integrated data management solution, ensuring data remains FAIR - Findable, Accessible, Interoperable, Reusable. Access your files across all CyVerse platforms, utilizing features that maintain data integrity and value.</p>
+<p>For detailed information and explorative blogs regarding Cyverse Health Data Stores written by researchers, visit <a href="https://cyverse.atlassian.net/wiki/spaces/DS/pages">https://cyverse.atlassian.net/wiki/spaces/DS/pages</a> and <a href="https://cyverse.org/data-store">https://cyverse.org/data-store</a></p>
+<h2 id="navigating-data-transfer-options">Navigating Data Transfer Options<a class="headerlink" href="#navigating-data-transfer-options" title="Permanent link">&para;</a></h2>
+<p>Different projects require different data transfer methods. Whether using the Discovery Environment's web interface, Cyberduck desktop app, or command-line tools like iCommands, CyVerse provides multiple ways to move your data securely and efficiently.</p>
+<ul>
+<li><strong>Discovery Environment (DE):</strong></li>
+</ul>
+<p><ins>Web-based:</ins> Simple, no-installation approach.
+  <ins>Data Limit:</ins> Up to 2GB per file for uploads, unlimited for import.</p>
+<ul>
+<li><strong>Cyberduck:</strong></li>
+</ul>
+<p><ins>Desktop Application:</ins> Requires installation.
+  <ins>Data Limit:</ins> Ideal for files larger than 10GB.</p>
+<ul>
+<li><strong>iCommands:</strong></li>
+</ul>
+<p><ins>Command-line Interface:</ins> For tech-savvy users; installation required.
+  <ins>Data Limit:</ins> Optimal for files exceeding 10GB, offering precise control.</p>
+<ul>
+<li><strong>SFTP Clients:</strong></li>
+</ul>
+<p><ins>Versatile Access:</ins> Desktop and command-line accessibility.
+  <ins>Data Limit:</ins> Preferred for transfers over 10GB.</p>
+<ul>
+<li><strong>GoCommands:</strong></li>
+</ul>
+<p><ins>Developer-Friendly:</ins> Command-line based, necessitates installation.
+  <ins>Data Limit:</ins> Handles files larger than 10GB efficiently.</p>
+<p><ins><strong>Choosing a Method:</strong> </ins> Consider file size, technical comfort, and specific project needs. <ins><em>For larger files,</em></ins> prefer Cyberduck, iCommands, or SFTP. <ins><em>For simplicity</em></ins>, use the DE or Cyberduck. <ins><em>For automation or programming environments</em></ins>, opt for iCommands or GoCommands.</p>
+<h2 id="1-managing-the-data-in-discovery-environment">1. Managing the Data - In Discovery Environment<a class="headerlink" href="#1-managing-the-data-in-discovery-environment" title="Permanent link">&para;</a></h2>
+<details>
+
+The Discovery Environment (DE) interface is a user-friendly, web-based portal designed for seamless management of your data within the CyVerse Data Store. This chapter provides a detailed guide on utilizing DE for various data management tasks.
+
+* **Data Lifecycle Management:** Perform a variety of tasks like uploading, metadata addition, analysis, sharing, and publication.
+
+* **Seamless Integration:** The Data Store is ubiquitous across CyVerse, allowing effortless file access and management from any platform.
+
+
+**Remember:** The Data Store isn't a separate entity but a foundational service across CyVerse, granting you universal access to your data.
+
+### a. Uploading Files/Folders
+
+**Navigating to Data View:** 
+
+* Once logged in to the DE, the 'Data' view offers a comprehensive directory-style layout of your Data Store contents.
+* Select an existing folder for your uploads or create a new one by clicking the 'Folder' button. By default, uploads go to /iplant/home/<your_username>.
+
+**Uploading Files:**
+
+* Click 'Upload' and choose 'Browse Local' to select files from your computer.
+* For files via URL, select 'Import by URL,' paste the link, and click 'Import'.
+* An automated notification confirms your upload is in the queue. To check progress, click 'Upload' > 'View Upload Queue.'
+
+**Special Notes:** Direct browser uploads are limited to files <2GB. For larger transfers, consider Cyberduck or iCommands.
+
+**Drag-and-Drop Feature:** Alternatively, drag files from your computer directly into the DE browser window. This action also initiates the upload process.
+
+**Background Uploading:** You're free to navigate away or log out during URL imports; a notification will inform you upon completion.
+
+<ins>Example Scenario: Uploading a README.md File </ins>
+
+* Create and save a README.md on your local computer, detailing contents like the 'ept2copc.json' file information.
+* In DE, navigate to 'tutorial_folder,' click 'Upload,' then 'Browse Local.' Find and select your README.md file.
+* Refresh your page if the uploaded file doesn’t appear immediately.
+
+
+### b. Downloading Data
+
+**Locating Files:**
+
+* Log into DE and click the 'Data' icon. Your username indicates your personal space, while 'Community Data' houses shared files.
+* Navigate to the desired directory (e.g., /usda/usfs/r3/coconino/training_data/mahan/).
+
+**Downloading:**
+
+* Select your file(s) by clicking the adjacent checkbox.
+* Click 'More Actions' > 'Download' to save to your local machine.
+
+  Important: Direct downloads via DE are suitable for files <2GB. For larger data, use Cyberduck, GoCommands, or iCommands.
+
+**Access Points for Data Retrieval:**
+
+Various paths access the same Data Store:
+iCommands or GoCommands: /iplant/home/shared/usda/usfs/r3/coconino/training_data/mahan/
+Discovery Environment: https://de.cyverse.org
+WebDav Interface: https://data.cyverse.org
+
+### c. Organizing Data: Creating Directories
+
+* In your 'home,' click the 'folder+' icon to create 'tutorial_folder.'
+* Inside it, establish sub-folders like 'raw_data/' and 'results/' for future use.
+
+### d. Deleting Files/Folders
+
+**Selection for Deletion:**
+
+* From 'Data' view, mark files/folders by clicking their checkboxes.
+* For bulk actions, use the master checkbox.
+
+**Performing Deletion:**
+
+* Click 'More Options' (ellipsis) and select 'Delete.'
+* A notification confirms the deletion.
+
+**Trash Management:** Deleted items move to 'Trash.' They remain recoverable until you empty the 'Trash' folder, which then reflects on your storage quota.
+
+### e. Advanced Data Management
+
+* To use the Advanced Search, run a query in the Search menu, then select "Advanced Search Options".
+
+* The Discovery Environment also supports advanced data management tasks such as organizing your datasets, search, adding metadata to data, requesting a Digital Object Identifier (DOI), and importing or submitting data to/from NCBI SRA.
+
+<summary>expand</summary></details>
+
+<h2 id="2-transferring-data-with-cyberduck">2. Transferring Data with Cyberduck<a class="headerlink" href="#2-transferring-data-with-cyberduck" title="Permanent link">&para;</a></h2>
+<details>
+
+Cyberduck is a versatile third-party tool that facilitates easy transfer of data between your local computer and the CyVerse Data Store. It's especially useful for transferring large or multiple files and offers functionalities like file renaming and browsing through shared or public Data Store locations.
+
+### a. Setting Up Cyberduck
+
+**Downloading and Installing Cyberduck:** 
+* Go to the Cyberduck website and download the application compatible with your operating system.
+* Install Cyberduck following the provided instructions.
+
+**Configuring Cyberduck for CyVerse:**
+* Download the CyVerse connection profile for Cyberduck.
+* Double-click the downloaded profile to automatically open Cyberduck with the pre-configured settings.
+* In the Cyberduck configuration window, enter your CyVerse username in the 'iPlant username' field.
+* Under 'Advanced Options', set 'Transfer Files' to 'Open Multiple Connections'. Your settings will be saved once you close this window.
+
+**Connecting to the Data Store:**
+* In Cyberduck, double-click the Data Store bookmark.
+* When prompted, enter your CyVerse credentials to establish the connection.
+* You should now see your home directory in the Cyberduck window.
+**Tip:** Use 'Go to folder' from the 'Go' menu to navigate to any Data Store location that is public or shared with you.
+
+
+### b. Transferring Data Using Cyberduck
+
+**Uploading to the Data Store:**
+* Double-click the Data Store bookmark to connect.
+* Drag files/folders from your local machine into the Cyberduck window. You can also create a new folder via the 'File' menu.
+* The 'Transfers' window will display the progress. Wait until the upload is complete.
+**Warning:** Avoid using spaces or special characters in file/folder names. Use underscores (_) instead of spaces.
+
+**Downloading from the Data Store:**
+* Connect to the Data Store using the bookmark.
+* Drag files/folders from the Cyberduck window to a local directory.
+* The 'Transfers' window will show the progress. Monitor until the download finishes.
+**Caution:** Manage the number of connections to avoid overloading the system. Set a maximum of five connections in the 'Transfers' window.
+**Tip:** Explore additional functionalities under Cyberduck's 'File' menu, such as moving files without drag-and-drop and synchronizing folders.
+
+### Upload Example with Cyberduck:
+
+**Preparing Files for Upload:**
+* Create a README.md or any file on your local machine to be uploaded.
+* Make sure the file name does not contain spaces or special characters.
+
+**Uploading Files:**
+* Locate the 'tutorial_folder/raw_data' in your home directory within Cyberduck.
+* Drag and drop DE_sample_plants.fas (or any intended file) into the 'raw_data' folder.
+* Check the upload status in the 'Transfers' window until it completes.
+
+**Verifying the Upload in the Discovery Environment:**
+* Log in to the Discovery Environment and navigate to the 'raw_data' folder within 'tutorial_folder'.
+* Confirm that the DE_sample_plants.fas file appears, indicating a successful upload.
+
+### Conclusion:
+With Cyberduck configured and connected to the CyVerse Data Store, you can now upload and download files with ease. Always ensure you follow naming conventions and monitor your transfer connections for optimal performance.
+
+For any further details, refer to the [Cyverse Cyberduck manual](https://learning.cyverse.org/ds/cyberduck/) for additional guidance and troubleshooting tips.
+
+<summary>expand</summary></details>
+
+<h2 id="3-cyverse-data-store-icommands-user-manual">3. CyVerse Data Store: iCommands User Manual<a class="headerlink" href="#3-cyverse-data-store-icommands-user-manual" title="Permanent link">&para;</a></h2>
+<details>
+
+### Introduction to iCommands:
+
+iCommands is a comprehensive suite of command-line tools provided by the iRODS project, designed for flexible interaction with the CyVerse Data Store. This guide will cover the basics of installing and using iCommands for efficient data transfer.
+
+### iCommands Installation:
+
+**1. For Linux Systems:**
+
+**CentOS:**
+1. Install epel-release and configure iRODS repositories:
+* sudo yum install epel-release
+* sudo rpm --import https://packages.irods.org/irods-signing-key.asc
+* wget -qO - https://packages.irods.org/renci-irods.yum.repo | sudo tee /etc/yum.repos.d/renci-irods.yum.repo
+
+2. Lock iRODS packages to version 4.2.8:
+* sudo yum versionlock add irods-*-4.2.8
+
+3. Install iCommands:
+* sudo yum install irods-icommands
+
+**Ubuntu 18.04 & 20.04:**
+
+1. Configure repository and pin iCommands version:
+* wget -qO - https://packages.irods.org/irods-signing-key.asc | sudo apt-key add -
+* echo "deb [arch=amd64] https://packages.irods.org/apt/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/renci-irods.list
+* Set pin priority for version 4.2.8 in /etc/apt/preferences.d/irods
+
+2. Install iCommands:
+* sudo apt-get update
+* sudo apt install irods-icommands
+
+**Arm64/Aarch64 (e.g., Raspberry Pi):**
+
+1. Use the community-compiled i-commands:
+* wget https://github.com/jmscslgroup/libpanda/raw/master/scripts/irods-icommands-debs.tgz
+* tar zxvf irods-icommands-debs.tgz
+* cd irods-icommands-debs/
+* ./install.sh
+
+**2. For Mac OS X:**
+
+* **Installation Steps:**
+1. Download CyVerse-specific Mac OS iCommands from the provided link- https://cyverse.atlassian.net/wiki/download/attachments/241869823/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472820029000&cacheVersion=1&api=v2
+2. Open the installer via Finder and bypass security warnings in 'System Preferences' > 'Security & Privacy'.
+3. Follow the installation prompts; administrator password required.
+Post-installation, add iCommands to PATH in .zshrc or .bashrc file if needed.
+
+### iCommands Configuration
+
+**First-time Setup:**
+* Open a terminal and type iinit to start the configuration process.
+* Enter the following details when prompted:
+  * Host name: data.cyverse.org
+  * Port #: 1247
+  * Username: <CyVerse UserID>
+  * Zone: iplant
+  * Password: <CyVerse Password>
+
+**Verifying Installation:**
+* Use ils to list contents of your Data Store home directory.
+* Example: ils /iplant/home/<your_home_directory>
+
+**Anonymous Access:**
+* Username: anonymous
+* Password: leave blank
+
+### Uploading and Downloading Data
+
+**1. Uploading Data:**
+* General Steps:
+1. Use iput for uploading files and folders.
+2. Syntax: iput [options] /local_directory /iplant/home/<username>/destination_folder
+3. Common options: -r (recursive), -P (progress), -f (force), -T (renew connection)
+
+**2. Downloading Data:**
+* General Steps:
+1. Use iget for downloading files and folders.
+2. Syntax: iget [options] /iplant/home/<username>/target_file /local_destination
+3. Similar options as iput.
+**Note:** Avoid using spaces or special characters in file and folder names.
+
+### Additional iCommands and Tips
+
+* **NetCDF iCommands:** For Linux, there are additional commands for NetCDF operations.
+
+* **Frequently Used Commands:**
+ihelp: Information about iCommands
+ipwd: Print current iRODS directory
+imkdir: Create a directory in iRODS
+icd: Change iRODS directory
+irsync: Sync local and iRODS directories
+
+**Conclusion:** iCommands offers a robust and flexible way to interact with the CyVerse Data Store, especially for users comfortable with command-line tools. Ensure to follow version compatibility guidelines and handle file naming conventions carefully for seamless data management. For more detailed usage, refer to the iRODS documentation (https://packages.irods.org/) and CyVerse resources (https://docs.irods.org/master/icommands/user/#iget).
+
+<summary>expand</summary></details>
+
+<h2 id="4-transferring-data-with-gocommands-and-command-line">4. Transferring Data with GoCommands and Command Line<a class="headerlink" href="#4-transferring-data-with-gocommands-and-command-line" title="Permanent link">&para;</a></h2>
+<details>
+
+### Introduction to GoCommands
+
+GoCommands is a versatile command-line tool developed by CyVerse, designed for flexibility and ease of use. It stands out for its portability, eliminating the need for installation, and is compatible with a variety of modern operating systems including macOS, Linux, and Windows.
+
+**Key Points About GoCommands**
+  Command Line Operation: GoCommands is operated through a terminal or command line interface.
+
+  Windows Compatibility: For Windows users, it's accessible via PowerShell or Command Prompt.
+
+  Authentication: A valid CyVerse account or another iRODS Zone account is required for authentication.
+
+**For detailed instructions and more information on using GoCommands, please refer to the [GoCommands User Guide](https://learning.cyverse.org/ds/gocommands/).**
+
+<summary>expand</summary></details>
+
+<h2 id="5-http-access-with-webdav">5. HTTP Access with WebDAV<a class="headerlink" href="#5-http-access-with-webdav" title="Permanent link">&para;</a></h2>
+<details>
+
+### Overview of WebDAV
+
+WebDAV, an extension of the HTTP protocol, facilitates remote file management and editing. CyVerse's integration of WebDAV with the Data Store enables users to access their home and public folders directly from their local computers. This integration allows for simple file transfers using web browsers and WebDAV-enabled applications like common file managers.
+
+### Limitations of WebDAV
+
+**File Size Considerations:**
+
+* While there is no strict file size limit, WebDAV is optimal for files not exceeding 1 GiB. Larger files, up to 10 GiB, might still work but with varied performance.
+* For handling large files or datasets, iCommands or Cyberduck are recommended for better performance.
+
+### Accessing CyVerse Data via WebDAV Services
+
+**1. Anonymous, Read-Only Access:**
+URL: https://data.cyverse.org/dav-anon/
+This service provides access to all data visible to the anonymous user, except for directories like /iplant/home and individual user home directories.
+
+**2. Authenticated Access:**
+URL: https://data.cyverse.org/dav/
+After authenticating with CyVerse credentials, users can access any file or folder according to their permission levels.
+
+**3. Access via Web Browser:**
+Navigate to https://data.cyverse.org/ to access WebDAV through a browser interface.
+This portal provides direct links and guidance for both anonymous and authenticated access modes.
+
+**4. Using WebDAV in File Managers:**
+WebDAV can be integrated into file managers of common operating systems, enabling drag-and-drop functionality and seamless file copying between the Data Store and local folders.
+
+**5. Command Line Tools:**
+WebDAV services can also be accessed using command line tools for users who prefer terminal-based interactions.
+For more detailed instructions, tips, and troubleshooting for using WebDAV with the CyVerse Data Store, please refer to the comprehensive [WebDAV Access Guide](https://learning.cyverse.org/ds/webdav/).
+
+<summary>expand</summary></details>
+
+<h2 id="6-transferring-data-with-sftp-via-a-command-line-tool-and-desktop-apps">6. Transferring Data with SFTP via a Command Line Tool and Desktop Apps<a class="headerlink" href="#6-transferring-data-with-sftp-via-a-command-line-tool-and-desktop-apps" title="Permanent link">&para;</a></h2>
+<details>
+
+### Overview of SFTP
+
+Secure File Transfer Protocol (SFTP) is a widely adopted protocol for securely transferring data. CyVerse has integrated SFTP into the Data Store through SFTPGo, enhancing data accessibility across diverse computing environments. Users can interact with their home and public folders in the CyVerse Data Store using any SFTP-enabled application, including command-line tools and popular desktop applications like Cyberduck and FileZilla.
+
+### Key Features of SFTP in CyVerse
+
+**Secure Transfers:** SFTP provides a secure channel for transferring files, ensuring data integrity and confidentiality.
+
+**Wide Compatibility:** SFTP can be accessed through various operating systems' built-in command-line tools, as well as third-party applications.
+
+**Ease of Use:** The familiar interface of SFTP clients like Cyberduck and FileZilla offers a user-friendly experience for managing file transfers.
+
+For comprehensive instructions on setting up and utilizing SFTP for data transfer with the CyVerse Data Store, including specific guidelines for popular SFTP clients, please refer to the detailed [SFTP Transfer Guide] (https://learning.cyverse.org/ds/sftp/).
+
+<summary>expand</summary></details>
+
+<h2 id="adding-metadata-to-data-in-the-cyverse-discovery-environment">Adding Metadata to Data in the CyVerse Discovery Environment<a class="headerlink" href="#adding-metadata-to-data-in-the-cyverse-discovery-environment" title="Permanent link">&para;</a></h2>
+<details>
+
+### Introduction
+
+Metadata plays a crucial role in quality research, aligning with the FAIR Principles. CyVerse provides robust features in the Discovery Environment (DE) to facilitate the association of metadata with raw data. This guide will cover the process of adding metadata to files and folders, individually or in bulk, using the DE.
+
+### 1. Adding Metadata to a Single File/Folder
+
+**Accessing Metadata:**
+  * Log into the DE and click on the Data Icon.
+  * Select (checkbox) the file/folder you want to annotate.
+  * Under the More Actions menu, choose 'Metadata'.
+
+**Editing Metadata:**
+  * View existing metadata displayed in Attribute, Value, Unit (AVU) format.
+  * To add new metadata, click "+ Add Metadata".
+  * Use the "pencil" icon to edit or the "trash can" icon to delete an entry.
+  * Save your changes by clicking 'Save'.
+
+**Note:** Write or own permission is required to edit metadata.
+
+### 2. Adding Metadata to Multiple Files/Folders
+
+**Using CyVerse Templates:**
+
+  * Log in and select the file/folder in the Data window.
+  * Click on Metadata, then choose View in Template.
+  * Either select a template to apply and edit within the DE, or download a .csv template for external editing.
+
+**Editing a Downloaded Template:**
+
+  * Templates include 'blank.csv' for data entry and 'guide.csv' for instructions.
+  * Fill in 'blank.csv' with file names and metadata. If using full file paths, ensure the correct directory structure is followed.
+  * Save the edited template in CSV format.
+
+**Applying Bulk Metadata:**
+
+  * Upload the completed metadata CSV file to the appropriate folder in the Data window.
+  * Select the folder containing the target files, click More Actions, and choose 'Apply Bulk Metadata'.
+  * Select your uploaded metadata file to apply.
+
+**Tips:**
+  * Use absolute file paths for convenience.
+  * Check the metadata application status via the notification bell in the DE.
+
+
+**Additional Resources:** For more templates and resources on metadata standards, visit FAIRsharing.org.
+
+### Conclusion:
+Efficiently managing metadata in the Discovery Environment enhances the quality and accessibility of your research data. Remember to use appropriate templates and follow the guidelines for editing and applying metadata. This process not only ensures compliance with FAIR principles but also facilitates easier data sharing and publishing. For more detailed instructions or specific scenarios, refer to the Discovery Environment's [comprehensive user guide](https://learning.cyverse.org/ds/metadata/#adding-metadata-to-multiple-filesfolders-in-the-discovery-environment).
+
+<summary>expand</summary></details>
+
+<h2 id="detailed-guide-to-sharing-data-in-the-cyverse-discovery-environment">Detailed Guide to Sharing Data in the CyVerse Discovery Environment<a class="headerlink" href="#detailed-guide-to-sharing-data-in-the-cyverse-discovery-environment" title="Permanent link">&para;</a></h2>
+<h3 id="1-sharing-a-file-with-a-public-link">1. Sharing a File with a Public Link<a class="headerlink" href="#1-sharing-a-file-with-a-public-link" title="Permanent link">&para;</a></h3>
+<p>Objective: Quickly share individual files using a Discovery Environment Public Link.</p>
+<p>Note: Best for small files. Avoid using for sensitive/private data.</p>
+<p><strong>Steps:</strong></p>
+<p>a. Login to Discovery Environment:</p>
+<ul>
+<li>Access the Discovery Environment.</li>
+</ul>
+<p>b. Select File for Sharing:</p>
+<ul>
+<li>In the Data window, check the box next to the file(s) you want to share.</li>
+</ul>
+<p>c. Creating a Public Link:</p>
+<ul>
+<li>
+<p>Click 'More actions'.</p>
+</li>
+<li>
+<p>Select 'Public Link(s)'.</p>
+</li>
+<li>
+<p>Copy the URL from the pop-up window. This link can be shared for direct file download.</p>
+</li>
+</ul>
+<p>d. Deactivating a Public Link:</p>
+<ul>
+<li>
+<p>To deactivate, reselect the shared file(s).</p>
+</li>
+<li>
+<p>Go to 'Details' &gt; 'Permissions'.</p>
+</li>
+<li>
+<p>Edit permissions for "<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#121;&#118;&#101;&#114;&#115;&#101;&#45;&#97;&#110;&#111;&#110;&#121;&#109;&#111;&#117;&#115;&#64;&#99;&#121;&#118;&#101;&#114;&#115;&#101;&#46;&#111;&#114;&#103;">&#99;&#121;&#118;&#101;&#114;&#115;&#101;&#45;&#97;&#110;&#111;&#110;&#121;&#109;&#111;&#117;&#115;&#64;&#99;&#121;&#118;&#101;&#114;&#115;&#101;&#46;&#111;&#114;&#103;</a>" to remove the public link.</p>
+</li>
+</ul>
+<h3 id="2-sharing-data-with-another-cyverse-user-or-group">2. Sharing Data with Another CyVerse User or Group<a class="headerlink" href="#2-sharing-data-with-another-cyverse-user-or-group" title="Permanent link">&para;</a></h3>
+<p>Objective: Share data with specific CyVerse users or groups with controlled permissions.</p>
+<p><strong>Steps:</strong></p>
+<p>a. Selecting Data for Sharing:</p>
+<ul>
+<li>In the Data window, check the box(es) next to the file(s) or folder(s) you wish to share.</li>
+</ul>
+<p>b. Granting Access:</p>
+<ul>
+<li>
+<p>Click on 'Share'.</p>
+</li>
+<li>
+<p>Enter the CyVerse username, email, or group name of the recipient(s).</p>
+</li>
+<li>
+<p>Under 'Permissions', select 'read', 'write', or 'own'.</p>
+</li>
+<li>
+<p>Confirm by clicking 'Done'.</p>
+</li>
+</ul>
+<p>Tip: Use 'Add to Bag' for sharing multiple items at once.</p>
+<p>c. Sharing with the Public Community</p>
+<p>Objective: Make your data accessible to the public CyVerse community or the open internet.</p>
+<p><strong>Steps:</strong></p>
+<p>a. Granting Public Access:</p>
+<ul>
+<li>
+<p>In the Data window, select the file(s) or folder(s).</p>
+</li>
+<li>
+<p>Under 'Share', type 'public' or 'anonymous'.</p>
+</li>
+<li>
+<p>Assign 'read' permission only for safety.</p>
+</li>
+</ul>
+<p>b. Accessing Shared Public Data:</p>
+<ul>
+<li>
+<p>Go to CyVerse Data Store WebDav.</p>
+</li>
+<li>
+<p>Use /dav for authenticated access (requires CyVerse login).</p>
+</li>
+<li>
+<p>Use /dav-anon/ for anonymous public access (no login needed).</p>
+</li>
+</ul>
+<p>Important: Never grant 'write' or 'own' permissions to 'anonymous' or 'public' users.</p>
+<h3 id="conclusion">Conclusion:<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h3>
+<p>Sharing data in the CyVerse Discovery Environment is straightforward and allows for diverse collaboration and public contribution. Whether sharing with specific users, groups, or publicly, it's crucial to manage permissions appropriately to ensure data security and integrity. For more advanced sharing techniques or support, consult the comprehensive CyVerse User Guides.</p>
+<h1 id="analyses-in-the-discovery-environment-de">Analyses in the Discovery Environment (DE)<a class="headerlink" href="#analyses-in-the-discovery-environment-de" title="Permanent link">&para;</a></h1>
+<h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h3>
+<p>The Discovery Environment (DE) serves as an all-encompassing data science workbench, catering to various research computing needs. It is suitable for both interactive, small-scale research applications and large-scale projects utilizing High Throughput and High Performance Computing.</p>
+<h3 id="understanding-types-of-analyses-in-de">Understanding Types of Analyses in DE<a class="headerlink" href="#understanding-types-of-analyses-in-de" title="Permanent link">&para;</a></h3>
+<p><strong>Small Analysis:</strong></p>
+<p>Cores: 1 to 16</p>
+<p>RAM: 2 GB to 64 GB</p>
+<p>Use Cases: This category is well-suited for small-scale applications and services, teaching purposes, and analyses that require extended runtime.</p>
+<p><strong>Moderate Analysis:</strong></p>
+<p>Cores: 32 to 256</p>
+<p>RAM: 128 GB to 1 TB</p>
+<p>Use Cases: Designed for larger applications and services that demand more computational power than what is typically available on a standard laptop.</p>
+<p><strong>High Performance Computing (HPC):</strong></p>
+<p>Cores: Ranges from 1 to several thousand</p>
+<p>RAM: 2 GB to several TBs</p>
+<p>Use Cases: Ideal for tasks that are computationally intensive, such as simulations and complex data analyses.</p>
+<p><strong>High Throughput Computing (HTC):</strong></p>
+<p>Cores: Hundreds to hundreds of thousands</p>
+<p>RAM: Variable, depending on the task</p>
+<p>Use Cases: Primarily focused on executing a large number of tasks efficiently, emphasizing throughput over the speed of individual tasks.</p>
+<p><strong>Computing Clusters:</strong></p>
+<p>Cores and RAM: Vary depending on the specific cluster</p>
+<p>Use Cases: These clusters provide services like Jupyter/Rstudio notebook environments to multiple users, facilitating collaborative research and data analysis.</p>
+<h3 id="benefits-of-using-de">Benefits of Using DE<a class="headerlink" href="#benefits-of-using-de" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Access to a wide array of data: personal, shared, and community released/published.</p>
+</li>
+<li>
+<p>Ability to download/stream internet-accessible data into analyses.</p>
+</li>
+<li>
+<p>Scalable resources for different needs, from small to moderate tasks and beyond.</p>
+</li>
+<li>
+<p>User convenience with automated notifications for task completion.</p>
+</li>
+</ul>
+<h3 id="step-by-step-guide-to-conducting-analyses-in-de">Step-by-Step Guide to Conducting Analyses in DE<a class="headerlink" href="#step-by-step-guide-to-conducting-analyses-in-de" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>Accessing DE:</p>
+</li>
+<li>
+<p>Visit the DE portal and log in with your CyVerse credentials.</p>
+</li>
+<li>
+<p>Selecting Analysis Type:</p>
+</li>
+<li>
+<p>Choose the appropriate analysis type based on your project requirements. Refer to the types of analyses mentioned above for guidance.</p>
+</li>
+<li>
+<p>Data Management:</p>
+</li>
+<li>
+<p>Use the Data Icon to access and manage your datasets.</p>
+</li>
+<li>
+<p>Import data from external sources or use data already available in your account.</p>
+</li>
+<li>
+<p>Launching Analyses:</p>
+</li>
+<li>
+<p>Select the desired application or tool based on your analysis type.</p>
+</li>
+<li>
+<p>Configure the necessary parameters and settings for your specific analysis.</p>
+</li>
+<li>
+<p>Monitoring and Managing Tasks:</p>
+</li>
+<li>
+<p>Track the progress of your analyses within the DE interface.</p>
+</li>
+<li>
+<p>Utilize the automated email notifications for updates on task completions.</p>
+</li>
+<li>
+<p>Accessing Results:</p>
+</li>
+<li>
+<p>Once completed, access and download your results directly from the DE.</p>
+</li>
+<li>Utilize DE's tools for further data exploration or analysis if needed.</li>
+</ol>
+<h3 id="conclusion_1">Conclusion<a class="headerlink" href="#conclusion_1" title="Permanent link">&para;</a></h3>
+<p>The CyVerse Discovery Environment provides a versatile and user-friendly platform for a wide range of research computing needs. Whether you are conducting small-scale analyses or engaging in extensive computational research, DE’s tools and resources are designed to facilitate and enhance your research process. For more detailed information or specific use-case guidance, refer to the CyVerse DE documentation and support resources.</p>
+<h2 id="logging-in-to-the-discovery-environment-de-of-cyverse">Logging in to the Discovery Environment (DE) of CyVerse<a class="headerlink" href="#logging-in-to-the-discovery-environment-de-of-cyverse" title="Permanent link">&para;</a></h2>
+<p><strong>1. Accessing the Discovery Environment:</strong></p>
+<ul>
+<li>Open the Discovery Environment (DE) by visiting its website. You'll be greeted by the Home Dashboard.</li>
+</ul>
+<p><strong>2. Exploring the Home Dashboard:</strong></p>
+<ul>
+<li>The Home Dashboard displays links to News, recent YouTube Videos, and Featured Apps.</li>
+</ul>
+<p><strong>3. Navigating the DE:</strong></p>
+<ul>
+<li>The left side navigation menu, which can be expanded by clicking on the three bars at the top left, provides icons for different parts of the DE.</li>
+</ul>
+<p><strong>4. Signing In:</strong></p>
+<ul>
+<li>Sign in from the upper right corner by clicking the profile icon or the Login link.</li>
+<li>If you're accessing the Data Store or launching an App without being logged in, a sign-in pop-up will appear.</li>
+</ul>
+<p><strong>5. Authentication Process:</strong></p>
+<ul>
+<li>Upon clicking to sign in, you'll be redirected to the Authentication Service.</li>
+<li>Enter your CyVerse username and password.</li>
+<li>For new users or those who forgot their password, create an account or reset your password at CyVerse User Portal.</li>
+</ul>
+<p><strong>6. Returning to DE:</strong></p>
+<ul>
+<li>After logging in, you'll be directed back to the Home Dashboard.</li>
+<li>If you were on the Apps or Data pages during login, you will return to that specific page.</li>
+</ul>
+<p><strong>7. Taking the DE Tour:</strong></p>
+<ul>
+<li>For a quick overview of the DE's features, click on the help icon in the left sidebar and select "Product Tour".</li>
+</ul>
+<h2 id="using-apps-in-the-cyverse-discovery-environment-de">Using Apps in the CyVerse Discovery Environment (DE)<a class="headerlink" href="#using-apps-in-the-cyverse-discovery-environment-de" title="Permanent link">&para;</a></h2>
+<h3 id="introduction_1">Introduction<a class="headerlink" href="#introduction_1" title="Permanent link">&para;</a></h3>
+<p>The Discovery Environment (DE) offers a vast selection of applications (apps) for data analysis. These apps range from simple utilities to complex analysis tools, catering to diverse research needs.</p>
+<h3 id="launching-apps-in-de">Launching Apps in DE<a class="headerlink" href="#launching-apps-in-de" title="Permanent link">&para;</a></h3>
+<p>Automated Notifications: After starting an app, you can log out or navigate elsewhere; you'll receive an email notification when the task completes.</p>
+<h3 id="browsing-apps">Browsing Apps<a class="headerlink" href="#browsing-apps" title="Permanent link">&para;</a></h3>
+<p><strong>Accessing Apps:</strong> 
+  * Click the Apps icon in the DE's left sidebar. If prompted, log in to view the apps.
+  * Once logged in, you'll see a screen displaying various apps.</p>
+<h3 id="sorting-and-filtering-apps">Sorting and Filtering Apps<a class="headerlink" href="#sorting-and-filtering-apps" title="Permanent link">&para;</a></h3>
+<p><strong>Sorting Apps:</strong>
+* Sort apps in ascending or descending order by app name, integrator, or average rating by clicking the column headings.</p>
+<p><strong>Navigating Apps:</strong></p>
+<ul>
+<li>Move between pages and adjust the number of apps per page using the &lt; or &gt; controls at the page's bottom.</li>
+</ul>
+<p><strong>Featured and Public Apps:</strong></p>
+<ul>
+<li>By default, "Featured Apps" (interactive) are displayed.</li>
+<li>All "Public Apps" are available for your use.</li>
+</ul>
+<h3 id="selecting-app-subsets">Selecting App Subsets<a class="headerlink" href="#selecting-app-subsets" title="Permanent link">&para;</a></h3>
+<p><strong>Choosing App Subsets:</strong></p>
+<ul>
+<li>Select different app subsets from the primary filter in the upper left corner of the Apps view.</li>
+<li>The selected subset is highlighted in gray.</li>
+</ul>
+<p><strong>Types of App Subsets:</strong></p>
+<ul>
+<li>Apps under development, Favorite apps, My public apps, Shared with me, High-Performance Computing apps, and Browse All Apps.</li>
+</ul>
+<h3 id="applying-filters">Applying Filters<a class="headerlink" href="#applying-filters" title="Permanent link">&para;</a></h3>
+<p><strong>Filter Types:</strong></p>
+<ul>
+<li>Choose from app filters like HPC, DE, VICE, and OSG in the Filter control (upper right corner).</li>
+</ul>
+<h3 id="viewing-app-details">Viewing App Details<a class="headerlink" href="#viewing-app-details" title="Permanent link">&para;</a></h3>
+<p><strong>Accessing Details:</strong></p>
+<ul>
+<li>Select an app by clicking its checkbox. Click 'Details' for more information, including descriptions and usage statistics.</li>
+</ul>
+<p><strong>Interacting with Details:</strong></p>
+<ul>
+<li>
+<p>Add to favorites with the Heart icon.</p>
+</li>
+<li>
+<p>Share the app using the Link icon.</p>
+</li>
+<li>
+<p>Rate the app using the Stars icon.</p>
+</li>
+<li>
+<p>View tools used by the app under "Tools used by this App".</p>
+</li>
+</ul>
+<h3 id="about-vice-apps">About VICE Apps<a class="headerlink" href="#about-vice-apps" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Interactive Apps: VICE apps include GUIs or IDEs like Jupyter, RStudio, and remote desktops.</p>
+</li>
+<li>
+<p>Access Requirements: Request and gain approval for VICE app access via the CyVerse User Portal.</p>
+</li>
+</ul>
+<h3 id="advanced-features">Advanced Features<a class="headerlink" href="#advanced-features" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Integration and Containers: DE supports integrating various apps, creating and running containers.</p>
+</li>
+<li>
+<p>API Usage: Use Application Programming Interfaces for backend access to CyVerse services.</p>
+</li>
+<li>
+<p>Additional Resources: Consult the Developer Manuals, Extending VICE Apps, and Powered By documentation for detailed guidance.</p>
+</li>
+</ul>
+<h2 id="managing-analyses-in-the-cyverse-discovery-environment-de">Managing Analyses in the CyVerse Discovery Environment (DE)<a class="headerlink" href="#managing-analyses-in-the-cyverse-discovery-environment-de" title="Permanent link">&para;</a></h2>
+<h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h3>
+<p>An analysis in DE is the outcome of an executed app, containing details like a unique ID, launch date, input files, and more. DE keeps a record of all your analyses for easy tracking and management.</p>
+<h3 id="browsing-and-checking-analysis-status">Browsing and Checking Analysis Status<a class="headerlink" href="#browsing-and-checking-analysis-status" title="Permanent link">&para;</a></h3>
+<p><strong>Accessing Analyses:</strong></p>
+<ul>
+<li>Open the Analyses view by clicking the analyses icon on the left sidebar.</li>
+<li>The most recent analyses appear at the top of the list.</li>
+</ul>
+<p><strong>Sorting Analyses:</strong></p>
+<ul>
+<li>Sort analyses by Name, Start date, End date, or Status by clicking on the respective column headers.</li>
+</ul>
+<p><strong>Understanding Analysis Status:</strong></p>
+<p>Submitted: Queued for execution.
+  Running: Currently processing. For VICE apps, access your interactive app via the notification icon or the link-out icon.
+  Completed: Finished with logs and results stored in the data store.
+  Canceled: Analysis stopped by the user.
+  Failed: Encountered an error during execution.</p>
+<p><strong>Filtering Analyses:</strong></p>
+<ul>
+<li>Filter by user (‘My analyses’ or ‘Shared with me’) and app type (HPC, DE, VICE, OSG) using dropdown menus.</li>
+</ul>
+<p><strong>Accessing Outputs:</strong></p>
+<ul>
+<li>Click the output folder icon next to an analysis to view its results.</li>
+</ul>
+<h3 id="relaunching-an-analysis">Relaunching an Analysis<a class="headerlink" href="#relaunching-an-analysis" title="Permanent link">&para;</a></h3>
+<p><strong>Procedure:</strong></p>
+<ul>
+<li>
+<p>Select an analysis from history.</p>
+</li>
+<li>
+<p>Click the relaunch icon.</p>
+</li>
+<li>
+<p>Modify any parameters as needed and launch the app again.</p>
+</li>
+</ul>
+<h3 id="viewing-analysis-details">Viewing Analysis Details<a class="headerlink" href="#viewing-analysis-details" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Click 'Details' or the information icon to view parameters and other specific details of an analysis.</li>
+</ul>
+<h3 id="sharing-an-analysis">Sharing an Analysis<a class="headerlink" href="#sharing-an-analysis" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Use the 'Share' or 'Add To Bag' buttons to share an analysis and its results with another CyVerse user.</li>
+</ul>
+<h3 id="additional-analysis-actions">Additional Analysis Actions<a class="headerlink" href="#additional-analysis-actions" title="Permanent link">&para;</a></h3>
+<ul>
+<li>More Actions: Includes options to view output folder, relaunch, rename, update comments, view interactive analyses, extend time limit, terminate, delete, and add to a bag for sharing.</li>
+</ul>
+<h3 id="using-cpus-efficiently-best-practices">Using CPUs Efficiently: Best Practices<a class="headerlink" href="#using-cpus-efficiently-best-practices" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>Requesting Fewer CPUs:</p>
+</li>
+<li>
+<p>Modify the "Maximum CPU Cores" in "Advanced Settings" during analysis submission.</p>
+</li>
+<li>
+<p>Default is 4 CPUs. Choose 1 for single-threaded apps or more based on the app's requirements.</p>
+</li>
+<li>
+<p>Terminate Completed Analyses:</p>
+</li>
+<li>
+<p>Promptly terminate an analysis once completed to conserve CPU hours.</p>
+</li>
+</ol>
+<p><strong>Note:</strong> Inactive but running analyses consume CPU hours quickly.</p>
+<h2 id="interactive-analysis-in-the-cyverse-discovery-environment-de-using-vice">Interactive Analysis in the CyVerse Discovery Environment (DE) Using VICE<a class="headerlink" href="#interactive-analysis-in-the-cyverse-discovery-environment-de-using-vice" title="Permanent link">&para;</a></h2>
+<h3 id="overview_1">Overview<a class="headerlink" href="#overview_1" title="Permanent link">&para;</a></h3>
+<p>VICE (Visual Interactive Computing Environment) is a key component of CyVerse's DE, providing access to various interactive applications including Terminal Access, Integrated Development Environments (IDEs), Virtual Desktop Environments, and Web Server Applications.</p>
+<h3 id="categories-of-interactive-applications-in-vice">Categories of Interactive Applications in VICE<a class="headerlink" href="#categories-of-interactive-applications-in-vice" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>Terminal Access: Direct command line access for advanced users.</p>
+</li>
+<li>
+<p>Integrated Development Environments (IDEs): Environments like Jupyter, RStudio, Visual Studio Code.</p>
+</li>
+<li>
+<p>Virtual Desktop Environments:</p>
+<p>Kasm Based: Browser-based desktops.</p>
+<p>Xpra Based: Lightweight desktops.</p>
+<p>Geospatial (QGIS/GRASS-GIS): Specialized for geospatial data.</p>
+</li>
+<li>
+<p>Web Server Applications: Includes StreamlitApps, ShinyApps, WebGL, HTML5, etc.</p>
+</li>
+</ol>
+<h3 id="getting-vice-access">Getting VICE Access<a class="headerlink" href="#getting-vice-access" title="Permanent link">&para;</a></h3>
+<p>Requirement: Must have an email address from an educational or government organization.</p>
+<p>Request Process: Go to the User Portal and Services, find DE VICE, and click REQUEST ACCESS. Provide non-technical details of your intended use.</p>
+<h3 id="launching-applications-in-vice">Launching Applications in VICE<a class="headerlink" href="#launching-applications-in-vice" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>Instant Launching:</p>
+</li>
+<li>
+<p>Pre-configured apps with a single click launch.</p>
+</li>
+<li>
+<p>Default settings: 4-cores, 16 GB RAM.</p>
+</li>
+<li>
+<p>Steps to Launch an App:</p>
+</li>
+<li>
+<p>Log in to the Discovery Environment.</p>
+</li>
+<li>
+<p>Navigate to Apps and select a Featured App.</p>
+</li>
+<li>
+<p>Adjust settings in "Analysis Info" and "Advanced Settings".</p>
+</li>
+<li>
+<p>Launch the application.</p>
+</li>
+<li>
+<p>Monitoring:</p>
+</li>
+<li>
+<p>Check the Analyses view for status updates.</p>
+</li>
+<li>
+<p>Accessing Data in VICE:</p>
+</li>
+<li>
+<p>Use methods like curl or direct access to Data Store paths (work/home/cyverse_username/ and work/home/shared/).</p>
+</li>
+<li>
+<p>Working with Files:</p>
+</li>
+<li>
+<p>For many small files, consider keeping data compressed in the Data Store and using cp to copy to ~/work.</p>
+</li>
+<li>
+<p>Using Git and GitHub:</p>
+</li>
+<li>
+<p>Use GitHub CLI for repository management.</p>
+</li>
+<li>
+<p>Recommended to clone repositories into ~/work.</p>
+</li>
+</ol>
+<h3 id="instant-and-quick-launches">Instant and Quick Launches<a class="headerlink" href="#instant-and-quick-launches" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Instant Launches: Single-click launches available from the Home tab.</p>
+</li>
+<li>
+<p>Quick Launches: Direct URLs for sharing pre-configured apps.</p>
+</li>
+</ul>
+<h3 id="conclusion_2">Conclusion<a class="headerlink" href="#conclusion_2" title="Permanent link">&para;</a></h3>
+<p>Interactive Analysis in DE using VICE provides a versatile and user-friendly platform for a wide range of computing needs, from development to data analysis. With various applications and easy access methods, VICE enhances the research capabilities within the CyVerse ecosystem.</p>
+<h2 id="sharing-and-using-bags-in-the-cyverse-discovery-environment">Sharing and Using Bags in the CyVerse Discovery Environment<a class="headerlink" href="#sharing-and-using-bags-in-the-cyverse-discovery-environment" title="Permanent link">&para;</a></h2>
+<p>The CyVerse Discovery Environment (DE) offers robust features for sharing data, apps, and analyses. Central to this is the "bag" feature, a versatile tool for compiling and sharing multiple resources with other CyVerse users. Whether you're collaborating on a project or distributing your findings, the DE makes it easy and efficient. For detailed instructions on how to effectively use this feature, click [here] (<a href="https://learning.cyverse.org/de/bags/#using-a-bag-to-share-or-download-in-the-discovery-environment">https://learning.cyverse.org/de/bags/#using-a-bag-to-share-or-download-in-the-discovery-environment</a>) to access a comprehensive guide.</p>
+<h1 id="quick-reference-and-additional-resources">Quick Reference and Additional Resources<a class="headerlink" href="#quick-reference-and-additional-resources" title="Permanent link">&para;</a></h1>
+<p>As you delve into the diverse functionalities and capabilities of the CyVerse Discovery Environment, you might find these additional resources and sections beneficial for further exploration and learning:</p>
+<p>Quick Starts: Ideal for getting up to speed with essential features and tools. <a href="https://learning.cyverse.org/vice/quick-rstudio/">Explore Quick Starts</a></p>
+<p>Cloud Services: Learn about integrating and utilizing cloud-based services in your projects. <a href="https://learning.cyverse.org/cloud/">Discover Cloud Services</a></p>
+<p>For the Classroom: Tailored resources for educators and students to incorporate into classroom settings. <a href="https://learning.cyverse.org/vice/teaching/">Access Classroom Resources</a></p>
+<p>Develop: A section dedicated to developers interested in extending and enhancing CyVerse tools. <a href="https://learning.cyverse.org/de/create_apps/">Explore Development Tools</a></p>
+<p>Science Tutorials: Comprehensive tutorials covering a wide range of scientific applications and scenarios. <a href="https://learning.cyverse.org/tutorials/">Browse Science Tutorials</a></p>
+<p>CyVerse Workshops: Information and materials from past and upcoming CyVerse workshops. <a href="https://learning.cyverse.org/workshops/">Join CyVerse Workshops</a></p>
+<p>Reference: A repository of detailed documentation and reference materials. <a href="https://learning.cyverse.org/workshops/">Access Reference Materials</a></p>
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../UAHPC_Soteria/" class="md-footer__link md-footer__link--prev" aria-label="Previous: UA HPC Soteria" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              UA HPC Soteria
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 University of Arizona Data Science Institute, Arizona Board of Regents
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://orcid.org/" target="_blank" rel="noopener" title="orcid.org" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/cyverse/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/cyverseorg" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/cyverse.org" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://harbor.cyverse.org/" target="_blank" rel="noopener" title="harbor.cyverse.org" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/c/CyverseOrgProject" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.top", "toc.integrate", "toc.follow"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+        <script src="../../javascripts/intercom.js"></script>
+      
+    
+    
+  </body>
+</html>
