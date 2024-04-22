@@ -31,7 +31,7 @@ extra_javascript:
   - javascripts/intercom.js
 
 # logos
-imgwidth: 10px;
+imgwidth: 7px;
 theme:
   highlightjs: true
   name: material
@@ -39,7 +39,7 @@ theme:
     text: 'Open Sans'
     code: 'Roboto Mono'
   logo: 'assets/uarizona.png'
-  favicon: 'images/favicon.ico'
+  favicon: 'assets/favicon.ico'
 # setting features for the navigation tab
   features:
     - navigation.instant
@@ -52,21 +52,9 @@ theme:
     - toc.follow
   # Default values, taken from mkdocs_theme.yml
   language: en
-  # custom_dir: 'overrides'
   palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: white)"
+    - media: "main"
       primary: 'white'
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to system preference
 
 # Customization
 extra:
