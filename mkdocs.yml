@@ -23,7 +23,7 @@ nav:
     - Globus Data Transfer: soteria/access/Globus.md
     - Accessing Soteria via macOS: soteria/SoteriaAccess-Mac.md
     - Accessing Soteria via Windows: soteria/SoteriaAccess-Windows.md
-  - CyVerse Health User Manual: Soteria/CyVerse_Health.md
+  - CyVerse Health User Manual: soteria/CyVerse_Health.md
 #   - Posit Connect Health Tutorial : https://ua-data7.github.io/rsconnect-tutorial/
 
 # JavaScript for Intercom Widget
