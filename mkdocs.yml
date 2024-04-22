@@ -21,8 +21,8 @@ nav:
     - Virtual Private Network (VPN): soteria/access/vpn.md
     - Soteria and the UArizona HPC System: soteria/access/UAHPC_Soteria.md
     - Globus Data Transfer: soteria/access/Globus.md
-    - Accessing Soteria via macOS: soteria/SoteriaAccess-Mac.md
-    - Accessing Soteria via Windows: soteria/SoteriaAccess-Windows.md
+    - Accessing Soteria via macOS: soteria/access/access_mac.md
+    - Accessing Soteria via Windows: soteria/access/access_win.md
   - CyVerse Health User Manual: soteria/CyVerse_Health.md
 #   - Posit Connect Health Tutorial : https://ua-data7.github.io/rsconnect-tutorial/
 
