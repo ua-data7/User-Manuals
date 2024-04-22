@@ -18,12 +18,11 @@ copyright: 'Copyright &copy; 2024 University of Arizona Data Science Institute, 
 nav:
   - Soteria Documentation Home: index.md
   - Logging in & Access:
-    - Virtual Private Network (VPN): vpn.md
-    - High Performance Computing Center: hpc.md
-    - Globus Data Transfer: Soteria/Globus.md
-    - Soteria Access (Mac): Soteria/SoteriaAccess-Mac.md
-    - Soteria Access (Windows): Soteria/SoteriaAccess-Windows.md
-    - UA HPC Soteria: Soteria/UAHPC_Soteria.md
+    - Virtual Private Network (VPN): soteria/access/vpn.md
+    - Soteria and the UArizona HPC System: soteria/access/UAHPC_Soteria.md
+    - Globus Data Transfer: soteria/access/Globus.md
+    - Accessing Soteria via macOS: soteria/SoteriaAccess-Mac.md
+    - Accessing Soteria via Windows: soteria/SoteriaAccess-Windows.md
   - CyVerse Health User Manual: Soteria/CyVerse_Health.md
 #   - Posit Connect Health Tutorial : https://ua-data7.github.io/rsconnect-tutorial/
 
@@ -32,14 +31,14 @@ extra_javascript:
   - javascripts/intercom.js
 
 # logos
-imgwidth: 70px;
+imgwidth: 10px;
 theme:
   highlightjs: true
   name: material
   font:
     text: 'Open Sans'
     code: 'Roboto Mono'
-  logo: 'images/uarizona.png'
+  logo: 'assets/uarizona.png'
   favicon: 'images/favicon.ico'
 # setting features for the navigation tab
   features:

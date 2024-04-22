@@ -1,4 +1,4 @@
-![](images/cover.png){width="340"}
+![](../../assets/cover.png){width="340"}
 
 ---
 
@@ -7,7 +7,7 @@
 1.  Establish a primary PI or sponsoring faculty member and have them indicate that you are a team member on Soteria.
 2.  Open <https://soteria.arizona.edu/> and click **Request Access**.
 
-![](images/SoteriaAccess1.png){width="380"}
+![](../../assets/SoteriaAccess1.png){width="380"}
 
 3.  Fill out the form with your user and project information. Once submitted you will receive an automated email indicating completion of the request.
 4.  Once approved, you will receive a secondary automated email, UA Soteria Access Request Approved indicating required trainings. Log into Edge Learning (<https://edgelearning.arizona.edu/>) to sign up and complete all of the required trainings.
@@ -16,28 +16,28 @@
 
 1.  Download the VPN software by following the link (<https://vpn.arizona.edu/+CSCOE+/logon.html#form_title_text>) . You will be prompted to log in. Use the default connections. Enter your NetID, Password and NetID +Method (ex: "push").
 
-![](images/Cisco1.png){width="330" fig-align="center"}
+![](../../assets/Cisco1.png){width="330" fig-align="center"}
 
 2.  Follow the prompts to download and install Cisco AnyConnect VPN.
 
-![](images/CiscoDown1.png){width="168" fig-align="center"}
+![](../../assets/CiscoDown1.png){width="168" fig-align="center"}
 
-![](images/CiscoDown2.png){width="550" fig-align="center"}
+![](../../assets/CiscoDown2.png){width="550" fig-align="center"}
 
-![](images/CiscoDown3.png){width="550" fig-align="center"}
+![](../../assets/CiscoDown3.png){width="550" fig-align="center"}
 
 3.  Open Cisco AnyConnect VPN on your desktop.
 4.  The first connection must be to: vpn.arizona.edu. Type into the pop-up and click **connect**.
 
-![](images/Cisco2-01.png){width="350" fig-align="center"}
+![](../../assets/Cisco2-01.png){width="350" fig-align="center"}
 
 5.  Sign in as before, using the default group. Enter your NetID, Password and NetID +Method (ex: "push").
 
-![](images/Cisco3.png){width="350" fig-align="center"}
+![](../../assets/Cisco3.png){width="350" fig-align="center"}
 
 6.  Click **Disconnect**
 
-![](images/Cisco4.png){width="350" fig-align="center"}
+![](../../assets/Cisco4.png){width="350" fig-align="center"}
 
 You are now ready to connect to your Soteria VPN.
 
@@ -45,6 +45,6 @@ You are now ready to connect to your Soteria VPN.
 
 1.  If it does not auto-populate, connect to the Soteria VPN using: vpn.arizona.edu/soteria. Again, enter your NetID, Password and NetID +Method (ex: "push") to sign in.
 
-![](images/SoteriaVPN1.png){width="350" fig-align="center"}
+![](../../assets/SoteriaVPN1.png){width="350" fig-align="center"}
 
 2.  Accept the pop-up notification. The Cisco Icon in the system tray (bottom right) of your desktop, will now display a lock, indicating a successful connection.
