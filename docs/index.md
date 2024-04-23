@@ -2,6 +2,11 @@
 
 ![](assets/cover.png){width="340"}
 
+<figure markdown="span">
+  ![soteria](assets/soteria_mosaic_crop.png){ width="500" }
+    <figcaption> Mosaic of [Soteria](https://en.wikipedia.org/wiki/Soteria_(mythology)) (circa 5 CE), goddess of safety and salvation, in display at the Hatay Archaeology Museum, Antakya. </figcaption>
+</figure>
+
 **Soteria** is a secure and collaborative platform designed for health sciences research. It enables researchers to analyze personally identifiable and protected health information while adhering to compliance guidelines. By providing cutting-edge software and web-based applications, Soteria ensures data security throughout the research lifecycle, allowing multiple research groups to work together effectively while meeting regulatory requirements.
 
 ## Soteria: A Comprehensive Overview
