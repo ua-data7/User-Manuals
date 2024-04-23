@@ -44,7 +44,7 @@ theme:
     text: 'Open Sans'
     code: 'Roboto Mono'
   logo: 'assets/uarizona.png'
-  favicon: 'assets/favicon.ico'
+  favicon: 'assets/favicon-ua.ico'
 # setting features for the navigation tab
   features:
     - navigation.instant

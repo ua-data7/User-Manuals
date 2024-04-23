@@ -1,6 +1,6 @@
-# **Soteria Documentation Home**
-
 ![](assets/cover.png){width="340"}
+
+# **Soteria Documentation Home**
 
 <figure markdown="span">
   ![soteria](assets/soteria_mosaic_crop.png){ width="500" }
@@ -19,17 +19,17 @@ By encapsulating all these features, Soteria emerges as more than just a platfor
 
 ## Guides
 
-### Access & Logging in
+### [Logging in & Access](access/index.md)
 
 - [Virtual Private Network (VPN)](access/access_vpn.md)
 - [High Performance Computing (UA HPC)](access/access_hpc.md)
 - [Soteria Access (Mac)](access/access_mac.md)
 - [Soteria Access (Windows)](access/access_win.md)
 
-### File Transfer   
+### [Data Transfer & Management](data_transfer/index.md)   
 - [Globus File Transfer](data_transfer/access_globus.md)
 
-### Training Modules & Tutorials
+### [Training Modules & Tutorials](usage_guides/index.md)
 - [CyVerse Health](usage_guides/CyVerse_Health.md)
 - [Posit Connect Health Startup Tutorial](https://ua-data7.github.io/rsconnect-tutorial/)
 
