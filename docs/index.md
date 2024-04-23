@@ -21,14 +21,15 @@ By encapsulating all these features, Soteria emerges as more than just a platfor
 
 ### Access & Logging in
 
-- [Virtual Private Network (VPN)](soteria/access/vpn.md)
-- [High Performance Computing (UA HPC)](soteria/access/access_hpc.md)
-- [Soteria Access (Mac)](soteria/access/access_mac.md)
-- [Soteria Access (Windows)](soteria/access/access_win.md)
-
-### Training Moduels & Tutorials
-- [Posit Connect Health Startup Tutorial](https://ua-data7.github.io/rsconnect-tutorial/)
-- [CyVerse Health](soteria/CyVerse_Health.md)
+- [Virtual Private Network (VPN)](access/access_vpn.md)
+- [High Performance Computing (UA HPC)](access/access_hpc.md)
+- [Soteria Access (Mac)](access/access_mac.md)
+- [Soteria Access (Windows)](access/access_win.md)
 
 ### File Transfer   
-- [Globus File Transfer](soteria/access/access_globus.md)
+- [Globus File Transfer](data_transfer/access_globus.md)
+
+### Training Modules & Tutorials
+- [CyVerse Health](usage_guides/CyVerse_Health.md)
+- [Posit Connect Health Startup Tutorial](https://ua-data7.github.io/rsconnect-tutorial/)
+
