@@ -1,30 +1,13 @@
-<div id="banner">
-    <div class="inline-block">
-        <img src ="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/Titlepic.png?raw=true" width ="360">
-    </div>
-
-    <div class="inline-block">
-        <img src ="https://raw.githubusercontent.com/ua-data7/User-Manuals/mkdocs-material/docs/images/cover.png"  width ="360">
-    </div>
-</div>
-
-
-
-<p align="left">
-<img src="https://raw.githubusercontent.com/ua-data7/User-Manuals/mkdocs-material/docs/images/cover.png" width="360">
-</p>
-
-<p align="right">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/Titlepic.png?raw=true" width="360">
-</p>
-
-
+<figure style="display: flex; justify-content: center;" markdown="span">
+    ![cover](../assets/cover.png){ width="300", border="100" }
+    ![cyverse](../assets/de/cyverse.png){width="250"}
+</figure>
  
 <p align="center">
 <img src="https://raw.githubusercontent.com/ua-data7/User-Manuals/main/images/Cyverse_Health/cover%202.jpg" width="1080">
 </p>
 
-# CyVerse Health User Manual Overview
+# **CyVerse Health User Manual Overview**
 
 ## CyVerse Health: Spotlight on Functionality
 
