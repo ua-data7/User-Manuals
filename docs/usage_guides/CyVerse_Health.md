@@ -1,13 +1,18 @@
 <figure style="display: flex; justify-content: center;" markdown="span">
     ![cover](../assets/cover.png){ width="300", border="100" }
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     ![cyverse](../assets/de/cyverse.png){width="250"}
 </figure>
  
-<p align="center">
-<img src="https://raw.githubusercontent.com/ua-data7/User-Manuals/main/images/Cyverse_Health/cover%202.jpg" width="1080">
-</p>
+<br>
+
+![cy_h-banner](../assets/Cyverse_Health/banner.jpg)
+
+<br>
 
 # **CyVerse Health User Manual Overview**
+
+---
 
 ## CyVerse Health: Spotlight on Functionality
 
@@ -29,132 +34,52 @@ CyVerse Health is an integral part of the Soteria platform, designed to extend t
 
 This integration ensures that while researchers benefit from advanced tools and collaborative features specific to CyVerse Health, they remain within the overarching secure environment established by Soteria. This interconnectedness makes the combined platform a robust, comprehensive solution for conducting sensitive health-related research projects securely.
 
+---
 
-# Getting Started with CyVerse Health
+## Getting Started with CyVerse Health
 
-Before diving into the specific features and capabilities of CyVerse Health, users must first gain access to the overarching Soteria platform. Below, we outline the necessary steps to establish this foundational access.
+!!! Warning "Getting Soteria Access"
+    Before diving into the specific features and capabilities of CyVerse Health, users must first gain access to the overarching Soteria platform. Please refer to the [VPN Access page](../access/access_vpn.md) in the Logging in & Access section.
 
-## Request Access to Soteria
+### Accessing CyVerse Health
 
-<details>
-<summary>Instructions to get access</summary>
+!!! info " Although a [CyVerse](https://user.cyverse.org/) account is not needed, CyVerse Health require an approved [University of Arizona NetID](https://netid-portal.iam.arizona.edu/)."
 
-1.  Establish a primary PI or sponsoring faculty member and have them indicate that you are a team member on Soteria.
-2.  Open <https://soteria.arizona.edu/> and click **Request Access**.
+Upon obtaining access to Soteria and connecting to the Soteria VPN, users can now access CyVerse Health at [**de.soteria.arizona.edu**](https://de.soteria.arizona.edu/).
 
+<figure markdown="span">
+  ![cyversehealthspash](../assets/Cyverse_Health/cyverse_health_01.png)
+  <figcaption> CyVerse Health Home screen. </figcaption>
+</figure>
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/131712709/235225922-d1a9630b-2dac-4abf-afc0-64c80a1cd435.png" width="380">
-</p>
+Clicking the **Login** button will redirect you to the UA Web Authentication page. Insert your UA NetID and password, and you should be able to log in!
 
+<figure markdown="span">
+  ![cyversehealthspash](../assets/Cyverse_Health/cyverse_health_02.png){width="700"}
+</figure>
 
-3.  Fill out the form with your user and project information. Once the form has been submitted, you will receive an automated email indicating completion of the request.
-4.  Once approved, you will receive a secondary automated email, UA Soteria Access Request Approved indicating required trainings. Log into Edge Learning (<https://edgelearning.arizona.edu/>) to sign up and complete all of the required trainings.
+Logging in should give you additional information on your Home screen. Now you will be able to see the following features:
 
-### Download and Set up Cisco VPN
+- **Resource Usage**
+    - **Data Storage**: How much data you have uploaded/generated and stored in the CyVerse Health Data Store.
+    - **CPU Consumption**: All time [core hours](https://datascience.arizona.edu/research/cyverse#:~:text=*%20Compute%20units%20are%20normalized%20if%20jobs%20run%20on%20CPUs%2C%20GPUs%2C%20etc.%3B%201%20Compute%20Unit%20equals%201%20Core%20Hour%20on%20a%20CPU.)* consumed.
+- **Analysis Status**: All time analyses status (completed, cancelled, failed, submitted and running)
+- **Previous Analyes**: Shows previous results of completed analyses (non-depending of status).
 
-1.  Download the VPN software by following the link (<https://vpn.arizona.edu/+CSCOE+/logon.html#form_title_text>) . You will be prompted to log in. Use the default connections. Enter your NetID, Password and NetID +Method (ex: "push").
+**\*** Compute units are normalized if jobs run on CPUs, GPUs, etc.; 1 Compute Unit equals 1 Core Hour on a CPU.
 
-<p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/131712709/235227282-ac99a356-c4ec-4fe4-819d-50adffddec75.png" width="330">
-</p>
+<figure markdown="span">
+  ![cyversehealthspash](../assets/Cyverse_Health/cyverse_health_03.png)
+  <figcaption> CyVerse Health Home screen post log in. </figcaption>
+</figure>
 
-2.  Follow the prompts to download and install Cisco AnyConnect VPN.
-
-<p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/131712709/235227654-0ef0b5b4-a804-420b-a224-9d1201fe2da8.png" width="168">
-</p>
-
-<p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/131712709/235511927-5b353b56-1c23-43aa-bec3-e65d7ffb2028.png" width="600">
-</p>
-
-3.  Open Cisco AnyConnect VPN on your desktop.
-4.  The first connection must be to: vpn.arizona.edu. Type into the pop-up and click **connect**.
-
-<p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/131712709/235229386-dc171283-9707-4e97-ba2d-e9fdc3750877.png" width="350">
-</p>
-
-5.  Sign in as before, using the default group. Enter your NetID, Password and NetID +Method (ex: "push").
-
-<p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/131712709/235229698-895b0740-954d-40f3-bcb8-d2a717439126.png" width="350">
-</p>
-
-6.  Click **Disconnect**
-
-<p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/131712709/235229897-48add640-9da0-4ebd-864a-b0f44f9bd959.png" width="350">
-</p>
-
-You are now ready to connect to your Soteria VPN.
-
-### Connect to Soteria VPN
-
-1.  If it does not auto-populate, connect to the Soteria VPN using: vpn.arizona.edu/soteria. Again, enter your NetID, Password and NetID +Method (ex: "push") to sign in.
-
-<p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/131712709/235230138-0aa04bd3-7b8f-4a3f-bf1d-076766e8db94.png" width="350">
-</p>
-
-2.  Accept the pop-up notification. The Cisco Icon in the system tray (bottom right) of your desktop, will now display a lock, indicating a successful connection.
-
-</details>
-
-## Setting Up and Accessing Your CyVerse Health Account
-
-### Step 1: Creating Your CyVerse Account
-
-1. Navigate to the [CyVerse User Portal](https://user.cyverse.org/).
-2. Click the "Sign Up" button to initiate the registration process.
-<p align="center">
-<img align="center" src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/Signup1.png" width="650">
-</p>
-3. You will be prompted to enter personal and contact information, as well as your intended use for CyVerse's services. For expedited approval, use an institutional email address (e.g., addresses ending in .edu, .org, or .gov).
-<p align="center">
-<img align="center" src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/profileindo.png" width="650">
-</p>
-
-4. Complete the registration form and submit it.Ensure that JavaScript is enabled in your browser and any pop-up blockers are disabled to avoid interruptions in the process.
-
-5. Check your email inbox for a confirmation message from CyVerse. Click the link in the email to confirm your account.
-
-6. Add your ORCID to your CyVerse User Profile. If you don’t have an ORCID, visit https://orcid.org to create one
-
-<p align="center">
-<img align="center" src="https://github.com/ua-data7/User-Manuals/blob/main/images/Cyverse_Health/orcid.png" width="650">
-</p>
-
-**Important:** The account confirmation email should arrive shortly after you submit your registration. If it doesn't appear in your inbox, ensure you check your spam folder.
-
-### Step 2: Registering for Specific CyVerse Health Services
-
-1. Log in to your account on the CyVerse User Portal.
-2. Navigate to the dashboard and locate the "My Services" section.
-3. Click the 'Request Access' button adjacent to the specific service(s) you need, such as VICE.
-4. Fill in any required information, including non-technical details about your intended use of the services. Providing links to external resources (e.g., a workshop or lab website) or mentioning a funding agency can be beneficial.
-5. Submit your request. You will receive an email notification when access to the service is granted, which may take up to 24 hours.
-
-**Note:** VICE access requires additional verification due to its vulnerability to cryptocurrency miners. Ensure you use an institutional email address and provide detailed information about your intended use.
-
-### Step 3: Beginning Your Work on CyVerse Health
+### Working with CyVerse Health
 
 Once your account is set up, and you have access to the necessary services, you can start your projects on CyVerse. Utilize the Learning Center for helpful guides and tutorials on using different tools and services effectively. These resources are designed to assist you in understanding specific tasks or in-depth functionalities of CyVerse platforms.
 
 **Remember:** Keep your account details secure, and ensure you log out from shared or public computers to maintain the security of your data.
 
 ## Getting Started with the Discovery Environment Interface
-
-<details>
-
-### Registration and Login:
-
-1. Open your web browser and navigate to the CyVerse Discovery Environment website.
-
-2. If you're a first-time user, locate and click on the 'Sign Up' button. Fill in the required details, including your email address, desired username, and password, following any provided guidelines to ensure account security. Once registered, verify your account as instructed in the confirmation email you receive.
-
-3. For returning users, click the 'Login' button on the homepage. Enter your username and password in the respective fields and click 'Submit' to access your account.
 
 ### Exploring the Main Interface:
 
