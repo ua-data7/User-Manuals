@@ -1,5 +1,7 @@
 ![](../assets/cover.png){width="340"}
 
+---
+
 # **Data Transfer & Management**
 
 Learn how to transfer data to Soteria and CyVerse Health.

@@ -1,5 +1,7 @@
 ![](assets/cover.png){width="340"}
 
+---
+
 # **Soteria Documentation Home**
 
 <figure markdown="span">

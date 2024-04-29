@@ -2,15 +2,28 @@
 
 ---
 
+# **Accessing Soteria via VPN**
+
 ## Request Access to Soteria
 
 1.  Establish a primary PI or sponsoring faculty member and have them indicate that you are a team member on Soteria.
-2.  Open <https://soteria.arizona.edu/> and click **Request Access**.
+2.  Navigate to https://soteria.arizona.edu/, and from the *Get Started* dropdown menu click **Request Access**. Alternatively, you can click **Request Access** on the top right of the screen.
+    <figure markdown="span">
+        [![](../../assets/SoteriaAccess/access_vpn_01.png){ width="800"}](https://soteria.arizona.edu/)
+    </figure>
+3.  This will open the Request Access page. Click **Apply for Soteria Access** and Fill out the form with your user and project information. Once submitted you will receive an automated email indicating completion of the request.
+    <figure markdown="span">
+    [![](../../assets/SoteriaAccess/access_vpn_02.png){ width="800"}](https://soteria.arizona.edu/get-started/request-access)
+    </figure>
+4.  Once approved, you will receive a secondary automated email (*UA Soteria Access Request Approved*) indicating that you've been approved access and the required trainings needed to use Soteria. Log into [Edge Learning](https://edgelearning.arizona.edu/) to sign up and complete all of the required trainings.
 
-![](../../assets/SoteriaAccess1.png){width="380"}
+    !!! Warning "Required Trainings"
 
-3.  Fill out the form with your user and project information. Once submitted you will receive an automated email indicating completion of the request.
-4.  Once approved, you will receive a secondary automated email, UA Soteria Access Request Approved indicating required trainings. Log into Edge Learning (<https://edgelearning.arizona.edu/>) to sign up and complete all of the required trainings.
+        The trainings that Soteria requires completion of are:
+
+        - HIPAA Essentials
+        - UA Information Security Awareness Training
+        - Insiders Threat Training
 
 ## Download and Set up Cisco VPN
 

@@ -1,5 +1,7 @@
 ![](../assets/cover.png){width="340"}
 
+---
+
 # **Loggin in & Access Guides**
 
 Due to the objectives and nature of Soteria, here are guides that will help you connect with the secure Soteria services.

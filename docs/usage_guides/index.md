@@ -1,5 +1,7 @@
 ![](../assets/cover.png){width="340"}
 
+---
+
 # **Training Modules & Tutorials**
 
 Soteria is a secure, HIPAA compliant enclave with secure platforms you can connect to. Here are tutorials on how to use these platforms. 
