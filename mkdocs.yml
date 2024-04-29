@@ -20,9 +20,9 @@ nav:
   - Logging in & Access Guides: 
     - access/index.md
     - Obtaining Soteria Access via VPN: access/access_vpn.md
+    # - Accessing Soteria via macOS: access/access_mac.md
+    # - Accessing Soteria via Windows: access/access_win.md
     - Soteria and the UArizona HPC System: access/access_hpc.md
-    - Accessing Soteria via macOS: access/access_mac.md
-    - Accessing Soteria via Windows: access/access_win.md
   - Data Transfer & Management:
     - data_transfer/index.md
     - Globus Data Transfer: data_transfer/Globus.md

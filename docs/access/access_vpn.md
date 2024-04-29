@@ -6,6 +6,8 @@
 
 ## Request Access to Soteria
 
+Prior to accessing the secure enclave, prospective users must request access to Soteria first. The following 4 steps will highlight the access process. 
+
 1.  Establish a primary PI or sponsoring faculty member and have them indicate that you are a team member on Soteria.
 2.  Navigate to [soteria.arizona.edu](https://soteria.arizona.edu/), and from the *Get Started* dropdown menu click **Request Access**. Alternatively, you can click **Request Access** on the top right of the screen.
 
@@ -39,6 +41,9 @@
         <iframe src="https://player.vimeo.com/video/415856895?h=ca3796f8fe" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         <p><a href="https://vimeo.com/415856895">Getting Started with UArizona VPN - Windows</a> from <a href="https://vimeo.com/wildcatnursing">UA College of Nursing</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
     </figure>
+
+!!! Info "Operating Systems"
+    These instructions are applicable to **macOS** and **Windows** Operating Systems as Cisco will automatically detect your hardware. If you are using a Linux machine, please refer to the official [Cisco AnyConnect documentation](https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/kmgmt-2597-Installing-AnyConnect-Linux-Ubuntu-desktop-User-Interface.html) on the topic. Although obtaining the software and intallation instructions might differ, connecting will follow the same method. 
 
 If you have not done so yet, go to the download page of the the Cisco VPN software at [vpn.arizona.edu](https://vpn.arizona.edu/). Log in using your UA NetID information and download the VPN according to your Operating System. Download and install Cisco VPN. 
 
