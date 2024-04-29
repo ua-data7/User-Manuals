@@ -1,23 +1,8 @@
-![](../../assets/cover.png){width="340"}
+![](../assets/cover.png){width="340"}
 
 ---
 
-<img align="right" src="https://user-images.githubusercontent.com/131712709/235216212-9be492ec-eba0-41c0-b643-863eee12199b.png" width="350">
-
-
-
-
-<div id="user-content-toc">
-  <ul>
-    <summary><h1 style="display: inline-block;">UA HPC Soteria</h1></summary>
-  </ul>
-</div>
-
-<p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/HPC/COVER.jpg?raw=true" width="420">
-</p>
-
-## The Secure Research Enclave and HPC Cluster
+# **The Secure Research Enclave and HPC Cluster**
 
 This user manual will guide you through the features and functionalities of Soteria. It includes a small high-performance computing (HPC) cluster equipped with compute nodes, each with the same core count and memory capacity. Additionally, there are two GPU nodes available for your specific needs.
 
@@ -25,19 +10,16 @@ To access Soteria, you can utilize the OnDemand graphical interface, which provi
 
 We hope this manual assists you in making the most of Soteria's capabilities while ensuring the confidentiality and security of your research data.
 
-## Preparation: Accessing Soteria and Cluster Resources
+## Prerequisites: Accessing Soteria and Cluster Resources
 
-1.  **Approval and Training:** Once your Soteria request form has been reviewed and approved, you will receive an email with the subject "UA Soteria Access Request Approved." This email will contain the next steps to take, including [detailed instructions to get Soteria access and establish a VPN connection].
+!!! Warning "*Please refer to the [Obtaining Soteria Access via VPN](access_vpn.md) for Soteria access details.*"
 
-    *Please refer to the provided link for the comprehensive instructions: [`https://ua-data7.github.io/User-Manuals/`](https://ua-data7.github.io/User-Manuals/)*
+1.  **Approval and Training:** Once your Soteria request form has been reviewed and approved, you will receive an email with the subject "UA Soteria Access Request Approved." This email will contain the next steps to take, including detailed instructions to get Soteria access and establish a VPN connection.
 
-    \-- Complete Required Training in Edge Learning The CRRSP team will register you for the following mandatory trainings, which can also be accessed at [https://uaccess.arizona.edu](https://uaccess.arizona.edu/):
-
-    -   HIPAA Essentials
-
-    -   Information Security: Insider Threat Awareness
-
-    -   Information Security Awareness Certification
+    - Complete Required Training in Edge Learning The CRRSP team will register you for the following mandatory trainings, which can also be accessed at [https://uaccess.arizona.edu](https://uaccess.arizona.edu/):
+    - HIPAA Essentials
+    - Information Security: Insider Threat Awareness
+    - Information Security Awareness Certification
 
 2.  **Assignment to the Soteria VPN:** After completing the required training, the CRRSP team will notify you via email when you have been assigned access to the Soteria VPN. The Soteria VPN is crucial for maintaining HIPAA compliance and distinguishes Soteria usage from standard HPC clusters. Please note that Soteria access can only be established when connected to the VPN. To access the VPN, use the following URL: [vpn.arizona.edu/soteria](vpn.arizona.edu/soteria)
 
