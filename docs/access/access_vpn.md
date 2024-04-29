@@ -31,12 +31,6 @@
 
 !!! Warning "In order to access the Cisco VPN download page and other University of Arizona services including Soteria, one must have a functional [UA NetID](https://netid-portal.iam.arizona.edu/) with <u>Duo authentification enabled</u>."
 
-If you have not done so yet, go to the download page of the the Cisco VPN software at [vpn.arizona.edu](https://vpn.arizona.edu/). Log in using your UA NetID information and download the VPN according to your Operating System. Download and install Cisco VPN. 
-
-<figure markdown="span">
-    [![](../assets/SoteriaAccess/access_vpn_03.png/){ width="800"}](https://vpn.arizona.edu/)
-</figure>
-
 ??? Tip "First time using a VPN?"
 
     If this is your first time using a VPN, we suggest reading [this general guide on connecting and using the VPN service](https://cbc.arizona.edu/vpn-instructions) from the UA Chemistry & Biochemistry Department or watching this short video from the Nursing department:
@@ -45,6 +39,12 @@ If you have not done so yet, go to the download page of the the Cisco VPN softwa
         <iframe src="https://player.vimeo.com/video/415856895?h=ca3796f8fe" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         <p><a href="https://vimeo.com/415856895">Getting Started with UArizona VPN - Windows</a> from <a href="https://vimeo.com/wildcatnursing">UA College of Nursing</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
     </figure>
+
+If you have not done so yet, go to the download page of the the Cisco VPN software at [vpn.arizona.edu](https://vpn.arizona.edu/). Log in using your UA NetID information and download the VPN according to your Operating System. Download and install Cisco VPN. 
+
+<figure markdown="span">
+    [![](../assets/SoteriaAccess/access_vpn_03.png/){ width="800"}](https://vpn.arizona.edu/)
+</figure>
 
 ## Connecting to the Soteria Enclave
 
@@ -59,6 +59,10 @@ The typable field will allow you to type any VPN host associated to the Universi
 <figure markdown="span">
     ![](../assets/SoteriaAccess/access_vpn_05.png)
 </figure>
+
+??? Tip "First time connecting to Soteria and having trouble? You may have to connect to the UA VPN." 
+    
+    In the typable field, type **vpn.arizona.edu** and Connect. Follow the connection instructions and establish connection first. Then disconnect from the UA VPN, and then connect to the Soteria VPN. Cisco *might* need to establish the connection first.
 
 When you see the following popup, **accept** the message and you will be connected to the Soteria enclave. 
 
