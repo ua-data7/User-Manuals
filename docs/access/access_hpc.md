@@ -69,7 +69,7 @@ To access GUI applications, follow these steps after connecting to the Soteria V
 
 1. Open your preferred web browser.
 2. Visit the following URL: [**https://ondemand-hipaa.hpc.arizona.edu**](https://ondemand-hipaa.hpc.arizona.edu/). Log in using your UA credentials.
-3. The available GUI applications on Soteria are **:simple-rstudio: RStudio**, **:material-chart-bell-curve: Matlab**, **:simple-jupyter: Jupyter** and **:material-apps-box: Stata**.
+3. The available GUI applications on Soteria are **:simple-rstudio: RStudio**, **:material-chart-bell-curve: Matlab**, **:simple-jupyter: Jupyter**, **:material-apps-box: Stata** and an **:octicons-device-desktop-16: Interactive Desktop**.
 
 ??? Warning "First time logging in? Home directory not found?"
 
@@ -89,14 +89,16 @@ To access GUI applications, follow these steps after connecting to the Soteria V
         ![](../assets/HPC/hpc-01.png){width="650"}
     </figure>
 
-### :simple-rstudio: RStudio
+### Connecting to the Applications
+
+!!! Tip "The following section uses RStudio as an example, however, these same instructions are applicable to **:material-chart-bell-curve: Matlab**, **:simple-jupyter: Jupyter**, **:material-apps-box: Stata** and the **:octicons-device-desktop-16: Interactive Desktop**."
 
 1. Once you access the OnDemand interface, navigate to the "Interactive Apps" dropdown menu.
-2. Select "RStudio server" from the options.
+2. Select the desired application from the options, in this case "RStudio server" was chosen.
     <figure markdown="span">
         ![](../assets/HPC/hpc-02.png){width="650"}
     </figure>
-3. Choose the necessary resources and enter your PI's accounting group in the "PI Group" field.
+3. Apply the necessary resources and enter your laboratory/research group in the "PI Group" field.
     <figure markdown="span">
         ![](../assets/HPC/hpc-03.png){width="700"}
     </figure>
@@ -104,164 +106,64 @@ To access GUI applications, follow these steps after connecting to the Soteria V
     <figure markdown="span">
         ![](../assets/HPC/hpc-04.png){width="700"}
 
-### :material-chart-bell-curve: Matlab
+!!! Info "Choosing the **:octicons-device-desktop-16: Interactive Desktop** gives you access to more."
 
-To access Matlab on Soteria via the Open OnDemand interface, follow these steps:
+    The :octicons-device-desktop-16: Interactive Desktop gives you access to the ability to load **modules**. Modules are pre-installed software that are not loaded upon starting the Application/terminal but users can load at any point during the node uptime.
 
-1. Once you access the OnDemand interface, navigate to the "Interactive Apps" dropdown menu.
-5. Select "Interactive Desktop" from the options.
+    Once logged into the :octicons-device-desktop-16: Interactive Desktop, users can open the Terminal and execute `module avail` to see what software are available. To load the software, users can then do `module load <software>`; The loaded software will then be available until the :octicons-device-desktop-16: Interactive Desktop is terminated.
 
-  <p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/HPC/1.jpg?raw=true" width="650">
-</p> 
+    For a list of `module` commands, please refer to the [official UA HPC documentation page](https://uarizona.atlassian.net/wiki/spaces/UAHPC/pages/75990663/Accessing+Software).
+    <figure markdown="span">
+        ![](../assets/HPC/7.jpg){width="650"}
+        <figcaption> Example of `module load <software>` where the user loads and launches Matlab through `module load matlab` and `matlab` within the :octicons-device-desktop-16: Interactive Desktop session. </figcaption>
+    </figure>
+    
 
-6. Choose the required resources and enter your PI's accounting group in the "PI Group" field.
+### Command Line Access
 
-<p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/HPC/3.jpg?raw=true" width="650">
-</p>
-
-7. After your session is assigned to a compute node, click on "Launch Interactive Desktop."
-<p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/HPC/4.jpg?raw=true" width="650">
-</p>
-
-8. A Mate Terminal icon will be displayed. Click on it to open the terminal.
-
-<p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/HPC/5.jpg?raw=true" width="650">
-</p>
-
-9. In the terminal, enter the following commands:
-
-   **`module load matlab`** - This command loads the Matlab module.
-
-   **`matlab`** - This command starts the Matlab software.
-
-
-<p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/HPC/6.jpg?raw=true" width="650">
-</p>
-
-10. Please note that the initial loading of Matlab may take some time as it involves loading various files. Subsequent uses of Matlab will load more quickly.
-
-
-<p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/HPC/7.jpg?raw=true" width="650">
-</p>
-
-<p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/HPC/8.jpg?raw=true" width="650">
-</p>
-
-By following these steps, you will be able to launch Matlab on Soteria using the Open OnDemand interface and access its functionality for your research needs.
-
-
-   #### **Jupytor Notebooks and Python:**
-
-To access Jupyter Notebooks and Python on Soteria via the Open OnDemand interface, you can follow these steps:
-
-1.  Connect to the Soteria VPN as mentioned earlier.
-
-2.  Open your preferred web browser.
-
-3.  Go to the following URL: [**https://ondemand-hipaa.hpc.arizona.edu**](https://ondemand-hipaa.hpc.arizona.edu/)
-
-4.  Once you are on the OnDemand interface, follow the steps to open a Mate Terminal session:
-   
-      a. Navigate to the "Interactive Apps" dropdown menu.
-  
-      b. Select "Interactive Desktop" from the options.
-  
-      c. Choose the required resources and enter your PI's accounting group in the "PI Group" field.
-  
-      d. Click on "Launch Interactive Desktop" to start the session.
-  
-      e. Open the Mate Terminal as instructed earlier.
-
-5. In the Mate Terminal, enter the following commands:
-   
-   **`module load python/3.9`** - This command loads the Python 3.9 module.
-   
-   **`jupyter-notebook`** - This command starts the Jupyter Notebook server.
-
-
-<p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/HPC/10.jpg?raw=true" width="650">
-</p>
-
-6. After running the **`jupyter-notebook`** command, you will see the server starting and displaying a URL in the terminal. Copy the URL and paste it into your web browser.
-
-<p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/HPC/9.jpg?raw=true" width="650">
-</p>
-
-
-7. The Jupyter Notebook interface will open in your browser, allowing you to create, edit, and run Python notebooks.
-
-By following these steps, you will be able to launch Jupyter Notebooks with Python 3.9 on Soteria.
-
-For more specific instructions on accessing GUI applications, including Matlab and Jupyter Notebooks with Python, please refer to the detailed instructions provided in the [link](https://public.confluence.arizona.edu/display/UAHPC/Secure+HPC#soteria-access-gui-access).
-
-Please note that the provided link may contain comprehensive instructions tailored specifically to Soteria, ensuring a seamless GUI access experience.
-
-### **Command Line Access:**
-
-\
-To access Soteria through the command line, you can use SSH (Secure Shell) with the following instructions:
+To access Soteria through your computer's command line, you can use SSH (Secure Shell) with the following instructions:
 
 1.  Open your preferred terminal application on your local machine.
-
-2.  Use the SSH command to connect to Soteria. The hostname for Soteria command line access is: **`shell.cougar.hpc.arizona.edu`**
-
-    Enter the following command, replacing **`your_netid`** with your actual NetID:
-
-    ```         
-    rubyCopy code
+2.  Use the SSH command to connect to Soteria. The hostname for Soteria command line access is: `shell.cougar.hpc.arizona.edu`. Enter the following command, replacing `<netid>` with your actual NetID: 
     ```
-
-    `$ ssh your_netid@shell.cougar.hpc.arizona.edu`
-
-3.  You will be prompted to enter your password. Please provide your password associated with your NetID.
-
-    Note: Make sure you have authorized access to use Soteria. All user activity may be monitored and reported.
-
+    ssh <netid>@shell.cougar.hpc.arizona.edu
+    ```
+3.  You will be prompted to enter your password. Please provide your password associated with your NetID. Make sure you have authorized access to use Soteria. All user activity may be monitored and reported.
 4.  After successfully logging in, you will see a message similar to the following:
-
-    ```         
-    sqlCopy code
     ```
-
-    `Last login: Tue Nov 29 06:18:33 2022 from ans-02.hpc.arizona.edu Authorized uses only. All activity may be monitored and reported. netid@taub:~ $`
-
-    The **`taub`** is a login node, and it provides the same functionality and follows the same policies as other HPC clusters.
+    Authorized uses only. All activity may be monitored and reported.
+    Last login: Tue Apr 30 13:14:23 2024 from shell.cougar.hpc.arizona.edu
+    Authorized uses only. All activity may be monitored and reported.
+    [cosi@taub ~]$ 
+    ```
+    The `taub` is a login node, and it provides the same functionality and follows the same policies as other HPC clusters.
 
 5.  Please note that modules are available on Soteria's compute nodes but not on the login node. You can use the **`interactive`** command to request a session on a compute node, and jobs can be submitted using the standard **`sbatch`** command.
 
-    For more detailed information on running jobs with SLURM and utilizing Soteria's capabilities, please refer to the documentation or guidelines provided in the section titled "Running Jobs with SLURM."
+    For more detailed information on running jobs with SLURM and utilizing Soteria's capabilities, please refer to the [UA HPC documentation on "Running Jobs with Slurm"](https://uarizona.atlassian.net/wiki/spaces/UAHPC/pages/75989875/Running+Jobs+with+Slurm).
 
-By following these steps, you can access Soteria through the command line using SSH and utilize the available functionalities and resources for your research and computational tasks.\
+If you do not have access to a command line, the OnDemand service allows you to start a cluster with Shell Access. On the menu at the top of the OnDemand dashboard select Clusters > Shell Access. A new tab should open giving you CLI capabilities. 
 
-## Transferring and Accessing Data
+<figure markdown="span">
+    ![](../assets/HPC/hpc-07.png){width="700"}
+</figure>
 
-### Globus:
+---
 
-Globus is a recommended tool for efficiently transferring data to and from the Soteria environment. It provides a reliable and secure data transfer mechanism. To learn more about using Globus, please refer to the following link: [**Globus Documentation**](https://public.confluence.arizona.edu/display/UAHPC/Transferring+Data#TransferringData-GridFTP/Globus)
+## Transferring and Accessing Data via Globus
 
-Soteria Endpoint for Globus: UA HPC HIPAA Filesystems
+Globus is a recommended tool for efficiently transferring data to and from the Soteria environment. It provides a reliable and secure data transfer mechanism. To learn more about using Globus, please refer to the following link: [**Globus Documentation**](https://uarizona.atlassian.net/wiki/spaces/UAHPC/pages/75989646/Globus).
+
+!!! Note "Soteria Endpoint for Globus: '`UA HPC HIPAA Filesystems`'"
 
 **File Paths:** When working with Soteria, you can access your files using the following file paths:
 
 1.  Filexfer Nodes:
-
     -   **`/hipaa/groups/<pi_netid>`**: This path allows access to the shared group directories associated with your PI's NetID.
-
-    -   **`/hipaa/home/uxx/<your_netid>`**: This path provides access to your personal home directory under your NetID.
+    -   **`/hipaa/home/<uxx>/<your_netid>`**: This path provides access to your personal home directory under your NetID.
 
 2.  When connected to a Soteria login or compute node:
-
     -   **`/groups/<pi_netid>`**: This path corresponds to the shared group directories associated with your PI's NetID.
-
-    -   **`/home/uxx/<your_netid>`**: This path corresponds to your personal home directory under your NetID.
+    -   **`/home/<uxx>/<your_netid>`**: This path corresponds to your personal home directory under your NetID.
 
 By utilizing these file paths, you can efficiently access and manage your data within the Soteria environment.
