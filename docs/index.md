@@ -27,7 +27,7 @@ By encapsulating all these features, Soteria emerges as more than just a platfor
 - [High Performance Computing (UA HPC)](access/access_hpc.md)
 
 ### [Data Transfer & Management](data_transfer/index.md)   
-- [Globus File Transfer](data_transfer/access_globus.md)
+- [Globus File Transfer](data_transfer/globus.md)
 
 ### [Training Modules & Tutorials](usage_guides/index.md)
 - [CyVerse Health](usage_guides/CyVerse_Health.md)
