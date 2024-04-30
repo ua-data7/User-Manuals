@@ -12,7 +12,7 @@ Whether you're involved in research, data analysis, or IT management, understand
 
 ## Accessing Globus and Globus Connect Personal
 
-!!! Warning "Visit the [UA official documentation](https://uarizona.atlassian.net/wiki/spaces/UAHPC/pages/75989646/Globus) for a detailed step by step guide to access Globus." This will take you through the standard university WebAuth login process. Once you successfully log in, you will be placed in a File Manager window. The various steps for setting up endpoints, initiating transfers, and viewing a transfer's progress can be found in the sections below.
+!!! Warning "Visit the [UA official documentation](https://uarizona.atlassian.net/wiki/spaces/UAHPC/pages/75989646/Globus) for a detailed step by step guide to access Globus. This will take you through the standard university WebAuth login process. Once you successfully log in, you will be placed in a File Manager window. The various steps for setting up endpoints, initiating transfers, and viewing a transfer's progress can be found in the sections below."
 
 To transfer files to/from your personal computer with Globus, you'll need to have a local endpoint set up. In case of Soteria, the endpoint is **`UA HPC HIPAA Filesystems`**.
 
