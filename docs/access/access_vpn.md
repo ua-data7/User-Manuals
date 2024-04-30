@@ -6,7 +6,7 @@
 
 ## Request Access to Soteria
 
-Prior to accessing the secure enclave, prospective users must request access to Soteria first. The following 4 steps will highlight the access process. 
+Access to Soteria is administrated by the [Controlled and Regulated Research Services Program (CRRSP) team](https://medicineit.arizona.edu/compliance-and-security/hipaa-phi/approved-phi-solutions#:~:text=of%20my%20emails%3F-,Controlled%20and%20Regulated%20Research%20Services%20Program%20(CRRSP),-%3A). Prior to being admitted permission to use the secure enclave, prospective users must request access to Soteria first. The following 4 steps will highlight the process. 
 
 1.  Establish a primary PI or sponsoring faculty member and have them indicate that you are a team member on Soteria.
 2.  Navigate to [soteria.arizona.edu](https://soteria.arizona.edu/), and from the *Get Started* dropdown menu click **Request Access**. Alternatively, you can click **Request Access** on the top right of the screen.
@@ -28,6 +28,8 @@ Prior to accessing the secure enclave, prospective users must request access to 
         - HIPAA Essentials
         - UA Information Security Awareness Training
         - Insiders Threat Training
+
+        These can be accessed at [uaccess.arizona.edu](https://uaccess.arizona.edu/) or [edgelearning.arizona.edu](https://edgelearning.arizona.edu/).
 
 ## Downloading Cisco VPN
 

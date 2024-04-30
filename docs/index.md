@@ -25,8 +25,6 @@ By encapsulating all these features, Soteria emerges as more than just a platfor
 
 - [Virtual Private Network (VPN)](access/access_vpn.md)
 - [High Performance Computing (UA HPC)](access/access_hpc.md)
-- [Soteria Access (Mac)](access/access_mac.md)
-- [Soteria Access (Windows)](access/access_win.md)
 
 ### [Data Transfer & Management](data_transfer/index.md)   
 - [Globus File Transfer](data_transfer/access_globus.md)

@@ -4,93 +4,111 @@
 
 # **The Secure Research Enclave and HPC Cluster**
 
-This user manual will guide you through the features and functionalities of Soteria. It includes a small high-performance computing (HPC) cluster equipped with compute nodes, each with the same core count and memory capacity. Additionally, there are two GPU nodes available for your specific needs.
+This user manual will guide you through the high-performance computing (HPC) features and functionalities of Soteria. The HPC cluster is equipped with multiple compute nodes (CPU) and two GPU nodes available for specific needs.
 
-To access Soteria, you can utilize the OnDemand graphical interface, which provides a user-friendly interface for seamless interaction with the enclave.
+To access Soteria, you can utilize the OnDemand graphical user interface, which provides a user-friendly interface for seamless interaction with the enclave.
 
 We hope this manual assists you in making the most of Soteria's capabilities while ensuring the confidentiality and security of your research data.
 
+---
+
 ## Prerequisites: Accessing Soteria and Cluster Resources
 
-!!! Warning "*Please refer to the [Obtaining Soteria Access via VPN](access_vpn.md) for Soteria access details.*"
+### Accessing the Soteria Enclave
 
-1.  **Approval and Training:** Once your Soteria request form has been reviewed and approved, you will receive an email with the subject "UA Soteria Access Request Approved." This email will contain the next steps to take, including detailed instructions to get Soteria access and establish a VPN connection.
+!!! Info "*Please refer to the [Obtaining Soteria Access via VPN](access_vpn.md) for Soteria access details.*"
 
-    - Complete Required Training in Edge Learning The CRRSP team will register you for the following mandatory trainings, which can also be accessed at [https://uaccess.arizona.edu](https://uaccess.arizona.edu/):
+**Trainings**: Once your Soteria request form has been reviewed and approved, you will receive an email with the subject "*UA Soteria Access Request Approved*". This email will contain the next steps to take, including detailed instructions to get Soteria access and establish a VPN connection.
+
+!!! Warning "Required Trainings"
+
+    The trainings that Soteria requires completion of are:
+
     - HIPAA Essentials
-    - Information Security: Insider Threat Awareness
-    - Information Security Awareness Certification
+    - UA Information Security Awareness Training
+    - Insiders Threat Training
 
-2.  **Assignment to the Soteria VPN:** After completing the required training, the CRRSP team will notify you via email when you have been assigned access to the Soteria VPN. The Soteria VPN is crucial for maintaining HIPAA compliance and distinguishes Soteria usage from standard HPC clusters. Please note that Soteria access can only be established when connected to the VPN. To access the VPN, use the following URL: [vpn.arizona.edu/soteria](vpn.arizona.edu/soteria)
+        These can be accessed at [uaccess.arizona.edu](https://uaccess.arizona.edu/) or [edgelearning.arizona.edu](https://edgelearning.arizona.edu/).
 
-3.  **Additional Instructions:** Ensure that the computer you will use to access Soteria services meets the following requirements:
+**Access to Soteria**: After completing the required trainings, you will be notified via email when you have been granted access to the Soteria VPN. The Soteria VPN is crucial for maintaining HIPAA compliance and distinguishes Soteria usage from standard HPC clusters. Please note that Soteria access can only be established when connected to the VPN. 
 
-    -   Operating System and applications must be updated with the latest patches.
+- [Obtaining the Cisco VPN](access_vpn.md/#downloading-cisco-vpn) 
+- [Connecting to the Soteria enclave](access_vpn.md/#connecting-to-the-soteria-enclave)
 
-    -   Use a strong password to log into the computer, with a minimum of 8 characters and a mix of character types.
+!!! Info "Additional Instructions" 
+    
+    Ensure that the computer you will use to access Soteria services meets the following requirements:
 
-    -   Do not use a shared computer with other users.
+    - Keep your Operating System and applications updated.
+    - Use strong passwords (easy to remember, multiple character, letter, number combinations).
+    - Do not use a shared computer with other users.
+    - Maintain up-to-date antivirus software.
 
-    -   Maintain up-to-date antivirus software.
+### Cluster Resources
 
-4.  **Cluster Resources:** The Soteria cluster consists of the following resources:
+Please refer to the regular [HPC documentation](https://uarizona.atlassian.net/wiki/spaces/UAHPC/overview) to learn how to use the HPC system. During the early testing phase, the time and space allocations will be similar to those of the HPC clusters, with a time allocation of 150,000 hours.
 
-    -   Four Standard Compute Nodes: (r1u26n1,r1u27n1,r1u28n1,r1u29n1)
+The Soteria cluster consists of the following resources:
 
-        -   Each node has 94 cores and 512GB of memory available.
+- **Compute**:
+    - 4 Standard CPU nodes (`r1u26n1`, `r1u27n1`, `r1u28n1`, `r1u29n1`)
+        - Each CPU node has 94 cores and 512GB RAM memory available.
+    - 2 GPU Nodes (`r1u30n1`, `r1u32n1`)
+        - Each GPU node has access to 94 cores and 512GB RAM memory available.
+        - Access to 4 V100 GPUs.
+- **Storage**: 
+    - Your Soteria account will come with space available in the `/home` and `/groups` directories, where you can store your research data. Currently, these directories do not have a quota limit.
 
-    -   Two GPU Nodes: (r1u30n1,r1u32n1)
+---
 
-        -   Each GPU node has the same resources as the standard compute nodes (94 cores and 512GB memory).
+## Accessing the HPC Soteria Enclave and GUI Applications
 
-        -   Additionally, each GPU node contains four V100 GPUs.
+!!! Info "*To access the HPC Soteria enclave, please ensure that you are connected to the Soteria VPN as explained in the previous section.*"
 
-    You can refer to the regular [HPC documentation](https://public.confluence.arizona.edu/display/UAHPC/HPC+Documentation) to learn how to use Slurm with these nodes. During the early testing phase, the time and space allocations will be similar to those of the HPC clusters, with a time allocation of 100,000 hours.
+To access GUI applications, follow these steps after connecting to the Soteria VPN:
 
-5.  **Storage Space:** Your Soteria account will come with space available in the /home and /groups directories, where you can store your research data. Currently, these directories do not have a quota limit.
+1. Open your preferred web browser.
+2. Visit the following URL: [**https://ondemand-hipaa.hpc.arizona.edu**](https://ondemand-hipaa.hpc.arizona.edu/). Log in using your UA credentials.
+3. The available GUI applications on Soteria are **:simple-rstudio: RStudio**, **:material-chart-bell-curve: Matlab**, **:simple-jupyter: Jupyter** and **:material-apps-box: Stata**.
 
-By following these preparation steps, you will be ready to make use of Soteria's secure research enclave and utilize the resources provided by the HPC cluster.
+??? Warning "First time logging in? Home directory not found?"
 
-## System Access
+    If this is your first logging onto the OnDemand Soteria service, it is likely that you're going to be greeted with the following message:
 
-*To access the Soteria system, please ensure that you are connected to the Soteria VPN as explained in the previous section.*
+    <figure markdown="span">
+        ![](../assets/HPC/hpc-00.png){width="650"}
+    </figure>
+    If that is the case, follow the onscreen instructions:
 
-### GUI Access:
+    1. Open the shell (which will automatically create your home folder).
+    2. Reload the page.
 
-**GUI Applications/GUI Access to Soteria:** To access GUI applications, follow these steps after connecting to the Soteria VPN:
+    Once that is done, you should be greeted with the OnDemand home page.
 
--   Open your preferred web browser.
+    <figure markdown="span">
+        ![](../assets/HPC/hpc-01.png){width="650"}
+    </figure>
 
--   Visit the following URL: [**https://ondemand-hipaa.hpc.arizona.edu**](https://ondemand-hipaa.hpc.arizona.edu/)
-
--   The available GUI applications on Soteria are RStudio, Matlab, and Python 3.9 (Jupyter).
-
-  #### **R Studio:**
+### :simple-rstudio: RStudio
 
 1. Once you access the OnDemand interface, navigate to the "Interactive Apps" dropdown menu.
-    
-2. elect "RStudio server" from the options.
-    
-  <p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/HPC/1.jpg?raw=true" width="650">
-</p> 
-
+2. Select "RStudio server" from the options.
+    <figure markdown="span">
+        ![](../assets/HPC/hpc-02.png){width="650"}
+    </figure>
 3. Choose the necessary resources and enter your PI's accounting group in the "PI Group" field.
+    <figure markdown="span">
+        ![](../assets/HPC/hpc-03.png){width="700"}
+    </figure>
+4. Connect to the requested node by clicking "Connect to RStudio Server".
+    <figure markdown="span">
+        ![](../assets/HPC/hpc-04.png){width="700"}
 
-<p align="center">
-<img src="https://github.com/ua-data7/User-Manuals/blob/main/images/HPC/11.jpg?raw=true" width="650">
-</p> 
-
-Through the Open OnDemand interface, you can conveniently navigate, view, edit files, and utilize graphical applications for your research activities.
-
-   #### **Matlab:**
+### :material-chart-bell-curve: Matlab
 
 To access Matlab on Soteria via the Open OnDemand interface, follow these steps:
 
-1. Connect to the Soteria VPN as mentioned earlier.
-2. Open your preferred web browser.
-3. Visit the following URL: [**https://ondemand-hipaa.hpc.arizona.edu**](https://ondemand-hipaa.hpc.arizona.edu/)
-4. Once you are on the OnDemand interface, navigate to the "Interactive Apps" dropdown menu.
+1. Once you access the OnDemand interface, navigate to the "Interactive Apps" dropdown menu.
 5. Select "Interactive Desktop" from the options.
 
   <p align="center">
