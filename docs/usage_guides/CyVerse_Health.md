@@ -144,7 +144,7 @@ There are a number of ways to transfer data in and out of the Data Store.
 
 !!! note ""
 
-    #### ![deIcon](../assets/Cyverse_Health/de/logos/deIcon.svg){width=20} Data Transfer: Discovery Environment
+    #### <h4 style="color:#0a71ac">![deIcon](../assets/Cyverse_Health/de/logos/deIcon.svg){width=20} Data Transfer: Discovery Environment</h4>
 
     The Discovery Environment (DE) interface is a user-friendly, web-based portal designed for seamless management of your data within the CyVerse Data Store. This chapter provides a detailed guide on utilizing DE for various data management tasks.
 
@@ -173,86 +173,78 @@ There are a number of ways to transfer data in and out of the Data Store.
 
     !!! warning "Direct downloads via DE are suitable for files <2GB. For larger transfers, consider using SFTP."
 
-    ** 4. Deleting Data**
+    **4. Deleting Data**
 
     1. Selection file(s) for Deletion by clicking the adjacted checkbox(es).
     2. Click 'More Options' (ellipsis, on the right) and select 'Delete.'
     3. A notification confirms the deletion.
 
-    !!! warning  Deleted items move to 'Trash.' They remain recoverable until you empty the 'Trash' folder, which then reflects on your storage quota.
+    !!! :warning: **Warning**  Deleted items move to 'Trash.' They remain recoverable until you empty the 'Trash' folder, which then reflects on your storage quota.
+
+
+!!! warning ""
+
+    #### <h4 style="color:#f5b822">:material-duck: Data Transfer: Cyberduck</h4>
+
+    !!! warning "Access to the CyVerse Health Data Store through Cyberduck is only possible once connected to the Soteria VPN."
     
-#### Data Transfer: Cyberduck
+    Cyberduck is a versatile third-party tool that facilitates easy transfer of data between your local computer and the CyVerse Data Store. It's especially useful for transferring large or multiple files and offers functionalities like file renaming and browsing through shared or public Data Store locations.
 
-<details>
+    **1. Setting Up Cyberduck**
 
-Cyberduck is a versatile third-party tool that facilitates easy transfer of data between your local computer and the CyVerse Data Store. It's especially useful for transferring large or multiple files and offers functionalities like file renaming and browsing through shared or public Data Store locations.
+    - **Downloading and Installing Cyberduck:** 
+        - Go to the [Cyberduck website](https://cyberduck.io/download/) and download the application compatible with your operating system.
+        - Install Cyberduck following the provided instructions.
+    - **Configuring Cyberduck for CyVerse Health using SSH:**
+        - Open CyberDuck and click the "Open Connection" button
+        - Select "SFTP (SSH File Transfer Protocol)"
+        - In the "Server" field, add `data.soteria.arizona.edu`
+        - Add your UAarizona username and password
+        - Click "connect"
+        - You should now be able to access your files and view the DS contents from Cyberduck 
 
-a. Setting Up Cyberduck
+    **2. Transferring Data Using Cyberduck**
+    
+    - **Uploading to the Data Store:**
+        - Double-click the Soteria Data Store bookmark (`data.soteria.arizona.edu) to connect.
+        - Drag files/folders from your local machine into the Cyberduck window. You can also create a new folder via the 'File' menu.
+        - The 'Transfers' window will display the progress. Wait until the upload is complete.
+        - :warning: **Warning:** Avoid using spaces or special characters in file/folder names (e.g., `~ `` ! @ # $ % ^ & * ( ) + = { } [ ] | : ; " ' < > , ? / \`).
+    - **Downloading from the Data Store using Cyberduck**
+        - Double-click the Soteria Data Store bookmark (`data.soteria.arizona.edu) to connect.
+        - Drag files/folders from the Cyberduck window to a local directory.
+        - The 'Transfers' window will show the progress. Monitor until the download finishes.
+        - :warning: **Caution:** Manage the number of connections to avoid overloading the system. Set a maximum of five connections in the 'Transfers' window.
+        - :fire: **Tip:** Explore additional functionalities under Cyberduck's 'File' menu, such as moving files without drag-and-drop and synchronizing folders.
 
-**Downloading and Installing Cyberduck:** 
-* Go to the Cyberduck website and download the application compatible with your operating system.
-* Install Cyberduck following the provided instructions.
+!!! example ""
+    ####  <h4 style="color:#7C4DFF">:material-console-network: Data Transfer: SFTP</h4>
+    
+    !!! warning "Access to the CyVerse Health Data Store through SFTP is only possible once connected to the Soteria VPN."
 
-**Configuring Cyberduck for CyVerse:**
-* Download the CyVerse connection profile for Cyberduck.
-* Double-click the downloaded profile to automatically open Cyberduck with the pre-configured settings.
-* In the Cyberduck configuration window, enter your CyVerse username in the 'iPlant username' field.
-* Under 'Advanced Options', set 'Transfer Files' to 'Open Multiple Connections'. Your settings will be saved once you close this window.
+    [Secure File Transfer Protocol (SFTP)](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol) is a widely adopted protocol for securely transferring data. CyVerse has integrated SFTP into the Data Store through SFTPGo, enhancing data accessibility across diverse computing environments. Users can interact with their home and public folders in the CyVerse Data Store using any SFTP-enabled application, including command-line tools and popular desktop applications like Cyberduck and FileZilla.
 
-**Connecting to the Data Store:**
-* In Cyberduck, double-click the Data Store bookmark.
-* When prompted, enter your CyVerse credentials to establish the connection.
-* You should now see your home directory in the Cyberduck window.
-**Tip:** Use 'Go to folder' from the 'Go' menu to navigate to any Data Store location that is public or shared with you.
+    - **Key Features of SFTP in CyVerse**
 
+        - **Secure Transfers:** SFTP provides a secure channel for transferring files, ensuring data integrity and confidentiality.
+        - **Wide Compatibility:** SFTP can be accessed through various operating systems' built-in command-line tools, as well as third-party applications.
+        - **Ease of Use:** The familiar interface of SFTP clients like Cyberduck and FileZilla offers a user-friendly experience for managing file transfers.
 
-b. Transferring Data Using Cyberduck
+    - **Connecting via SFTP**
 
-**Uploading to the Data Store:**
-* Double-click the Data Store bookmark to connect.
-* Drag files/folders from your local machine into the Cyberduck window. You can also create a new folder via the 'File' menu.
-* The 'Transfers' window will display the progress. Wait until the upload is complete.
-**Warning:** Avoid using spaces or special characters in file/folder names. Use underscores (_) instead of spaces.
-
-**Downloading from the Data Store:**
-* Connect to the Data Store using the bookmark.
-* Drag files/folders from the Cyberduck window to a local directory.
-* The 'Transfers' window will show the progress. Monitor until the download finishes.
-**Caution:** Manage the number of connections to avoid overloading the system. Set a maximum of five connections in the 'Transfers' window.
-**Tip:** Explore additional functionalities under Cyberduck's 'File' menu, such as moving files without drag-and-drop and synchronizing folders.
-
-Upload Example with Cyberduck:
-
-**Preparing Files for Upload:**
-* Create a README.md or any file on your local machine to be uploaded.
-* Make sure the file name does not contain spaces or special characters.
-
-**Uploading Files:**
-* Locate the 'tutorial_folder/raw_data' in your home directory within Cyberduck.
-* Drag and drop DE_sample_plants.fas (or any intended file) into the 'raw_data' folder.
-* Check the upload status in the 'Transfers' window until it completes.
-
-**Verifying the Upload in the Discovery Environment:**
-* Log in to the Discovery Environment and navigate to the 'raw_data' folder within 'tutorial_folder'.
-* Confirm that the DE_sample_plants.fas file appears, indicating a successful upload.
-
-
-#### Data Transfer: SFTP
-
-Secure File Transfer Protocol (SFTP) is a widely adopted protocol for securely transferring data. CyVerse has integrated SFTP into the Data Store through SFTPGo, enhancing data accessibility across diverse computing environments. Users can interact with their home and public folders in the CyVerse Data Store using any SFTP-enabled application, including command-line tools and popular desktop applications like Cyberduck and FileZilla.
-
-### Key Features of SFTP in CyVerse
-
-**Secure Transfers:** SFTP provides a secure channel for transferring files, ensuring data integrity and confidentiality.
-
-**Wide Compatibility:** SFTP can be accessed through various operating systems' built-in command-line tools, as well as third-party applications.
-
-**Ease of Use:** The familiar interface of SFTP clients like Cyberduck and FileZilla offers a user-friendly experience for managing file transfers.
-
-For comprehensive instructions on setting up and utilizing SFTP for data transfer with the CyVerse Data Store, including specific guidelines for popular SFTP clients, please refer to the detailed [SFTP Transfer Guide] (https://learning.cyverse.org/ds/sftp/).
-
-<summary>expand</summary></details>
-
+        - Users can connect via SFTP by opening a Terminal whilst connected to the soteria VPN and executing the following command `sftp <UA username>@data.soteria.arizona.edu`
+        - The prompt should now change from `$` to `sftp>`
+          ```
+          $ sftp cosi@data.soteria.arizona.edu
+          cosi@data.soteria.arizona.edu's password:
+          Connected to data.soteria.arizona.edu.
+          sftp>
+          ```
+        - Useful SFTP commands:
+          - `ls`: _lists_ the contents of a directory
+          - `cd <dir>`: change directory (`<dir>` = name of directory; use `..` to change directory to directory above)
+          - `put <xxx>`: uploads a folder/file from your local computer to the CyVerse Health DS (replace `<xxx>` with the folder name)
+          - `get <xxx>`: download a folder/file to your local computer from the CyVerse Health DS (replace `<xxx>` with the folder name)
 ---
 
 ## Adding Metadata to Data in the CyVerse Discovery Environment
