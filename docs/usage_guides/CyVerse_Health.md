@@ -1,12 +1,8 @@
-<figure style="display: flex; justify-content: center;" markdown="span">
-    ![cover](../assets/cover.png){ width="300", border="100" }
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ![cyverse](../assets/de/cyverse.png){width="250"}
-</figure>
- 
+![](../assets/cover.png){width="340"}
+
 <br>
 
-![cy_h-banner](../assets/Cyverse_Health/banner.jpg)
+![cy_h-banner](../assets/Cyverse_Health/CyVerse_Health_Banner.png)
 
 <br>
 
@@ -83,62 +79,48 @@ Once your account is set up, and you have access to the necessary services, you 
 
 ### Exploring the Main Interface:
 
-Once logged in, take a moment to view the main dashboard. This central hub provides a snapshot of the tools and features at your disposal within the Discovery Environment.
+Once logged in, take a moment to view the main dashboard. This central hub provides a snapshot of the tools and features at your disposal within the **Discovery Environment (DE)**.
 
-1. Locate the search bar typically positioned at the top of the page. Here, you have the ability to perform integrated searches across different data points:
-
-   a. Click on the dropdown menu adjacent to the search bar to filter your search criteria by 'Data,' 'Apps,' or 'Analyses'.
-
-   b. Enter your query into the search field and press 'Enter' to execute the search. Review the returned results, accessible by navigating through the tabs corresponding to the categories mentioned above.
-   
+1. Locate the *Search Bar* positioned at the top of the page. Here, you have the ability to perform integrated searches across different data points:
+    1. Click on the dropdown menu adjacent to the search bar to filter your search criteria by *Data*, *Apps*, or *Analyses*.
+    2. Enter your query into the search field and press *Enter* to execute the search. Review the returned results, accessible by navigating through the tabs corresponding to the categories mentioned above.
 2. Familiarize yourself with the quick access icons, often found near the search bar:
-
-   a. Look for a 'bag' or cart icon, symbolizing a space where you can aggregate items for download or sharing. It functions similarly to an online shopping cart, allowing you to organize data or apps you wish to further interact with.
-
-   b. The 'notifications' bell icon is your go-to for updates on the platform. Clicking this will show you a history of your activities, including analysis statuses, data sharing updates, and general account activity.
-
+    1. Look for a 'bag' or cart icon, symbolizing a space where you can aggregate items for download or sharing. It functions similarly to an online shopping cart, allowing you to organize data or apps you wish to further interact with.
+    2. The 'notifications' bell icon is your go-to for updates on the platform. Clicking this will show you a history of your activities, including analysis statuses, data sharing updates, and general account activity.
 3. Navigating the Sidebar Menu:
-
-   a. Shift your attention to the left-hand sidebar, known as the 'DE Menu'. This is your primary navigation tool for the platform's various sections. If the sidebar is collapsed, you can expand it for more detailed descriptions by clicking the expand button (three line icon).
-
+    1. Shift your attention to the left-hand sidebar, known as the **DE Menu**. This is your primary navigation tool for the platform's various sections. If the sidebar is collapsed, you can expand it for more detailed descriptions by clicking the expand button (three line icon).
 4. Explore the following key areas by clicking on each respective icon or text:
 
-   **a. Home/Dashboard:** Your main control panel that may display summary widgets, quick links to recent activities, or educational content such as tutorials and webinars.
-   
-   **b. Data:** This interface connects you to the Data Store. Here, you can manage your files, including uploading, downloading, organizing, and sharing data. You'll have access to your personal storage space and shared directories.
-   
-   **c. Apps:** Discover various applications, including VICE (Visual Interactive Computing Environment) apps for interactive computing sessions. You can browse, search, and launch these applications based on your research needs.
-   
-   **d. Analyses:** View and manage your computational tasks. This section logs your history of analysis jobs, allowing you to monitor current processes, review completed ones, and access resulting data.
-   
-   **e. Cloud Shell:** Access a Linux shell environment directly within the DE. This feature enables advanced users to perform command-line operations without leaving the platform.
-   
-   **f. Teams:** Create and manage collaboration groups. Teams allow you to group together with other users for easier sharing of data, analyses, and other collaborative efforts.
-   
-   **g. Collections:** Explore public collections of data and apps curated by other users or the CyVerse team. This resource can be invaluable for finding information relevant to your studies.
-   
-   **h. Help:** Access various support materials, including FAQs, guides, and contact information for direct assistance from the CyVerse support team.
+  ![DE Menu](../assets/Cyverse_Health/cyverse_health_04.png){width="200", align=left} 
+    
+  - ![](../assets/Cyverse_Health/de/menu_items/homeIcon.svg){width=20} **Home/Dashboard:** Your main control panel that may display summary widgets, quick links to recent activities, or educational content such as tutorials and webinars.
+  - ![](../assets/Cyverse_Health/de/menu_items/dataIcon.svg){width=20} **Data:** This interface connects you to the Data Store. Here, you can manage your files, including uploading, downloading, organizing, and sharing data. You'll have access to your personal storage space and shared directories.
+  - ![](../assets/Cyverse_Health/de/menu_items/appsIcon.svg){width=20} **Apps:** Discover various applications, including VICE (Visual Interactive Computing Environment) apps for interactive computing sessions. You can browse, search, and launch these applications based on your research needs.
+  - ![](../assets/Cyverse_Health/de/menu_items/analysisIcon.svg){width=20} **Analyses:** View and manage your computational tasks. This section logs your history of analysis jobs, allowing you to monitor current processes, review completed ones, and access resulting data.
+  - ![](../assets/Cyverse_Health/de/menu_items/webshellIcon.svg){width=20} **Cloud Shell:** Access a Linux shell environment directly within the DE. This feature enables advanced users to perform command-line operations without leaving the platform.
+  - ![](../assets/Cyverse_Health/de/menu_items/teamsIcon.svg){width=20} **Teams:** Create and manage collaboration groups. Teams allow you to group together with other users for easier sharing of data, analyses, and other collaborative efforts.
+  - ![](../assets/Cyverse_Health/de/menu_items/bank.svg){width=20} **Collections:** Explore public collections of data and apps curated by other users or the CyVerse team. This resource can be invaluable for finding information relevant to your studies.
+  - ![](../assets/Cyverse_Health/de/menu_items/helpIcon.svg){width=20} **Help:** Access various support materials, including FAQs, guides, and contact information for direct assistance from the CyVerse support team.
 
-4. Data Management Overview: Return to the 'Data' section from the DE Menu to explore further. Within this space, you'll interact with several specific areas:
-
-   **a. Your Personal Folder:** Navigate to your home directory. Use this private space to store your data files and analyses. You can create sub-folders for better organization.
-
-   **b. Shared With Me:** Click on this folder to view items that other users have shared with you. This collaboration feature is crucial for team projects and shared research initiatives.
-
-   **c. Community Data:** Explore data shared publicly by other CyVerse users. This repository can contain valuable resources for your research.
-
-   **d. Trash:** View recently deleted items. You may have the option to restore files from here if necessary.
-
-
-<summary>expand</summary></details>
    
-# MANAGING THE DATA
+## Data Management
+
+The CyVerse **Data Store (DS)** is an integrated data management solution, ensuring data remains FAIR - Findable, Accessible, Interoperable, Reusable. Access your files across all CyVerse platforms, utilizing features that maintain data integrity and value.
+
+Return to the ![](../assets/Cyverse_Health/de/menu_items/dataIcon.svg){width=20} **Data** section from the DE Menu to explore further. Within this space, you'll interact with several specific areas:
+
+![data_dropdown](../assets/Cyverse_Health/cyverse_health_05.png){width="200", align=left} 
+
+  1. :material-home: **Your Personal Folder:** Navigate to your home directory. Use this private space to store your data files and analyses. You can create sub-folders for better organization.
+  2. :material-folder-account: **Shared With Me:** Click on this folder to view items that other users have shared with you. This collaboration feature is crucial for team projects and shared research initiatives.
+  3. :octicons-people-16: **Community Data:** Explore data shared publicly by other CyVerse users. This repository can contain valuable resources for your research.
+  4. :fontawesome-solid-trash: **Trash:** View recently deleted items. You may have the option to restore files from here if necessary.
+
+
+
 
 ## CyVerse Data Store
 
-The CyVerse Data Store is an integrated data management solution, ensuring data remains FAIR - Findable, Accessible, Interoperable, Reusable. Access your files across all CyVerse platforms, utilizing features that maintain data integrity and value.
-
-For detailed information and explorative blogs regarding Cyverse Health Data Stores written by researchers, visit https://cyverse.atlassian.net/wiki/spaces/DS/pages and https://cyverse.org/data-store
 
 ## Navigating Data Transfer Options
 
