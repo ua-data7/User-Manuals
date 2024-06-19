@@ -128,114 +128,66 @@ The **Community Data** folder is not only where you can find public data, more i
 
 !!! failure "CAUTION: please <u>DO NOT</u> make copies of the raw data originating from the above distributors."
 
-## Navigating Data Transfer Options
+### Navigating Data Transfer Options
 
 There are a number of ways to transfer data in and out of the Data Store.
 
-- ![deIcon](../assets/Cyverse_Health/de/logos/deIcon.svg){width=20} **Discovery Environment (DE):**
+- [![deIcon](../assets/Cyverse_Health/de/logos/deIcon.svg){width=20} **Discovery Environment (DE):**](#data-transfer-discovery-environment)
     - Web-based: Simple, no third-party installation
     - Data Limit: Up to 2GB per file for uploads, unlimited for import.
-- :material-duck: **Cyberduck:**
+- [:material-duck: **Cyberduck:**](#data-transfer-cyberduck)
     - Desktop Application: Requires installation and SFTP setup.
-- :material-console-network: **SFTP Clients:**
+- [:material-console-network: **SFTP Clients:**](#data-transfer-sftp)
     - Command-Line based, can be used to transfer data from the computer to the DE or between HPC and the DE.
 - **iCommands and GoCommands:**
     - Support for iCommands and GoCommands to be available soon.
 
-## 1. Managing the Data - In Discovery Environment
+!!! note ""
 
-<details>
+    #### ![deIcon](../assets/Cyverse_Health/de/logos/deIcon.svg){width=20} Data Transfer: Discovery Environment
 
-The Discovery Environment (DE) interface is a user-friendly, web-based portal designed for seamless management of your data within the CyVerse Data Store. This chapter provides a detailed guide on utilizing DE for various data management tasks.
+    The Discovery Environment (DE) interface is a user-friendly, web-based portal designed for seamless management of your data within the CyVerse Data Store. This chapter provides a detailed guide on utilizing DE for various data management tasks.
 
-* **Data Lifecycle Management:** Perform a variety of tasks like uploading, metadata addition, analysis, sharing, and publication.
+    **1. Creating Folders**
+    
+    1. Navigating to *Data* 
+    2. create a new one by clicking the :material-folder-plus: *Folder* button. 
+    
+    **2. Uploading Files:**
 
-* **Seamless Integration:** The Data Store is ubiquitous across CyVerse, allowing effortless file access and management from any platform.
+    1. Click :material-upload: *Upload* and choose 'Browse Local' to select files from your computer.
+    2. For files via URL, select 'Import by URL,' paste the link, and click 'Import'.
+    3. An automated notification confirms your upload is in the queue. To check progress, click 'Upload' > 'View Upload Queue.'
 
+    !!! warning "Direct browser uploads are limited to files <2GB. For larger transfers, consider using SFTP."
 
-**Remember:** The Data Store isn't a separate entity but a foundational service across CyVerse, granting you universal access to your data.
+    !!! tip "Tips"
+        
+        - **Drag-and-Drop:** Alternatively, drag files from your computer directly into the DE browser window. This action also initiates the upload process.
+        - **Background Uploading:** You're free to navigate away or log out during URL imports; a notification will inform you upon completion.
 
-### a. Uploading Files/Folders
+    **3. Downloading Data**
 
-**Navigating to Data View:** 
+    1. Locate and select the file(s) to download by clicking the adjacted checkbox(es).
+    2. Click 'More Actions' > 'Download' to save to your local machine.
 
-* Once logged in to the DE, the 'Data' view offers a comprehensive directory-style layout of your Data Store contents.
-* Select an existing folder for your uploads or create a new one by clicking the 'Folder' button. By default, uploads go to /iplant/home/<your_username>.
+    !!! warning "Direct downloads via DE are suitable for files <2GB. For larger transfers, consider using SFTP."
 
-**Uploading Files:**
+    ** 4. Deleting Data**
 
-* Click 'Upload' and choose 'Browse Local' to select files from your computer.
-* For files via URL, select 'Import by URL,' paste the link, and click 'Import'.
-* An automated notification confirms your upload is in the queue. To check progress, click 'Upload' > 'View Upload Queue.'
+    1. Selection file(s) for Deletion by clicking the adjacted checkbox(es).
+    2. Click 'More Options' (ellipsis, on the right) and select 'Delete.'
+    3. A notification confirms the deletion.
 
-**Special Notes:** Direct browser uploads are limited to files <2GB. For larger transfers, consider Cyberduck or iCommands.
-
-**Drag-and-Drop Feature:** Alternatively, drag files from your computer directly into the DE browser window. This action also initiates the upload process.
-
-**Background Uploading:** You're free to navigate away or log out during URL imports; a notification will inform you upon completion.
-
-<ins>Example Scenario: Uploading a README.md File </ins>
-
-* Create and save a README.md on your local computer, detailing contents like the 'ept2copc.json' file information.
-* In DE, navigate to 'tutorial_folder,' click 'Upload,' then 'Browse Local.' Find and select your README.md file.
-* Refresh your page if the uploaded file doesn’t appear immediately.
-
-
-### b. Downloading Data
-
-**Locating Files:**
-
-* Log into DE and click the 'Data' icon. Your username indicates your personal space, while 'Community Data' houses shared files.
-* Navigate to the desired directory (e.g., /usda/usfs/r3/coconino/training_data/mahan/).
-
-**Downloading:**
-
-* Select your file(s) by clicking the adjacent checkbox.
-* Click 'More Actions' > 'Download' to save to your local machine.
-
-  Important: Direct downloads via DE are suitable for files <2GB. For larger data, use Cyberduck, GoCommands, or iCommands.
-
-**Access Points for Data Retrieval:**
-
-Various paths access the same Data Store:
-iCommands or GoCommands: /iplant/home/shared/usda/usfs/r3/coconino/training_data/mahan/
-Discovery Environment: https://de.cyverse.org
-WebDav Interface: https://data.cyverse.org
-
-### c. Organizing Data: Creating Directories
-
-* In your 'home,' click the 'folder+' icon to create 'tutorial_folder.'
-* Inside it, establish sub-folders like 'raw_data/' and 'results/' for future use.
-
-### d. Deleting Files/Folders
-
-**Selection for Deletion:**
-
-* From 'Data' view, mark files/folders by clicking their checkboxes.
-* For bulk actions, use the master checkbox.
-
-**Performing Deletion:**
-
-* Click 'More Options' (ellipsis) and select 'Delete.'
-* A notification confirms the deletion.
-
-**Trash Management:** Deleted items move to 'Trash.' They remain recoverable until you empty the 'Trash' folder, which then reflects on your storage quota.
-
-### e. Advanced Data Management
-
-* To use the Advanced Search, run a query in the Search menu, then select "Advanced Search Options".
-
-* The Discovery Environment also supports advanced data management tasks such as organizing your datasets, search, adding metadata to data, requesting a Digital Object Identifier (DOI), and importing or submitting data to/from NCBI SRA.
-
-<summary>expand</summary></details>
-
-## 2. Transferring Data with Cyberduck
+    !!! warning  Deleted items move to 'Trash.' They remain recoverable until you empty the 'Trash' folder, which then reflects on your storage quota.
+    
+#### Data Transfer: Cyberduck
 
 <details>
 
 Cyberduck is a versatile third-party tool that facilitates easy transfer of data between your local computer and the CyVerse Data Store. It's especially useful for transferring large or multiple files and offers functionalities like file renaming and browsing through shared or public Data Store locations.
 
-### a. Setting Up Cyberduck
+a. Setting Up Cyberduck
 
 **Downloading and Installing Cyberduck:** 
 * Go to the Cyberduck website and download the application compatible with your operating system.
@@ -254,7 +206,7 @@ Cyberduck is a versatile third-party tool that facilitates easy transfer of data
 **Tip:** Use 'Go to folder' from the 'Go' menu to navigate to any Data Store location that is public or shared with you.
 
 
-### b. Transferring Data Using Cyberduck
+b. Transferring Data Using Cyberduck
 
 **Uploading to the Data Store:**
 * Double-click the Data Store bookmark to connect.
@@ -269,7 +221,7 @@ Cyberduck is a versatile third-party tool that facilitates easy transfer of data
 **Caution:** Manage the number of connections to avoid overloading the system. Set a maximum of five connections in the 'Transfers' window.
 **Tip:** Explore additional functionalities under Cyberduck's 'File' menu, such as moving files without drag-and-drop and synchronizing folders.
 
-### Upload Example with Cyberduck:
+Upload Example with Cyberduck:
 
 **Preparing Files for Upload:**
 * Create a README.md or any file on your local machine to be uploaded.
@@ -284,176 +236,8 @@ Cyberduck is a versatile third-party tool that facilitates easy transfer of data
 * Log in to the Discovery Environment and navigate to the 'raw_data' folder within 'tutorial_folder'.
 * Confirm that the DE_sample_plants.fas file appears, indicating a successful upload.
 
-### Conclusion:
-With Cyberduck configured and connected to the CyVerse Data Store, you can now upload and download files with ease. Always ensure you follow naming conventions and monitor your transfer connections for optimal performance.
 
-For any further details, refer to the [Cyverse Cyberduck manual](https://learning.cyverse.org/ds/cyberduck/) for additional guidance and troubleshooting tips.
-
-<summary>expand</summary></details>
-
-## 3. CyVerse Data Store: iCommands User Manual
-
-<details>
-
-### Introduction to iCommands:
-
-iCommands is a comprehensive suite of command-line tools provided by the iRODS project, designed for flexible interaction with the CyVerse Data Store. This guide will cover the basics of installing and using iCommands for efficient data transfer.
-
-### iCommands Installation:
-
-**1. For Linux Systems:**
-
-**CentOS:**
-1. Install epel-release and configure iRODS repositories:
-* sudo yum install epel-release
-* sudo rpm --import https://packages.irods.org/irods-signing-key.asc
-* wget -qO - https://packages.irods.org/renci-irods.yum.repo | sudo tee /etc/yum.repos.d/renci-irods.yum.repo
-
-2. Lock iRODS packages to version 4.2.8:
-* sudo yum versionlock add irods-*-4.2.8
-
-3. Install iCommands:
-* sudo yum install irods-icommands
-
-**Ubuntu 18.04 & 20.04:**
-
-1. Configure repository and pin iCommands version:
-* wget -qO - https://packages.irods.org/irods-signing-key.asc | sudo apt-key add -
-* echo "deb [arch=amd64] https://packages.irods.org/apt/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/renci-irods.list
-* Set pin priority for version 4.2.8 in /etc/apt/preferences.d/irods
-
-2. Install iCommands:
-* sudo apt-get update
-* sudo apt install irods-icommands
-
-**Arm64/Aarch64 (e.g., Raspberry Pi):**
-
-1. Use the community-compiled i-commands:
-* wget https://github.com/jmscslgroup/libpanda/raw/master/scripts/irods-icommands-debs.tgz
-* tar zxvf irods-icommands-debs.tgz
-* cd irods-icommands-debs/
-* ./install.sh
-
-**2. For Mac OS X:**
-
-* **Installation Steps:**
-1. Download CyVerse-specific Mac OS iCommands from the provided link- https://cyverse.atlassian.net/wiki/download/attachments/241869823/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472820029000&cacheVersion=1&api=v2
-2. Open the installer via Finder and bypass security warnings in 'System Preferences' > 'Security & Privacy'.
-3. Follow the installation prompts; administrator password required.
-Post-installation, add iCommands to PATH in .zshrc or .bashrc file if needed.
-
-### iCommands Configuration
-
-**First-time Setup:**
-* Open a terminal and type iinit to start the configuration process.
-* Enter the following details when prompted:
-  * Host name: data.cyverse.org
-  * Port #: 1247
-  * Username: <CyVerse UserID>
-  * Zone: iplant
-  * Password: <CyVerse Password>
-
-**Verifying Installation:**
-* Use ils to list contents of your Data Store home directory.
-* Example: ils /iplant/home/<your_home_directory>
-
-**Anonymous Access:**
-* Username: anonymous
-* Password: leave blank
-
-### Uploading and Downloading Data
-
-**1. Uploading Data:**
-* General Steps:
-1. Use iput for uploading files and folders.
-2. Syntax: iput [options] /local_directory /iplant/home/<username>/destination_folder
-3. Common options: -r (recursive), -P (progress), -f (force), -T (renew connection)
-
-**2. Downloading Data:**
-* General Steps:
-1. Use iget for downloading files and folders.
-2. Syntax: iget [options] /iplant/home/<username>/target_file /local_destination
-3. Similar options as iput.
-**Note:** Avoid using spaces or special characters in file and folder names.
-
-### Additional iCommands and Tips
-
-* **NetCDF iCommands:** For Linux, there are additional commands for NetCDF operations.
-
-* **Frequently Used Commands:**
-ihelp: Information about iCommands
-ipwd: Print current iRODS directory
-imkdir: Create a directory in iRODS
-icd: Change iRODS directory
-irsync: Sync local and iRODS directories
-
-**Conclusion:** iCommands offers a robust and flexible way to interact with the CyVerse Data Store, especially for users comfortable with command-line tools. Ensure to follow version compatibility guidelines and handle file naming conventions carefully for seamless data management. For more detailed usage, refer to the iRODS documentation (https://packages.irods.org/) and CyVerse resources (https://docs.irods.org/master/icommands/user/#iget).
-
-<summary>expand</summary></details>
-
-## 4. Transferring Data with GoCommands and Command Line
-
-<details>
-
-### Introduction to GoCommands
-
-GoCommands is a versatile command-line tool developed by CyVerse, designed for flexibility and ease of use. It stands out for its portability, eliminating the need for installation, and is compatible with a variety of modern operating systems including macOS, Linux, and Windows.
-
-**Key Points About GoCommands**
-  Command Line Operation: GoCommands is operated through a terminal or command line interface.
-  
-  Windows Compatibility: For Windows users, it's accessible via PowerShell or Command Prompt.
-  
-  Authentication: A valid CyVerse account or another iRODS Zone account is required for authentication.
-
-**For detailed instructions and more information on using GoCommands, please refer to the [GoCommands User Guide](https://learning.cyverse.org/ds/gocommands/).**
-
-<summary>expand</summary></details>
-
-
-## 5. HTTP Access with WebDAV
-
-<details>
-
-### Overview of WebDAV
-
-WebDAV, an extension of the HTTP protocol, facilitates remote file management and editing. CyVerse's integration of WebDAV with the Data Store enables users to access their home and public folders directly from their local computers. This integration allows for simple file transfers using web browsers and WebDAV-enabled applications like common file managers.
-
-### Limitations of WebDAV
-
-**File Size Considerations:**
-
-* While there is no strict file size limit, WebDAV is optimal for files not exceeding 1 GiB. Larger files, up to 10 GiB, might still work but with varied performance.
-* For handling large files or datasets, iCommands or Cyberduck are recommended for better performance.
-
-### Accessing CyVerse Data via WebDAV Services
-
-**1. Anonymous, Read-Only Access:**
-URL: https://data.cyverse.org/dav-anon/
-This service provides access to all data visible to the anonymous user, except for directories like /iplant/home and individual user home directories.
-
-**2. Authenticated Access:**
-URL: https://data.cyverse.org/dav/
-After authenticating with CyVerse credentials, users can access any file or folder according to their permission levels.
-
-**3. Access via Web Browser:**
-Navigate to https://data.cyverse.org/ to access WebDAV through a browser interface.
-This portal provides direct links and guidance for both anonymous and authenticated access modes.
-
-**4. Using WebDAV in File Managers:**
-WebDAV can be integrated into file managers of common operating systems, enabling drag-and-drop functionality and seamless file copying between the Data Store and local folders.
-
-**5. Command Line Tools:**
-WebDAV services can also be accessed using command line tools for users who prefer terminal-based interactions.
-For more detailed instructions, tips, and troubleshooting for using WebDAV with the CyVerse Data Store, please refer to the comprehensive [WebDAV Access Guide](https://learning.cyverse.org/ds/webdav/).
-
-<summary>expand</summary></details>
-
-## 6. Transferring Data with SFTP via a Command Line Tool and Desktop Apps
-
-<details>
-
-### Overview of SFTP
+#### Data Transfer: SFTP
 
 Secure File Transfer Protocol (SFTP) is a widely adopted protocol for securely transferring data. CyVerse has integrated SFTP into the Data Store through SFTPGo, enhancing data accessibility across diverse computing environments. Users can interact with their home and public folders in the CyVerse Data Store using any SFTP-enabled application, including command-line tools and popular desktop applications like Cyberduck and FileZilla.
 
@@ -468,6 +252,8 @@ Secure File Transfer Protocol (SFTP) is a widely adopted protocol for securely t
 For comprehensive instructions on setting up and utilizing SFTP for data transfer with the CyVerse Data Store, including specific guidelines for popular SFTP clients, please refer to the detailed [SFTP Transfer Guide] (https://learning.cyverse.org/ds/sftp/).
 
 <summary>expand</summary></details>
+
+---
 
 ## Adding Metadata to Data in the CyVerse Discovery Environment
 
