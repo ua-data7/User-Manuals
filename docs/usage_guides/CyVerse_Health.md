@@ -421,42 +421,6 @@ The Discovery Environment (DE) serves as an all-encompassing data science workbe
 
 The CyVerse Discovery Environment provides a versatile and user-friendly platform for a wide range of research computing needs. Whether you are conducting small-scale analyses or engaging in extensive computational research, DE’s tools and resources are designed to facilitate and enhance your research process. For more detailed information or specific use-case guidance, refer to the CyVerse DE documentation and support resources.
 
-
-## Logging in to the Discovery Environment (DE) of CyVerse
-
-**1. Accessing the Discovery Environment:**
-
-  * Open the Discovery Environment (DE) by visiting its website. You'll be greeted by the Home Dashboard.
-
-**2. Exploring the Home Dashboard:**
-
-  * The Home Dashboard displays links to News, recent YouTube Videos, and Featured Apps.
-
-**3. Navigating the DE:**
-
-  * The left side navigation menu, which can be expanded by clicking on the three bars at the top left, provides icons for different parts of the DE.
-
-**4. Signing In:**
-
-  * Sign in from the upper right corner by clicking the profile icon or the Login link.
-  * If you're accessing the Data Store or launching an App without being logged in, a sign-in pop-up will appear.
-
-**5. Authentication Process:**
-
-  * Upon clicking to sign in, you'll be redirected to the Authentication Service.
-  * Enter your CyVerse username and password.
-  * For new users or those who forgot their password, create an account or reset your password at CyVerse User Portal.
-
-**6. Returning to DE:**
-
-  * After logging in, you'll be directed back to the Home Dashboard.
-  * If you were on the Apps or Data pages during login, you will return to that specific page.
-
-**7. Taking the DE Tour:**
-
-  * For a quick overview of the DE's features, click on the help icon in the left sidebar and select "Product Tour".
-
-
 ## Using Apps in the CyVerse Discovery Environment (DE)
 
 ### Introduction
@@ -677,24 +641,4 @@ VICE (Visual Interactive Computing Environment) is a key component of CyVerse's 
 Interactive Analysis in DE using VICE provides a versatile and user-friendly platform for a wide range of computing needs, from development to data analysis. With various applications and easy access methods, VICE enhances the research capabilities within the CyVerse ecosystem.
 
 
-## Sharing and Using Bags in the CyVerse Discovery Environment
-
-The CyVerse Discovery Environment (DE) offers robust features for sharing data, apps, and analyses. Central to this is the "bag" feature, a versatile tool for compiling and sharing multiple resources with other CyVerse users. Whether you're collaborating on a project or distributing your findings, the DE makes it easy and efficient. For detailed instructions on how to effectively use this feature, click [here] (https://learning.cyverse.org/de/bags/#using-a-bag-to-share-or-download-in-the-discovery-environment) to access a comprehensive guide.
-
-# Quick Reference and Additional Resources
-
-As you delve into the diverse functionalities and capabilities of the CyVerse Discovery Environment, you might find these additional resources and sections beneficial for further exploration and learning:
-
-Quick Starts: Ideal for getting up to speed with essential features and tools. [Explore Quick Starts](https://learning.cyverse.org/vice/quick-rstudio/)
-
-Cloud Services: Learn about integrating and utilizing cloud-based services in your projects. [Discover Cloud Services](https://learning.cyverse.org/cloud/)
-
-For the Classroom: Tailored resources for educators and students to incorporate into classroom settings. [Access Classroom Resources](https://learning.cyverse.org/vice/teaching/)
-
-Develop: A section dedicated to developers interested in extending and enhancing CyVerse tools. [Explore Development Tools](https://learning.cyverse.org/de/create_apps/)
-
-Science Tutorials: Comprehensive tutorials covering a wide range of scientific applications and scenarios. [Browse Science Tutorials](https://learning.cyverse.org/tutorials/)
-
-CyVerse Workshops: Information and materials from past and upcoming CyVerse workshops. [Join CyVerse Workshops](https://learning.cyverse.org/workshops/)
-
-Reference: A repository of detailed documentation and reference materials. [Access Reference Materials](https://learning.cyverse.org/workshops/)
+## Teams
