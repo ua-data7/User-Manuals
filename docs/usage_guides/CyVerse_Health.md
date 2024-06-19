@@ -105,6 +105,8 @@ Once logged in, take a moment to view the main dashboard. This central hub provi
    
 ## Data Management
 
+### CyVerse Data Store
+
 The CyVerse **Data Store (DS)** is an integrated data management solution, ensuring data remains FAIR - Findable, Accessible, Interoperable, Reusable. Access your files across all CyVerse platforms, utilizing features that maintain data integrity and value.
 
 Return to the ![](../assets/Cyverse_Health/de/menu_items/dataIcon.svg){width=20} **Data** section from the DE Menu to explore further. Within this space, you'll interact with several specific areas:
@@ -116,42 +118,29 @@ Return to the ![](../assets/Cyverse_Health/de/menu_items/dataIcon.svg){width=20}
   3. :octicons-people-16: **Community Data:** Explore data shared publicly by other CyVerse users. This repository can contain valuable resources for your research.
   4. :fontawesome-solid-trash: **Trash:** View recently deleted items. You may have the option to restore files from here if necessary.
 
+### Obtaining Data from the Community Data Folder
 
+![comm_folder](../assets/Cyverse_Health/cyverse_health_06.png){width="300", align=left}
 
+The **Community Data** folder is not only where you can find public data, more importantly, the **Community Data folder is where you are gonig to find data shared with you and your team from official sources such as <u>[Banner Health](https://www.bannerhealth.com/patients/patient-resources/privacy)</u>, the <u>[UArizona Cancer Center](https://cancercenter.arizona.edu/)</u> and <u>[UArizona's Center for Biomedical Informatics and Biostatistics (CB2)](https://cb2.uahs.arizona.edu/)</u>.** 
 
-## CyVerse Data Store
+!!! warning "Data and folders originating from the above distributors (e.g., Banner Health) will be visible and available to specific recepients only once recepients gain approval from the [IRB](https://research.arizona.edu/compliance/human-subjects-protection-program/about-the-irb)."
 
+!!! failure "CAUTION: please <u>DO NOT</u> make copies of the raw data originating from the above distributors."
 
 ## Navigating Data Transfer Options
 
-Different projects require different data transfer methods. Whether using the Discovery Environment's web interface, Cyberduck desktop app, or command-line tools like iCommands, CyVerse provides multiple ways to move your data securely and efficiently.
+There are a number of ways to transfer data in and out of the Data Store.
 
-* **Discovery Environment (DE):**
-
-  <ins>Web-based:</ins> Simple, no-installation approach.
-  <ins>Data Limit:</ins> Up to 2GB per file for uploads, unlimited for import.
-  
-* **Cyberduck:**
-
-  <ins>Desktop Application:</ins> Requires installation.
-  <ins>Data Limit:</ins> Ideal for files larger than 10GB.
-
-* **iCommands:**
-
-  <ins>Command-line Interface:</ins> For tech-savvy users; installation required.
-  <ins>Data Limit:</ins> Optimal for files exceeding 10GB, offering precise control.
-
-* **SFTP Clients:**
-
-  <ins>Versatile Access:</ins> Desktop and command-line accessibility.
-  <ins>Data Limit:</ins> Preferred for transfers over 10GB.
-
-* **GoCommands:**
-
-  <ins>Developer-Friendly:</ins> Command-line based, necessitates installation.
-  <ins>Data Limit:</ins> Handles files larger than 10GB efficiently.
-
-<ins>**Choosing a Method:** </ins> Consider file size, technical comfort, and specific project needs. <ins>*For larger files,*</ins> prefer Cyberduck, iCommands, or SFTP. <ins>*For simplicity*</ins>, use the DE or Cyberduck. <ins>*For automation or programming environments*</ins>, opt for iCommands or GoCommands.
+- ![deIcon](../assets/Cyverse_Health/de/logos/deIcon.svg){width=20} **Discovery Environment (DE):**
+    - Web-based: Simple, no third-party installation
+    - Data Limit: Up to 2GB per file for uploads, unlimited for import.
+- :material-duck: **Cyberduck:**
+    - Desktop Application: Requires installation and SFTP setup.
+- :material-console-network: **SFTP Clients:**
+    - Command-Line based, can be used to transfer data from the computer to the DE or between HPC and the DE.
+- **iCommands and GoCommands:**
+    - Support for iCommands and GoCommands to be available soon.
 
 ## 1. Managing the Data - In Discovery Environment
 
