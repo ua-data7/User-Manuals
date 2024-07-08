@@ -375,4 +375,3 @@ An analysis in DE is the outcome of an executed app, containing details like a u
     3. Modify any parameters as needed and launch the app again.
 
 ---
----
