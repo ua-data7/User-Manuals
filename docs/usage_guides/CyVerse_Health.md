@@ -39,7 +39,7 @@ This integration ensures that while researchers benefit from advanced tools and 
 
 ### Accessing CyVerse Health
 
-!!! info " Although a [CyVerse](https://user.cyverse.org/) account is not needed, CyVerse Health require an approved [University of Arizona NetID](https://netid-portal.iam.arizona.edu/)."
+!!! info " Although a [CyVerse](https://user.cyverse.org/) account is not needed, CyVerse Health requires an approved [University of Arizona NetID](https://netid-portal.iam.arizona.edu/)."
 
 Upon obtaining access to Soteria and connecting to the Soteria VPN, users can now access CyVerse Health at [**de.soteria.arizona.edu**](https://de.soteria.arizona.edu/).
 
